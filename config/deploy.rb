@@ -10,7 +10,7 @@ require 'mina/git'
 #   repository   - Git repo to clone from. (needed by mina/git)
 #   branch       - Branch name to deploy. (needed by mina/git)
 
-set :server_name, 'sirius'
+set :server_name, 'acamar'
 set :user, 'hammock'
 set :repository_name, 'hammocktent'
 
