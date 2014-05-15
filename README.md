@@ -2,7 +2,7 @@
 
 ## Setting up project locally
 
-Live project: [ACCOUNT.SERVER.uberspace.de](http://ACCOUNT.SERVER.uberspace.de)
+Live project: [hammock.acamar.uberspace.de](http://ACCOUNT.SERVER.uberspace.de)
 
 Recommended environment:
 
