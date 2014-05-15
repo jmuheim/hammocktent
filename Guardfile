@@ -3,7 +3,7 @@
 
 require 'active_support/inflector'
 
-guard :livereload, port: 35729 do
+guard :livereload, port: 35723 do
   watch(%r{app/(cells|views)/.+\.(erb|haml|slim)$})
   watch(%r{app/(helpers|inputs)/.+\.rb})
   watch(%r{public/.+\.(css|js|html)})
