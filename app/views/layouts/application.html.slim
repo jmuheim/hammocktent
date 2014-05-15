@@ -1,0 +1,26 @@
+doctype html
+html
+  head
+    title= yield(:title)
+
+    meta[name="viewport" content="width=device-width, initial-scale=1.0"]
+    meta name="description" content="#{yield(:description)}"
+
+    = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true
+    = javascript_include_tag 'application', 'data-turbolinks-track' => true
+    = csrf_meta_tags
+
+  body class=[controller_name, action_name]
+    header
+      == render 'layouts/navigation'
+
+    main.container[role="main"]
+      .row
+        .col-md-9
+          h1= yield(:headline)
+
+          == render 'layouts/messages'
+          == yield
+
+        .col-md-3
+          = render_cell :mini_hub, :show, user: current_user

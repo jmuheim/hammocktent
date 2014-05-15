@@ -1,0 +1,18 @@
+---
+en:
+  dashboards:
+    show:
+      headline: Welcome to Base!
+  mini_hub:
+    show:
+      sign_in: Sign in
+      sign_up: Sign up
+      welcome: Welcome, %{name}!
+  users:
+    form:
+      save: Save
+    new:
+      back: Back
+      title: New user
+    users:
+      actions: Actions

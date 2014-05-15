@@ -1,0 +1,23 @@
+html
+  overflow-y: scroll // Always display vertical scrollbar to prevent "flickering" between pages that need it and pages that don't
+
+main
+  margin-top: 51px // accommodate the navbar
+
+.hide-text
+  +hide-text
+
+#language_chooser
+  margin-top: 8px
+
+.translation_missing::after
+  display: block
+  content: 'translation missing'
+  background-color: red
+  position: absolute
+  z-index: 1000
+  font-size: 9px
+
+select.datetime
+  display: inline-block
+  width: auto

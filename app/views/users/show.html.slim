@@ -1,0 +1,16 @@
+- content_for :headline do
+  = @user.name
+
+article id=dom_id(@user)
+  dl.dl-horizontal
+    dt Email
+    dd = @user.email
+
+  .btn-group
+    - if can? :edit, @user
+      = link_to t('actions.edit'), edit_user_path(@user), class: 'btn btn-default btn-sm'
+    - if can? :destroy, @user
+      = link_to t('actions.destroy'), user_path(@user), method: :delete,
+                data:  {confirm: t('actions.destroy_resource_confirmation_question', resource: User.model_name.human)},
+                class: 'btn btn-default btn-sm'
+  
