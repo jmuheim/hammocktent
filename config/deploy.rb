@@ -11,8 +11,8 @@ require 'mina/git'
 #   branch       - Branch name to deploy. (needed by mina/git)
 
 set :server_name, 'sirius'
-set :user, 'base'
-set :repository_name, 'base'
+set :user, 'hammock'
+set :repository_name, 'hammocktent'
 
 set :domain, "#{server_name}.uberspace.de"
 set :deploy_to, "/home/#{user}/rails"

@@ -2,7 +2,7 @@
 
 We chose [Uberspace](http://www.uberspace.de) as our hosting provider.
 
-In the following document, always replace `ACCOUNT` with your Uberspace account name (e.g. `base`), `SERVER` with the Uberspace server (e.g. `sirius`), `PROJECT` with your GitHub repository name (e.g. `base`), and `PORT` with an open port on the server!
+In the following document, always replace `ACCOUNT` with your Uberspace account name (e.g. `hammock`), `SERVER` with the Uberspace server (e.g. `sirius`), `hammocktent` with your GitHub repository name (e.g. `hammocktent`), and `PORT` with an open port on the server!
 
 ## Register new account
 

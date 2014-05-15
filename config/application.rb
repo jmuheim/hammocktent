@@ -11,7 +11,7 @@ require 'sprockets/railtie'
 # you've limited to :test, :development, or :production.
 Bundler.require(:default, Rails.env)
 
-module Base
+module Hammocktent
   class Application < Rails::Application
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
@@ -42,7 +42,7 @@ ActionMailer::Base.smtp_settings = {
   address:              'sirius.uberspace.de',
   port:                 587,
   domain:               'sirius.uberspace.de',
-  user_name:            'base-mailer',
+  user_name:            'hammocktent-mailer',
   password:             'l3tm3s3nd3m41lS!',
   authentication:       'login',
   enable_starttls_auto: true
