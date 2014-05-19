@@ -1,8 +1,10 @@
 ---
 en:
-  dashboards:
-    show:
+  pages:
+    home:
       headline: Welcome to Hammock Tent!
+    about:
+      headline: About Base
   mini_hub:
     show:
       sign_in: Sign in
