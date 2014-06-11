@@ -1,6 +1,7 @@
 relative_roots:
-  - app/views
   - app/cells
+  - app/helpers
+  - app/views
 
 data:
   # file_system is the default adapter, you can provide a custom class name here:
@@ -17,7 +18,7 @@ data:
 
   write:
     # save all devise keys in it's own file (per locale):
-    - ['{activerecord,actions,devise,errors,flash,simple_form,validates_timeliness}.*', 'config/locales/\1/%{locale}.yml']
+    - ['{activerecord,actions,devise,enumerize,errors,flash,simple_form,validates_timeliness}.*', 'config/locales/\1/%{locale}.yml']
     # default catch-all:
     - 'config/locales/%{locale}.yml' # path is short for ['*', path]
 
@@ -29,6 +30,7 @@ ignore_unused:
   - activerecord.*
   - actions.*
   - devise.*
+  - enumerize.*
   - errors.*
   - flash.*
   - simple_form.*
@@ -38,9 +40,9 @@ ignore_eq_base:
   all:
     - simple_form.required.mark
     - activerecord.attributes.*
-    - layouts.navigation.home
   de:
     - validates_timeliness.error_value_formats.time
+    - layouts.navigation.home
 
 ignore:
   - kaminari.*
