@@ -1,4 +1,4 @@
-# TITLE
+# Hammock Tent
 
 TODO: Add badges!
 
@@ -14,8 +14,8 @@ Recommended environment:
 
 Setup:
 
-- `$ git clone git@github.com:jmuheim/PROJECT.git`
-- `$ cd PROJECT`
+- `$ git clone git@github.com:jmuheim/hammock.git`
+- `$ cd hammock`
 - `$ bundle install`
 
 You can use [direnv](https://github.com/zimbatm/direnv) to automatically add `bin` to your `$PATH`. Otherwise you should always use `bundle exec` to run commands.
@@ -68,7 +68,7 @@ That's all, folks!
 
 ## Continuous integration
 
-- The project is configured to be continuously integrated using [Travis CI](https://travis-ci.org/jmuheim/PROJECT) (`master` branch only).
+- The project is configured to be continuously integrated using [Travis CI](https://travis-ci.org/jmuheim/hammock) (`master` branch only).
 
 ## Backlog
 
