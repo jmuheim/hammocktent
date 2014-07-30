@@ -1,5 +1,4 @@
 source 'https://rubygems.org'
-source 'https://rails-assets.org'
 
 gem 'rails', '4.1'
 
@@ -22,10 +21,13 @@ gem 'compass-rails' # Compass framework
 gem 'turbolinks'
 gem 'jquery-turbolinks' # jQuery plugin for drop-in fix binded events problem caused by Turbolinks
 
-gem 'rails-assets-bootstrap-sass' # Sleek, intuitive, and powerful front-end framework
-# gem 'rails-assets-bootstrap-formhelpers' # Assets are manually added at this moment, until this is fixed: https://github.com/rails-assets/rails-assets/issues/148
-gem 'rails-assets-jquery-ui' # jQuery UI components
-gem 'rails-assets-jquery-ujs-standalone' # Unobtrusive JS for Rails (standalone is optimised for rails-assets)
+gem 'bootstrap-sass' # Sleek, intuitive, and powerful front-end framework
+
+gem 'font-awesome-rails' # The iconic font and CSS toolkit
+
+# jQuery
+gem 'jquery-rails'
+gem 'jquery-ui-rails' # jQuery UI components
 
 gem 'jbuilder', '~> 1.2' # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 
@@ -42,8 +44,6 @@ gem 'inherited_resources', '>= 1.4.1'
 gem 'has_scope' # Maps controller filters to resource scopes
 gem 'responders' # A set of Rails responders
 
-gem 'cells' # View components
-
 gem 'simple_form', github: 'plataformatec/simple_form' # Forms made easy for Rails
 
 gem 'gaffe' # Handles Rails error pages in a clean, simple way
@@ -58,6 +58,16 @@ gem 'nilify_blanks' # Save NULLs instead of empty strings into the database
 
 gem 'enumerize' # Enumerated attributes with I18n
 
+gem 'rails_admin' # Rails Admin: engine that provides an easy-to-use interface for managing data
+
+gem 'paper_trail' # Track changes to your models' data. Good for auditing or versioning.
+
+gem 'carrierwave' # Classier solution for file uploads for Rails
+
+gem 'mini_magick' # Mini replacement for RMagick
+
+gem 'fancybox2-rails' # Fancybox (lightbox clone)
+
 group :doc do
   gem 'sdoc', require: false # bundle exec rake doc:rails generates the API under doc/api.
 end
@@ -67,7 +77,8 @@ group :development, :test do
 
   # Testing tool for the Ruby programming language
   gem 'rspec'
-  gem 'rspec-rails'      # RSpec for Rails
+  gem 'rspec-rails'               # RSpec for Rails
+  gem 'rspec-collection_matchers' # Collection cardinality matchers
 
   # Data generation
   gem 'factory_girl_rails' # Test data generator
@@ -113,7 +124,7 @@ group :development do
        github:  'jmuheim/rip_hashrocket',
        require: false
 
-  gem 'capybara' # Acceptance test framework for web applications
+  gem 'capybara', '>=2.2.0.beta' # Acceptance test framework for web applications
 
   gem 'rails-footnotes' # Every Rails page has footnotes that gives information about your application
 
@@ -139,8 +150,6 @@ group :test do
   gem 'selenium-webdriver' # Selenium webdriver (needed to use Chrome driver)
 
   gem 'capybara-screenshot' # Automatically save screen shots when a scenario fails
-
-  gem 'rspec-cells' # Test cells using RSpec
 
   gem 'headhunter' # Automagically validates all HTML and CSS during feature tests
 

@@ -3,4 +3,9 @@ de:
   layouts:
     navigation:
       home: Hammock Tent
-      about: Über
+      about: "Über"
+      admin: Admin
+      edit_account: Konto bearbeiten
+      log_out: Abmelden
+      sign_in: Anmelden
+      user_menu: Benutzer Menü

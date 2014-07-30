@@ -4,27 +4,16 @@ de:
     home:
       headline: Willkommen auf Hammock Tent!
     about:
-      headline: Über Base
+      headline: "Über Hammock Tent"
   layouts:
     navigation:
-      about: "Über"
-      choose_language: Sprache wählen
-      home: HammockTent
-  mini_hub:
-    show:
-      edit_account: Konto bearbeiten
-      log_out: Abmelden
-      sign_in: Anmelden
       sign_up: Registrieren
-      welcome: Willkommen, %{name}!
-  pages:
-    about:
-      headline: "Über Base"
-    home:
-      headline: Willkommen auf Base!
+      choose_language: Sprache wählen
+  buttons:
+    save: Speichern
+  'false': Nein
+  'true': Ja
   users:
-    form:
-      save: Speichern
     new:
       back: Zurück
       title: Benutzer erstellen

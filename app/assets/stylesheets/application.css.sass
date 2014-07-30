@@ -8,17 +8,23 @@
  * You're free to add application-wide styles to this file and they'll appear at the top of the
  * compiled file, but it's generally better to create a new file per style scope.
  *
- *= require_self
  *= require bootstrap-formhelpers
+ *= require jasny-bootstrap
+ *= require fancybox
+ *
+ *= require_self
  */
 
 
 // Global stuff (provides all variables and imports)
 @import "globals/all"
 
-@import "bootstrap-sass"
-@import "jquery-ui"
+@import "bootstrap"
+@import "yamm"
+@import "jquery.ui.all"
+@import "font-awesome"
+
+@import "customs/fileinput"
+@import "customs/fancybox"
 
 @import "screen"
-
-@import "cells/*"

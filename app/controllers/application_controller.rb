@@ -1,6 +1,8 @@
 require 'application_responder'
 
 class ApplicationController < ActionController::Base
+  helper :image_gallery
+
   self.responder = ApplicationResponder
 
   # Prevent CSRF attacks by raising an exception.
@@ -14,7 +16,7 @@ class ApplicationController < ActionController::Base
 
   before_action :set_locale
 
-  before_filter :ensure_locale
+  before_action :ensure_locale
 
   def default_url_options(options = {})
     {locale: I18n.locale}
@@ -30,7 +32,7 @@ class ApplicationController < ActionController::Base
   # https://github.com/plataformatec/devise/wiki/How-To:-Allow-users-to-sign-in-using-their-username-or-email-address
   def configure_permitted_parameters
     devise_parameter_sanitizer.for :sign_up do |u|
-      u.permit :name, :email, :password, :password_confirmation, :remember_me
+      u.permit :name, :email, :password, :password_confirmation, :remember_me, :avatar, :remove_avatar
     end
 
     devise_parameter_sanitizer.for :sign_in do |u|
@@ -38,7 +40,7 @@ class ApplicationController < ActionController::Base
     end
 
     devise_parameter_sanitizer.for :account_update do |u|
-      u.permit :name, :email, :password, :password_confirmation, :current_password
+      u.permit :name, :email, :password, :password_confirmation, :current_password, :avatar, :remove_avatar
     end
   end
 
@@ -75,8 +77,10 @@ class ApplicationController < ActionController::Base
     session[:guest_user_id] = nil
   end
 
-  # We always want an explicit locale to be available.
+  # We always want an explicit locale to be available in the URL, like `/de/users/123`.
   def ensure_locale
+    return if params[:controller] == 'rails_admin/main' # rails_admin passes the locale as GET param, see https://github.com/sferik/rails_admin/issues/2000
+
     unless Rails.env.test? # In controller specs, the default locale isn't available. As we don't want to manually specify a locale for every request in controller specs, we don't enforce a locale in test environment. This isn't optimal, as we it prevents us from actually testing this before filter, but it has to be okay for the moment. More infos here: https://github.com/rspec/rspec-rails/issues/255
       redirect_to root_path if params[:locale].blank?
     end

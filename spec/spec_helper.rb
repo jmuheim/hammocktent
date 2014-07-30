@@ -9,7 +9,6 @@ ENV['RAILS_ENV'] ||= 'test'
 
 require File.expand_path('../../config/environment', __FILE__)
 require 'rspec/rails'
-require 'rspec/autorun'
 require 'capybara/poltergeist'
 require 'email_spec'
 require 'cancan/matchers'
@@ -53,6 +52,8 @@ RSpec.configure do |config|
   config.order = 'random'
 
   config.include FactoryGirl::Syntax::Methods
+
+  config.include SelectDateAndTime, type: :feature
 end
 
 # DatabaseCleaner configuration as described here: http://devblog.avdi.org/2012/08/31/configuring-database_cleaner-with-rails-rspec-capybara-and-selenium/
@@ -61,7 +62,7 @@ RSpec.configure do |config|
     DatabaseCleaner.clean_with(:truncation)
   end
 
-  config.before(:each) do
+  config.before(:each) do |example|
     DatabaseCleaner.strategy = if example.metadata[:js] ||
                                   example.metadata[:chrome] ||
                                   example.metadata[:selenium]
@@ -107,7 +108,6 @@ end
 RSpec.configure do |config|
   config.filter_run focus: true # Use fit/xit to focus/filter specs!
   config.run_all_when_everything_filtered = true
-  config.treat_symbols_as_metadata_keys_with_true_values = true
 end
 
 # Set locale for feature specs, see https://github.com/rspec/rspec-rails/issues/255#issuecomment-24698753
@@ -115,4 +115,9 @@ RSpec.configure do |config|
   config.before(:each, type: :feature) do
     default_url_options[:locale] = I18n.default_locale
   end
+end
+
+# RSpec 3 doesn't infer spec type automatically anymore, see https://github.com/rspec/rspec-core/issues/1540
+RSpec.configure do |config|
+  config.infer_spec_type_from_file_location!
 end

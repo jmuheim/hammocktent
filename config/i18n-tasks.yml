@@ -1,7 +1,10 @@
-relative_roots:
-  - app/cells
-  - app/helpers
-  - app/views
+search:
+  paths:
+    - 'app/'
+    - 'vendor/'
+
+  relative_roots:
+    - app/views
 
 data:
   # file_system is the default adapter, you can provide a custom class name here:
@@ -32,17 +35,15 @@ ignore_unused:
   - devise.*
   - enumerize.*
   - errors.*
+  - 'false'
   - flash.*
   - simple_form.*
+  - 'true'
   - validates_timeliness.*
 
 ignore_eq_base:
   all:
-    - simple_form.required.mark
-    - activerecord.attributes.*
-  de:
-    - validates_timeliness.error_value_formats.time
-    - layouts.navigation.home
+    - '*'
 
 ignore:
   - kaminari.*
@@ -50,7 +51,14 @@ ignore:
 ignore_untranslated:
   model_names:
     - role
+    - paper_trail/version
   model_attributes:
+    paper_trail/version:
+      - item_type
+      - event
+      - whodunnit
+      - object
+      - created_at
     user:
       - encrypted_password
       - reset_password_token

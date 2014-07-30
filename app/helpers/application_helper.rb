@@ -33,4 +33,24 @@ module ApplicationHelper
   def active_class_for(language)
     'active' if language == I18n.locale
   end
+
+  def devise_mapping
+    Devise.mappings[:user]
+  end
+
+  def resource_name
+    devise_mapping.name
+  end
+
+  def resource_class
+    devise_mapping.to
+  end
+
+  def user_avatar
+    if current_user.avatar?
+      image_tag(current_user.avatar.url(:thumb), class: 'avatar')
+    else
+      icon :user
+    end
+  end
 end

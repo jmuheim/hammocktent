@@ -3,12 +3,13 @@
 
 require 'active_support/inflector'
 
-guard :livereload, port: 35723 do
-  watch(%r{app/(cells|views)/.+\.(erb|haml|slim)$})
+guard :livereload, port: 35729 do
+  watch(%r{app/views/.+\.(erb|haml|slim)$})
   watch(%r{app/(helpers|inputs)/.+\.rb})
   watch('config/routes.rb')
   watch(%r{public/.+\.(css|js|html)})
   watch(%r{config/locales/.+\.yml})
+  watch('app/models/ability.rb')
 
   # Rails Assets Pipeline
   watch(%r{(app|vendor)(/assets/\w+/(.+\.(css|js|html|png|jpg))).*}) { |m| "/assets/#{m[3]}" }

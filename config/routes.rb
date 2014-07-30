@@ -1,9 +1,13 @@
 Hammocktent::Application.routes.draw do
+  mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
+
   scope '(:locale)', locale: /en|de/ do
     devise_for :user, controllers: { registrations: :registrations,
                                      sessions:      :sessions }
 
     resources :users
+
+    resource :user # Must be below `resources :users`!
 
     [403, 404, 422, 500].each do |code|
       get code, to: 'errors#show', code: code
@@ -11,8 +15,8 @@ Hammocktent::Application.routes.draw do
 
     root 'pages#home'
 
-    get '/*id', to: 'pages#show', # Keep this below root path definition (otherwise we have an infinite loop)!
-                as: 'page'
+    get '/pages/:view', to: 'pages#show', # Keep this below root path definition (otherwise we have an infinite loop)!
+                        as: 'page'
 
     # The priority is based upon order of creation: first created -> highest priority.
     # See how all your routes lay out with "rake routes".
