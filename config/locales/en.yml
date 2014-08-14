@@ -2,9 +2,13 @@
 en:
   pages:
     home:
-      headline: Welcome to Hammock Tent!
+      headline: The 90 Degree Hammock – possibly the most comfortable and versatile hammock in the world
     about:
       headline: About Hammock Tent
+    product_info:
+      headline: Product Info
+    hammocks:
+      headline: Hammocks
   buttons:
     save: Save
   'false': 'No'
@@ -12,6 +16,13 @@ en:
     navigation:
       sign_up: Sign up
       choose_language: Choose language
+      product_info: Product info
+      products: Products
+      hammocks: Hammocks
+      hammocks_comparison: Hammocks comparison
+      tarps: Tarps
+      tarps_comparison: Tarps comparison
+      accessories: Accessories
   'true': 'Yes'
   users:
     new:

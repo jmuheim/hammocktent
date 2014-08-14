@@ -10,7 +10,13 @@ nav#navigation.navbar.yamm.navbar-inverse.navbar-fixed-top
 
     .collapse.navbar-collapse
       = semantic_navigation :primary_navigation, config: :bootstrap do |navigation|
-        - navigation.item User.model_name.human(count: 2), users_path
+        - navigation.item t('.product_info'), page_path('product_info')
+        - navigation.group t('.products') do
+          - navigation.item t('.hammocks'), page_path('hammocks')
+          - navigation.item t('.hammocks_comparison'), page_path('hammocks_comparison')
+          - navigation.item t('.tarps'), page_path('tarps')
+          - navigation.item t('.tarps_comparison'), page_path('tarps_comparison')
+          - navigation.item t('.accessories'), page_path('accessories')
         - navigation.item t('.about'), page_path('about')
 
       = semantic_navigation :meta_navigation, config: :bootstrap, class: 'navbar-right' do |navigation|
