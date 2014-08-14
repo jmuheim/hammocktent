@@ -15,6 +15,9 @@ Hammocktent::Application.routes.draw do
 
     root 'pages#home'
 
+    get '/products/:view', to: 'products#show', # TODO: Best method to do this??
+                           as: 'products'
+
     get '/pages/:view', to: 'pages#show', # Keep this below root path definition (otherwise we have an infinite loop)!
                         as: 'page'
 

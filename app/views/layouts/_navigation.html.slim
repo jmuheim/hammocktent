@@ -12,12 +12,12 @@ nav#navigation.navbar.yamm.navbar-inverse.navbar-fixed-top
       = semantic_navigation :primary_navigation, config: :bootstrap do |navigation|
         - navigation.item t('.product_info'), page_path('product_info')
         - navigation.group t('.products') do
-          - navigation.item t('.hammocks'), page_path('hammocks')
-          - navigation.item t('.hammocks_comparison'), page_path('hammocks_comparison')
-          - navigation.item t('.tarps'), page_path('tarps')
-          - navigation.item t('.tarps_comparison'), page_path('tarps_comparison')
-          - navigation.item t('.accessories'), page_path('accessories')
-        - navigation.item t('.about'), page_path('about')
+          - navigation.item t('.hammocks'), products_path('hammocks')
+          - navigation.item t('.hammocks_comparison'), products_path('hammocks_comparison')
+          - navigation.item t('.tarps'), products_path('tarps')
+          - navigation.item t('.tarps_comparison'), products_path('tarps_comparison')
+          - navigation.item t('.accessories'), products_path('accessories')
+        - navigation.item t('.about'), products_path('about')
 
       = semantic_navigation :meta_navigation, config: :bootstrap, class: 'navbar-right' do |navigation|
         - if current_user.guest?
