@@ -5,10 +5,20 @@ de:
       headline: Willkommen auf Hammock Tent!
     about:
       headline: "Über Hammock Tent"
+    product_info:
+      headline: 'TRANSLATE: Product Info'
   layouts:
     navigation:
       sign_up: Registrieren
       choose_language: Sprache wählen
+      product_info: 'TRANSLATE: Product info'
+      products: 'TRANSLATE: Products'
+      hammocks: 'TRANSLATE: Hammocks'
+      hammocks_comparison: 'TRANSLATE: Hammocks comparison'
+      tarps: 'TRANSLATE: Tarps'
+      tarps_comparison: 'TRANSLATE: Tarps comparison'
+      accessories: 'TRANSLATE: Accessories'
+      know_how: 'TRANSLATE: Know-How'
   buttons:
     save: Speichern
   'false': Nein
@@ -19,3 +29,14 @@ de:
       title: Benutzer erstellen
     users:
       actions: Aktionen
+  products:
+    accessories:
+      headline: 'TRANSLATE: Accessories'
+    hammocks:
+      headline: 'TRANSLATE: Hammocks'
+    hammocks_comparison:
+      headline: 'TRANSLATE: Hammocks Comparison'
+    tarps:
+      headline: 'TRANSLATE: Tarps'
+    tarps_comparison:
+      headline: 'TRANSLATE: Tarps Comparison'

@@ -17,7 +17,12 @@ nav#navigation.navbar.yamm.navbar-inverse.navbar-fixed-top
           - navigation.item t('.tarps'), products_path('tarps')
           - navigation.item t('.tarps_comparison'), products_path('tarps_comparison')
           - navigation.item t('.accessories'), products_path('accessories')
-        - navigation.item t('.about'), products_path('about')
+        - navigation.group t('.know_how') do
+          - navigation.item t('.know_how_general'), page_path('know_how_general')
+          - navigation.item t('.know_how_hammock_instructions'), page_path('know_how_hammock_instructions')
+          - navigation.item t('.know_how_tarp_instructions'), page_path('know_how_tarp_instructions')
+          - navigation.item t('.know_how_faq'), page_path('know_how_faq')
+        - navigation.item t('.about'), page_path('about')
 
       = semantic_navigation :meta_navigation, config: :bootstrap, class: 'navbar-right' do |navigation|
         - if current_user.guest?

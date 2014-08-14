@@ -7,8 +7,8 @@ en:
       headline: About Hammock Tent
     product_info:
       headline: Product Info
-    hammocks:
-      headline: Hammocks
+    know_how_general:
+      headline: General important points
   buttons:
     save: Save
   'false': 'No'
@@ -23,6 +23,11 @@ en:
       tarps: Tarps
       tarps_comparison: Tarps comparison
       accessories: Accessories
+      know_how: Know-How
+      know_how_general: General impotant points
+      know_how_hammock_instructions: Hammock video and manual
+      know_how_tarp_instructions: Tarp video and manual
+      know_how_faq: Frequently asked questions
   'true': 'Yes'
   users:
     new:
@@ -30,3 +35,14 @@ en:
       title: New user
     users:
       actions: Actions
+  products:
+    accessories:
+      headline: Accessories
+    hammocks:
+      headline: Hammocks
+    hammocks_comparison:
+      headline: Hammocks Comparison
+    tarps:
+      headline: Tarps
+    tarps_comparison:
+      headline: Tarps Comparison
