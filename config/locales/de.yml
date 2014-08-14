@@ -7,6 +7,16 @@ de:
       headline: "Über Hammock Tent"
     product_info:
       headline: 'TRANSLATE: Product Info'
+    know_how_general:
+      headline: 'TRANSLATE: General important points'
+    know_how_faq:
+      headline: 'TRANSLATE: Frequently asked questions'
+    know_how_hammock_instructions:
+      headline: 'TRANSLATE: Hammock instructions'
+    know_how_tarp_instructions:
+      headline: 'TRANSLATE: Tarp instructions'
+    our_story:
+      headline: 'TRANSLATE: Our story'
   layouts:
     navigation:
       sign_up: Registrieren
@@ -19,6 +29,12 @@ de:
       tarps_comparison: 'TRANSLATE: Tarps comparison'
       accessories: 'TRANSLATE: Accessories'
       know_how: 'TRANSLATE: Know-How'
+      know_how_general: 'TRANSLATE: General impotant points'
+      know_how_hammock_instructions: 'TRANSLATE: Hammock video and manual'
+      know_how_tarp_instructions: 'TRANSLATE: Tarp video and manual'
+      know_how_faq: 'TRANSLATE: Frequently asked questions'
+      our_story: 'TRANSLATE: Our story'
+      contact: 'TRANSLATE: Contact'
   buttons:
     save: Speichern
   'false': Nein

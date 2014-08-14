@@ -6,9 +6,19 @@ en:
     about:
       headline: About Hammock Tent
     product_info:
-      headline: Product Info
+      headline: Product info
     know_how_general:
       headline: General important points
+    know_how_faq:
+      headline: Frequently asked questions
+    know_how_hammock_instructions:
+      headline: Hammock instructions
+    know_how_tarp_instructions:
+      headline: Tarp instructions
+    our_story:
+      headline: Our story
+    contact:
+      headline: Contact
   buttons:
     save: Save
   'false': 'No'
@@ -28,6 +38,8 @@ en:
       know_how_hammock_instructions: Hammock video and manual
       know_how_tarp_instructions: Tarp video and manual
       know_how_faq: Frequently asked questions
+      our_story: Our story
+      contact: Contact
   'true': 'Yes'
   users:
     new:
