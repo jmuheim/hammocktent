@@ -68,6 +68,8 @@ gem 'mini_magick' # Mini replacement for RMagick
 
 gem 'fancybox2-rails' # Fancybox (lightbox clone)
 
+gem 'font-kit-rails' # Awesome font kit for your rails app
+
 group :doc do
   gem 'sdoc', require: false # bundle exec rake doc:rails generates the API under doc/api.
 end
