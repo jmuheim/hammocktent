@@ -2,7 +2,7 @@ html
   height: 100%
   overflow-y: scroll // Always display vertical scrollbar to prevent "flickering" between pages that need it and pages that don't
   background:
-    // image: image-url("background.jpg")
+    image: image-url("background.jpg")
     repeat: no-repeat
     position: top left
     attachment: fixed
@@ -28,11 +28,25 @@ img
     color: #fff
 
 .navbar
+  max-width: $container-large-desktop
+  top: 26px
+  margin-left: auto
+  margin-right: auto
+
   .caret
     margin-left: 5px
 
   .glyphicon
     margin-right: 0
+
+  ul.nav
+    > li
+      border-left: 1px solid $navbar-inverse-border
+
+  ul.dropdown-menu
+    margin-left: -1px
+    border-left-color: $navbar-inverse-border
+    border-right-color: $navbar-inverse-border
 
 #meta_navigation
   img.avatar
@@ -98,4 +112,5 @@ select.datetime
     padding-bottom: 0 // The .form-groups already add some spacing at the bottom
 
 .tarp_related
+  display: none // TODO: Unhide when tarps are available!
   color: blue
