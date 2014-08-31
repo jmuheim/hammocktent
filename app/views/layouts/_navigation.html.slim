@@ -14,15 +14,12 @@ nav#navigation.navbar.yamm.navbar-inverse.navbar-fixed-top
 
         - navigation.group t('.products') do
           - navigation.item t('.hammocks'), products_path('hammocks')
-          - navigation.item t('.hammocks_comparison'), products_path('hammocks_comparison')
-          - navigation.item t('.tarps'), products_path('tarps')
-          - navigation.item t('.tarps_comparison'), products_path('tarps_comparison')
+          - navigation.item t('.tarps'), products_path('tarps'), class: 'tarp_related'
           - navigation.item t('.accessories'), products_path('accessories')
 
         - navigation.group t('.know_how') do
-          - navigation.item t('.know_how_general'), page_path('know_how_general')
-          - navigation.item t('.know_how_hammock_instructions'), page_path('know_how_hammock_instructions')
-          - navigation.item t('.know_how_tarp_instructions'), page_path('know_how_tarp_instructions')
+          - navigation.item t('.know_how_hammocks'), page_path('know_how_hammocks')
+          - navigation.item t('.know_how_tarps'), page_path('know_how_tarps'), class: 'tarp_related'
           - navigation.item t('.know_how_faq'), page_path('know_how_faq')
 
         - navigation.item t('.about') do

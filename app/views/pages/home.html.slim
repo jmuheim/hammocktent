@@ -1,19 +1,36 @@
 - content_for :headline do
   = t '.headline'
 
-p
-  em "The 90 Degree Hammock – possibly the most comfortable and versatile hammock in the world."
+/ TODO: Slideshow Vollbild!
+#homepage_carousel.carousel.slide data-ride="carousel"
+  ol.carousel-indicators
+    li.active data-slide-to="0" data-target="#homepage_carousel"
+    li data-slide-to="1" data-target="#homepage_carousel"
+    li data-slide-to="2" data-target="#homepage_carousel"
+  .carousel-inner
+    .item.active
+      = image_tag 'pages/home/home.jpg'
+      p A hammock you can comfortably sleep a whole night in, even on your side!
 
-figure = image_tag 'pages/home/home.jpg', class: 'img-rounded'
+    .item
+      = image_tag 'pages/home/home.jpg'
+      p Carry your comfortable bed with you and camp anywhere between trees in the great outdoors.
 
+    .item
+      = image_tag 'pages/home/home.jpg'
+      p Always have that extra bed for guests in the house that is not in your way.
+
+  a.left.carousel-control data-slide="prev" href="#homepage_carousel" role="button"
+    span.glyphicon.glyphicon-chevron-left
+  a.right.carousel-control data-slide="next" href="#homepage_carousel" role="button"
+    span.glyphicon.glyphicon-chevron-right
+
+/ TODO: Teaservideo als anklickbaren Badge o.ä. immer anzeigen und Video dann in Dialog anzeigen! Alternative: Carousel-Indicators als Image-Icons bzw. Movie-Icons anzeigen.
+
+/ TODO: Alle diese folgenden Sätze haben ein Bild in der Slideshow!
 ul
-  li A hammock you can comfortably sleep a whole night in, even on your side!
-  li Carry your comfortable bed with you and camp anywhere between trees in the great outdoors.
-  li Always have that extra bed for guests in the house that is not in your way.
-  li
-    em Combined with one of our ultralight tarps it's an all-round shelter system for camping pretty much everywhere, even on the ground where there are no trees.
-  li
-    em Laugh at the mud, snow, critters, roots and rocks a few inches below you.
+  li.tarp_related Combined with one of our ultralight tarps it's an all-round shelter system for camping pretty much everywhere, even on the ground where there are no trees.
+  li Laugh at the mud, snow, critters, roots and rocks a few inches below you.
   li Spend a summer night under the stars, above the ground and protected from all kinds of bugs and critters.
   li Get an hour of rest on your verandah, in a hammock that is not much less than a flying bed but can be stowed away in a corner within seconds. Have a deployable bed ready in a little corner of your baggage, pack or car, weighing just a few hundred grams.
   li Hiking, biking, canoeing – don't worry about getting back before nightfall.
