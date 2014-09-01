@@ -1,3 +1,14 @@
+# = grid do |g|
+#   = g.three_columns do |tc|
+#     = tc.first_column do
+#       | This is the content of the first column!
+#
+#     = tc.second_column do
+#       | This is the content of the center column!
+#
+#     = tc.third_column do
+#       | This is the content of the third column!
+
 module GridHelper
   def grid(&block)
     Grid.new(self, block).render
