@@ -10,11 +10,11 @@ en:
     know_how_general:
       headline: General important points
     know_how_faq:
-      headline: Frequently asked questions
+      headline: Frequently Asked Questions
     know_how_hammocks:
-      headline: Hammock video and manual
+      headline: 90° Hammock Videos and Manual
     know_how_tarps:
-      headline: Tarp instructions
+      headline: 90° Tarp-Tent Videos and Manual
     our_story:
       headline: Our story
     contact:
@@ -22,7 +22,7 @@ en:
     know_how_hammocks_manual:
       headline: 90° Hammocks Manual
     know_how_tarps_manual:
-      headline: 90° Tarps Manual
+      headline: 90° Tarp-Tent Manual
   buttons:
     save: Save
   'false': 'No'
@@ -39,9 +39,9 @@ en:
       accessories: Accessories
       know_how: Know-How
       know_how_general: General impotant points
-      know_how_hammocks: Hammock video and manual
-      know_how_tarps: Tarp video and manual
-      know_how_faq: Frequently asked questions
+      know_how_hammocks: 90° Hammock Videos and Manual
+      know_how_tarps: 90° Tarp-Tent Videos and Manual
+      know_how_faq: Frequently Asked Questions
       our_story: Our story
       contact: Contact
   'true': 'Yes'
