@@ -32,9 +32,9 @@ en:
       choose_language: Choose language
       product_info: Product info
       products: Products
-      hammocks: Hammocks
+      hammocks: Hammock
       hammocks_comparison: Hammocks comparison
-      tarps: Tarps
+      tarps: Tarp-Tent
       tarps_comparison: Tarps comparison
       accessories: Accessories
       know_how: Know-How
@@ -55,10 +55,10 @@ en:
     accessories:
       headline: Accessories
     hammocks:
-      headline: Hammocks
+      headline: 90 Degree Hammock
     hammocks_comparison:
       headline: Hammocks Comparison
     tarps:
-      headline: Tarps
+      headline: 90 Degree Tarp-Tent
     tarps_comparison:
       headline: Tarps Comparison
