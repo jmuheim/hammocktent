@@ -10,16 +10,16 @@ nav#navigation.navbar.yamm.navbar-inverse.navbar-fixed-top
 
     .collapse.navbar-collapse
       = semantic_navigation :primary_navigation, config: :bootstrap do |navigation|
-        - navigation.item t('.product_info'), page_path('product_info')
+        - navigation.item t('.product_info'), page_path('product_info') # TODO: Combination of items "Product Info" and "Products" seems clumsy...!
 
         - navigation.group t('.products') do
           - navigation.item t('.hammocks'), products_path('hammocks')
-          - navigation.item t('.tarps'), products_path('tarps'), class: 'tarp_related'
+          - navigation.item t('.tarps'), products_path('tarps')
           - navigation.item t('.accessories'), products_path('accessories')
 
         - navigation.group t('.know_how') do
           - navigation.item t('.know_how_hammocks'), page_path('know_how_hammocks')
-          - navigation.item t('.know_how_tarps'), page_path('know_how_tarps'), class: 'tarp_related'
+          - navigation.item t('.know_how_tarps'), page_path('know_how_tarps')
           - navigation.item t('.know_how_faq'), page_path('know_how_faq')
 
         - navigation.item t('.about') do
