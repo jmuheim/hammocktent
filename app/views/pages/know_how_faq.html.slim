@@ -1,29 +1,38 @@
 .headline
   h1 = t '.headline'
 
+  p Click on a topic to expand its contents.
+
 section
   h2 Hanging the hammock; getting in and out of the hammock
 
-  h3 Can I choose hanging points closer than 2 m (6 ft) apart?
+  #accordion role="tablist" aria-multiselectable="true"
+    #headingOne role="tab"
+      h3 data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne" Can I choose hanging points closer than 2 m (6 ft) apart?
 
-  p Yes, you could even hang it on one single overhead point (still use both suspension ropes, though). Consider these points, however:
+      #collapseOne.collapse role="tabpanel" aria-labelledby="headingOne"
+        p Yes, you could even hang it on one single overhead point (still use both suspension ropes, though). Consider these points, however:
 
-  ul
-    li You might want to shorten the ridgeline (bug-net featuring models only) by tightening the adjustable side and locking it in place with one or two slippery hitches.
-    li You will not be able to hang the 90° Tarp-Tent, as it needs a spacing of a bit more than 2 m (6 ft) for a taut pitch.
-    li The sleeping area can feel more confined. This can be alleviated to some degree by using a pad inside the pad-sleeve (or in the ham-mock). If hanged on one overhead point it may also be spread by a bar.
-    li If hanged on a single overhead point you may want to find a way to stop the hammock from rotating.
-    li It's generally better if you can have a spacing of at least 1m (3ft) between hanging points.
+        ul
+          li You might want to shorten the ridgeline (bug-net featuring models only) by tightening the adjustable side and locking it in place with one or two slippery hitches.
+          li You will not be able to hang the 90° Tarp-Tent, as it needs a spacing of a bit more than 2 m (6 ft) for a taut pitch.
+          li The sleeping area can feel more confined. This can be alleviated to some degree by using a pad inside the pad-sleeve (or in the ham-mock). If hanged on one overhead point it may also be spread by a bar.
+          li If hanged on a single overhead point you may want to find a way to stop the hammock from rotating.
+          li It's generally better if you can have a spacing of at least 1m (3ft) between hanging points.
 
-  p On a concluding note, the recommended spacing between hanging points for the hammock is 2 to 5.5m (6 to 18ft). If you sacrifice some of its comfort and functionality spacings of 0 to 6 m (0 to 20ft) are possible.
+        p On a concluding note, the recommended spacing between hanging points for the hammock is 2 to 5.5m (6 to 18ft). If you sacrifice some of its comfort and functionality spacings of 0 to 6 m (0 to 20ft) are possible.
 
-  h3 The suspension rope is not jammed tight in the descender rings! When I sit into the hammock the rope will slide through and the hammock will go down to the ground.
+    #headingTwo role="tab"
+      h3 data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" The suspension rope is not jammed tight in the descender rings! When I sit into the hammock the rope will slide through and the hammock will go down to the ground.
 
-  p This can happen if the ropes have not been threaded correctly through the descender rings. Thread the rope anew, or do a quick fix by making a slippery hitch into the rope just below the descender rings to prevent the rope from sliding through.
+      #collapseTwo.collapse role="tabpanel" aria-labelledby="headingTwo"
+        p This can happen if the ropes have not been threaded correctly through the descender rings. Thread the rope anew, or do a quick fix by making a slippery hitch into the rope just below the descender rings to prevent the rope from sliding through.
 
-  h3 The tree straps are too long.
+    #headingThree role="tab"
+      h3 data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree" The tree straps are too long
 
-  p There are two ways to deal with that: Preferably, wrap the strap around the tree two or more times so that it is not too long anymore. Alternatively attach the descender rings directly on the straps. To do that, go through both rings just once and then through in between. This works fine but the handling is slightly more difficult.
+    #collapseThree.collapse role="tabpanel" aria-labelledby="headingThree"
+      p There are two ways to deal with that: Preferably, wrap the strap around the tree two or more times so that it is not too long anymore. Alternatively attach the descender rings directly on the straps. To do that, go through both rings just once and then through in between. This works fine but the handling is slightly more difficult.
 
   h3 The tree straps are too short.
 
