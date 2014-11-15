@@ -20,7 +20,7 @@ module CarouselHelper
     content_tag :div, class: 'carousel-inner' do
       images.each_with_index.map do |image, i|
         content_tag :div, class: "item #{i == 0 ? 'active' : nil}", style: "background-image: url(#{image_path(image.first)})" do
-          image_tag(image.first) + content_tag(:p, image.last)
+          image_tag(image.first, alt: image.last) + content_tag(:p, image.last)
         end
       end.join.html_safe
     end

@@ -158,9 +158,16 @@ section
   h2
     color: #d6533c
 
-  img
-    margin-top: 5px
-    width: 100%
+  .carousel
+    p
+      display: none
+
+  p.movie
+    a
+      text-decoration: none
+
+    .glyphicon
+      font-size: 32px
 
   li.more
     list-style: none
@@ -174,9 +181,6 @@ section
       padding: 0
 
       li
-        +float-left
-        clear: left
-        width: 50%
         padding: 3px 0
         border:
           width: 0
@@ -184,17 +188,6 @@ section
           style: solid
         border-top:
           width: 1px
-
-        &:first-child
-          +float-right
-          width: 35%
-          text-align: center
-          border-bottom:
-            width: 1px
-            color: #e75a41
-          border-top:
-            width: 1px
-            color: #e75a41
 
         &:last-child
           border-bottom-width: 1px
@@ -204,9 +197,4 @@ section
       background-color:  #e75a41
       line-height: 36px
       position: relative
-      top: -18px
-      width: 35%
-
-table
-  th
-    font-weight: normal
+      width: 66.6%
