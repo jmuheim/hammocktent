@@ -25,9 +25,9 @@ module AccordionHelper
                        'aria-expanded' => false,
                        'aria-controls' => "#{id}_collapse",
                        role: 'tab') do
-        view.icon('plus-sign') + title
+        view.fa_icon('plus-square-o') + title
       end +
-      content_tag(:div, id: "#{item_id}_collapse", class: 'collapse', tole: 'tabpanel', 'aria-labelledby' => item_id) do
+      content_tag(:div, id: "#{item_id}_collapse", class: 'collapse', role: 'tabpanel', 'aria-labelledby' => item_id) do
         view.capture(self, &block)
       end
     end
