@@ -18,13 +18,15 @@ module AccordionHelper
     def item(title, &block)
       item_id = title.slugify
 
-      content_tag(:h3, title, id: item_id,
-                              'data-toggle' => 'collapse',
-                              'data-parent' => "##{id}",
-                              href: "##{item_id}_collapse",
-                              'aria-expanded' => false,
-                              'aria-controls' => "#{id}_collapse",
-                              role: 'tab') +
+      content_tag(:h3, id: item_id,
+                       'data-toggle' => 'collapse',
+                       'data-parent' => "##{id}",
+                       href: "##{item_id}_collapse",
+                       'aria-expanded' => false,
+                       'aria-controls' => "#{id}_collapse",
+                       role: 'tab') do
+        view.icon('plus-sign') + title
+      end +
       content_tag(:div, id: "#{item_id}_collapse", class: 'collapse', tole: 'tabpanel', 'aria-labelledby' => item_id) do
         view.capture(self, &block)
       end
