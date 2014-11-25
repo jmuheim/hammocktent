@@ -1,4 +1,4 @@
-require 'spec_helper'
+require 'rails_helper'
 
 describe 'Confirming registration' do
   before { @user = create :user, :donald, confirmed_at: nil }
@@ -6,6 +6,6 @@ describe 'Confirming registration' do
   it 'confirms the registration' do
     visit_in_email('Confirm my account', 'donald@example.com')
 
-    expect(page).to have_content 'Your account was successfully confirmed.'
+    expect(page).to have_content 'Your email address has been successfully confirmed.'
   end
 end

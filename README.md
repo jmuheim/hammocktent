@@ -43,6 +43,7 @@ Make sure that:
 - Every navigation item has a correlating spec in [navigation_spec.rb](./spec/features/navigation_spec.rb)
 - Run `$ i18n-tasks normalize`
 - Run `$ rake` and make sure, no specs are pending/failing
+- Run `$ smusher app/assets/images` ...
 
 ### Add external assets (libraries)
 
@@ -54,7 +55,7 @@ The [i18n-tasks](https://github.com/glebm/i18n-tasks) gem makes handling transla
 
 - `$ i18n-tasks normalize`, then commit
 - `$ i18n-tasks unused`, then remove unused keys and commit
-- `$ i18n-tasks add-missing -p 'TRANSLATE: %{base_value}'`, then translate everything (do a project search for `TRANSLATE:`) and commit
+- `$ i18n-tasks add-missing -v 'TRANSLATE: %{value}'`, then translate everything (do a project search for `TRANSLATE:`) and commit
 
 ## Testing
 

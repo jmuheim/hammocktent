@@ -1,4 +1,4 @@
-require 'spec_helper'
+require 'rails_helper'
 
 describe 'Canceling account' do
   before do
@@ -12,6 +12,6 @@ describe 'Canceling account' do
     click_link 'Edit account'
     click_button 'Cancel my account'
 
-    expect(page).to have_content 'Bye! Your account was successfully cancelled. We hope to see you again soon.'
+    expect(page).to have_content 'Bye! Your account has been successfully cancelled. We hope to see you again soon.'
   end
 end
