@@ -1,51 +1,50 @@
 ---
 de:
+  buttons:
+    save: Speichern
+  'false': Nein
+  layouts:
+    navigation:
+      accessories: 'TRANSLATE: Accessories'
+      choose_language: Sprache wählen
+      contact: 'TRANSLATE: Contact'
+      hammocks: 'TRANSLATE: Hammocks'
+      know_how: 'TRANSLATE: Know-How'
+      know_how_faq: 'TRANSLATE: Frequently asked questions'
+      know_how_hammocks: 'TRANSLATE: Hammock video and manual'
+      know_how_tarps: 'TRANSLATE: Tarp video and manual'
+      our_story: 'TRANSLATE: Our story'
+      product_info: 'TRANSLATE: Product info'
+      products: 'TRANSLATE: Products'
+      sign_up: Registrieren
+      tarps: 'TRANSLATE: Tarps'
   pages:
-    home:
-      headline: Die 90 Grad Hängematte – die wahrscheinlich bequemste und vielseitigste Hängematte der Welt.
     about:
       headline: "Über Hammock Tent"
-    product_info:
-      headline: 'TRANSLATE: Product Info'
+    cancel_checkout:
+      headline: Checkout cancelled
+    contact:
+      headline: Contact
+    finish_checkout:
+      headline: Thank you!
+    home:
+      headline: Die 90 Grad Hängematte – die wahrscheinlich bequemste und vielseitigste Hängematte der Welt.
     know_how_faq:
       headline: 'TRANSLATE: Frequently asked questions'
     know_how_hammocks:
       headline: 'TRANSLATE: Hammock instructions'
+    know_how_hammocks_manual:
+      headline: 90° Hammock Manual
     know_how_tarps:
       headline: 'TRANSLATE: Tarp instructions'
     know_how_tarps_manual:
       headline: 'TRANSLATE: 90° Tarp-Tent Manual'
     our_story:
       headline: 'TRANSLATE: Our story'
-    contact:
-      headline: Contact
-    know_how_hammocks_manual:
-      headline: 90° Hammock Manual
-  layouts:
-    navigation:
-      sign_up: Registrieren
-      choose_language: Sprache wählen
-      product_info: 'TRANSLATE: Product info'
-      products: 'TRANSLATE: Products'
-      hammocks: 'TRANSLATE: Hammocks'
-      tarps: 'TRANSLATE: Tarps'
-      accessories: 'TRANSLATE: Accessories'
-      know_how: 'TRANSLATE: Know-How'
-      know_how_hammocks: 'TRANSLATE: Hammock video and manual'
-      know_how_tarps: 'TRANSLATE: Tarp video and manual'
-      know_how_faq: 'TRANSLATE: Frequently asked questions'
-      our_story: 'TRANSLATE: Our story'
-      contact: 'TRANSLATE: Contact'
-  buttons:
-    save: Speichern
-  'false': Nein
-  'true': Ja
-  users:
-    new:
-      back: Zurück
-      title: Benutzer erstellen
-    users:
-      actions: Aktionen
+    out_of_stock:
+      headline: Product out of Stock
+    product_info:
+      headline: 'TRANSLATE: Product Info'
   products:
     accessories:
       headline: 'TRANSLATE: Accessories'
@@ -53,3 +52,10 @@ de:
       headline: 'TRANSLATE: Hammocks'
     tarps:
       headline: 'TRANSLATE: Tarps'
+  'true': Ja
+  users:
+    new:
+      back: Zurück
+      title: Benutzer erstellen
+    users:
+      actions: Aktionen

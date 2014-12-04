@@ -1,51 +1,50 @@
 ---
 en:
+  buttons:
+    save: Save
+  'false': 'No'
+  layouts:
+    navigation:
+      accessories: Accessories
+      choose_language: Choose language
+      contact: Contact
+      hammocks: Hammock
+      know_how: Know-How
+      know_how_faq: Frequently Asked Questions
+      know_how_hammocks: 90° Hammock Videos and Manual
+      know_how_tarps: 90° Tarp-Tent Videos and Manual
+      our_story: Our story
+      product_info: Product info
+      products: Products
+      sign_up: Sign up
+      tarps: Tarp-Tent
   pages:
-    home:
-      headline: The 90 Degree Hammock – possibly the most comfortable and versatile hammock in the world.
     about:
       headline: About Hammock Tent
-    product_info:
-      headline: Product info
+    cancel_checkout:
+      headline: Checkout cancelled
+    contact:
+      headline: Contact
+    finish_checkout:
+      headline: Thank you!
+    home:
+      headline: The 90 Degree Hammock – possibly the most comfortable and versatile hammock in the world.
     know_how_faq:
       headline: Frequently Asked Questions
     know_how_hammocks:
       headline: 90° Hammock Videos and Manual
+    know_how_hammocks_manual:
+      headline: 90° Hammocks Manual
     know_how_tarps:
       headline: 90° Tarp-Tent Videos and Manual
     know_how_tarps_manual:
       headline: 90° Tarp-Tent Manual
     our_story:
       headline: Our story
-    contact:
-      headline: Contact
-    know_how_hammocks_manual:
-      headline: 90° Hammocks Manual
-  buttons:
-    save: Save
-  'false': 'No'
-  layouts:
-    navigation:
-      sign_up: Sign up
-      choose_language: Choose language
-      product_info: Product info
-      products: Products
-      hammocks: Hammock
-      tarps: Tarp-Tent
-      accessories: Accessories
-      know_how: Know-How
-      know_how_hammocks: 90° Hammock Videos and Manual
-      know_how_tarps: 90° Tarp-Tent Videos and Manual
-      know_how_faq: Frequently Asked Questions
-      our_story: Our story
-      contact: Contact
-  'true': 'Yes'
-  users:
-    new:
-      back: Back
-      title: New user
-    users:
-      actions: Actions
+    out_of_stock:
+      headline: Product out of Stock
+    product_info:
+      headline: Product info
   products:
     accessories:
       headline: Accessories
@@ -53,3 +52,10 @@ en:
       headline: 90 Degree Hammock
     tarps:
       headline: 90 Degree Tarp-Tent
+  'true': 'Yes'
+  users:
+    new:
+      back: Back
+      title: New user
+    users:
+      actions: Actions
