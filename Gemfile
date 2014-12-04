@@ -70,7 +70,7 @@ gem 'fancybox2-rails' # Fancybox (lightbox clone)
 
 gem 'font-kit-rails' # Awesome font kit for your rails app
 
-gem 'slugify' # Turn a string in its alphanumerical dashed equivalent
+gem 'slugify' # Turn a string into its alphanumerical dashed equivalent
 
 group :doc do
   gem 'sdoc', require: false # bundle exec rake doc:rails generates the API under doc/api.
