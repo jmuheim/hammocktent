@@ -11,6 +11,9 @@ html
   line-height: 23px
   letter-spacing: 0.05em
 
+body.modal-open
+  padding-right: 0 !important // Open modal adds 15px to the right automatically! See https://github.com/twbs/bootstrap/issues/9855
+
 main
   position: relative
   margin-top: $main-margin-top // accommodate the navbar
@@ -169,36 +172,34 @@ section
     .glyphicon
       font-size: 32px
 
-  li.more
-    list-style: none
-
   div.specs
     position: relative
     margin-top: 40px
 
-    ul.specs
-      list-style: none
-      padding: 0
+  ul.specs
+    list-style: none
+    padding: 0
+    margin-bottom: 30px
 
-      li
-        padding: 3px 0
-        border:
-          width: 0
-          color: #797a78
-          style: solid
-        border-top:
-          width: 1px
+    li
+      padding: 3px 0
+      border:
+        width: 0
+        color: #797a78
+        style: solid
+      border-top:
+        width: 1px
 
-        &:last-child
-          border-bottom-width: 1px
+      &:last-child
+        border-bottom-width: 1px
 
-        .price
-          font-weight: bold
-          color: #a7c292
+      .price
+        font-weight: bold
+        color: #a7c292
 
   button.add_to_cart
     +float-right
-    margin-top: 20px
+    margin-top: 0
     line-height: 36px
     position: relative
     width: 100%
