@@ -45,6 +45,8 @@ en:
       headline: Product out of Stock
     product_info:
       headline: Product info
+    terms_and_conditions:
+      headline: Terms and Conditions
   products:
     accessories:
       headline: Accessories

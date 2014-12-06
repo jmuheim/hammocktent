@@ -72,6 +72,8 @@ gem 'font-kit-rails' # Awesome font kit for your rails app
 
 gem 'slugify' # Turn a string into its alphanumerical dashed equivalent
 
+gem 'redcarpet' # Markdown parser
+
 group :doc do
   gem 'sdoc', require: false # bundle exec rake doc:rails generates the API under doc/api.
 end

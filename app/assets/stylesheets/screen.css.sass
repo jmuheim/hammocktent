@@ -172,11 +172,11 @@ section
   li.more
     list-style: none
 
-  .specs
+  div.specs
     position: relative
-    margin-top: 60px
+    margin-top: 40px
 
-    ul
+    ul.specs
       list-style: none
       padding: 0
 
@@ -192,12 +192,16 @@ section
         &:last-child
           border-bottom-width: 1px
 
-    button
-      +float-right
-      background-color:  #e75a41
-      line-height: 36px
-      position: relative
-      width: 66.6%
+        .price
+          font-weight: bold
+          color: #a7c292
+
+  button.add_to_cart
+    +float-right
+    margin-top: 20px
+    line-height: 36px
+    position: relative
+    width: 100%
 
 iframe
   margin-bottom: 32px
@@ -215,3 +219,6 @@ iframe
       position: absolute
       top: 4px
       left: -1.5em
+
+.modal
+  color: #000
