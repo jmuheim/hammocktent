@@ -23,16 +23,13 @@ h2, .h2
 img
   max-width: 100%
 
-.navbar-inverse
-  .navbar-brand.active:hover,
-  .navbar-brand.active
-    background-color: #000
-    color: #fff
-
 .navbar
   max-width: $container-large-desktop
   margin-left: auto
   margin-right: auto
+
+  .navbar-brand
+    +replace-text-with-dimensions('hammocktent_legend.png')
 
   .caret
     margin-left: 5px
