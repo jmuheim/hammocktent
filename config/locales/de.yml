@@ -45,6 +45,8 @@ de:
       headline: Product out of Stock
     product_info:
       headline: 'TRANSLATE: Product Info'
+    terms_and_conditions:
+      headline: Terms and Conditions
   products:
     accessories:
       headline: 'TRANSLATE: Accessories'

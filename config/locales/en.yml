@@ -45,6 +45,8 @@ en:
       headline: Product out of Stock
     product_info:
       headline: Product info
+    shipping_limitations:
+      headline: Shipping Limitations
     terms_and_conditions:
       headline: Terms and Conditions
   products:
