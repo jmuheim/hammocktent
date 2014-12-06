@@ -1,6 +1,7 @@
 require 'application_responder'
 
 class ApplicationController < ActionController::Base
+  http_basic_authenticate_with name: 'lukas', password: 'sakul'
   helper :image_gallery
 
   self.responder = ApplicationResponder
