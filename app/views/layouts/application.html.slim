@@ -10,7 +10,7 @@ html
     = javascript_include_tag 'application', 'data-turbolinks-track' => true
     = csrf_meta_tags
 
-  body class=[controller_name, action_name]
+  body class=body_css_classes
     header
       == render 'layouts/navigation'
 
