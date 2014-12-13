@@ -74,6 +74,8 @@ gem 'slugify' # Turn a string into its alphanumerical dashed equivalent
 
 gem 'redcarpet' # Markdown parser
 
+gem 'actionview-encoded_mail_to' # Rails mail_to helper with obfuscation
+
 group :doc do
   gem 'sdoc', require: false # bundle exec rake doc:rails generates the API under doc/api.
 end
