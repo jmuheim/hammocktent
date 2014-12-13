@@ -4,6 +4,6 @@ module ProductsHelper
   end
 
   def price(amount, per_pair = false)
-    "Price #{per_pair ? 'per pair ' : ''}(CHF): <span class='price'>#{format('%.2f', amount)}.-</span> <sup>excl. VAT* and shipping</sup>".html_safe
+    "Price #{per_pair ? 'per pair ' : ''}(CHF): <span class='price'>#{format('%.2f', amount)}.-</span> <sup>excl. <a class='vat' title='For Swiss customers only'>VAT*</a> and shipping</sup>".html_safe
   end
 end

@@ -14,7 +14,7 @@ body.modal-open
 
 main
   position: relative
-  margin-top: 51px // accommodate the navbar
+  margin-top: 78px // accommodate the navbar
   background-color: $container-bg
 
 h2, .h2
@@ -155,17 +155,24 @@ section
   h2, h3
     font-style: normal
     font-weight: 300
-    margin-top: 0
-    margin-bottom: 31px
 
   h2
     color: #d6533c
 
-  .carousel
-    margin-bottom: 40px
+    @media (min-width: $container-large-desktop)
+      &
+        margin-top: 0
 
+  .carousel
     p
       display: none
+
+
+  a.vat
+    text-decoration: none
+
+    &:hover
+      cursor: default
 
   p.movie
     a
@@ -227,10 +234,3 @@ iframe
 
 #meta_navigation
   +hide_visually
-
-@media (min-width: $container-large-desktop + $grid-gutter-width)
-  .navbar
-    top: 26px
-
-  main
-    margin-top: 101px
