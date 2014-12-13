@@ -1,6 +1,6 @@
 module CarouselHelper
   def carousel(id, images)
-    content_tag :div, id: id, class: ['carousel', 'slide'], data: {ride: 'carousel'} do
+    content_tag :div, id: id, class: ['carousel', 'slide'], data: {ride: 'carousel', interval: 7500} do
       carousel_indicators(id, images) +
       carousel_inner(images) +
       carousel_control_left(id) +
