@@ -1,7 +1,7 @@
 .headline
   h1 = t '.headline'
 
-article
+article#hammock_suspension_ropes
   .row
     .col-md-6
       figure = image_tag 'products/accessories_suspension_ropes.jpg'
@@ -10,6 +10,8 @@ article
       h2 Hammock Suspension Ropes
 
       p With this incredibly lightweight suspension system you hang your 90 Degree Hammock quickly without any knots, and easily adjust its position if needed.
+
+      p If you prefer an even easier (though heavier) option, check out the #{link_to 'Drip Clips and Slit Line Hammock Suspension', '#drip_clips_and_slit_line'} below.
 
       = video_link 'https://www.youtube.com/watch?v=bQ979Jfqe-c'
 
@@ -61,7 +63,7 @@ article
 
         = add_to_cart_button('5FHH25GXY4YFG')
 
-article
+article#drip_clips_and_slit_line
   .row
     .col-md-6
       figure = image_tag 'products/accessories_drip_clips_and_slit_line.jpg'
@@ -69,15 +71,15 @@ article
     .col-md-6
       h2 Drip Clips and Slit Line Hammock Suspension, by #{link_to 'Exped', 'http://www.exped.com'}
 
-      p This hammock suspension system is an alternative that is even easier and quicker, particularly if you want to be able to remove and rehang the hammock many times. It may be your suspension system of choice if weight is not your primary concern.
+      p This hammock suspension system is an alternative to our #{link_to 'Hammock Suspension Ropes', '#hammock_suspension_ropes'} that is even easier and quicker, particularly if you want to be able to remove and rehang the hammock many times. It may be your suspension system of choice if weight is not your primary concern.
 
       p The Drip Clips and Slit Lines are sold together as a complete hammock suspension kit.
 
       p Manufacturer's details:
 
       ul
-        li = link_to 'Drip Clips', 'http://www.exped.com/switzerland/en/product-category/hammocks/drip-clips'
-        li = link_to 'Slit Lines', 'http://www.exped.com/switzerland/en/product-category/hammocks/slit-line'
+        li = link_to 'Drip Clips', 'http://www.exped.com/switzerland/en/product-category/hammocks/drip-clips', target: '_blank'
+        li = link_to 'Slit Lines', 'http://www.exped.com/switzerland/en/product-category/hammocks/slit-line', target: '_blank'
 
   .specs
     .row
