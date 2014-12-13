@@ -3,7 +3,7 @@ module ProductsHelper
     render partial: 'products/add_to_cart_button', locals: {id: id}
   end
 
-  def price(amount)
-    "Price (CHF): <span class='price'>#{format('%.2f', amount)}.-</span> <sup>excl. VAT* and shipping</sup>".html_safe
+  def price(amount, per_pair = false)
+    "Price #{per_pair ? 'per pair ' : ''}(CHF): <span class='price'>#{format('%.2f', amount)}.-</span> <sup>excl. VAT* and shipping</sup>".html_safe
   end
 end
