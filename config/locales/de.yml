@@ -5,57 +5,57 @@ de:
   'false': Nein
   layouts:
     navigation:
-      accessories: 'TRANSLATE: Accessories'
+      accessories: Zubehör
       choose_language: Sprache wählen
-      contact: 'TRANSLATE: Contact'
-      hammocks: 'TRANSLATE: Hammocks'
-      know_how: 'TRANSLATE: Know-How'
-      know_how_faq: 'TRANSLATE: Frequently asked questions'
-      know_how_hammocks: 'TRANSLATE: Hammock video and manual'
-      know_how_tarps: 'TRANSLATE: Tarp video and manual'
-      our_story: 'TRANSLATE: Our story'
-      product_info: 'TRANSLATE: Product info'
-      products: 'TRANSLATE: Products'
+      contact: Kontakt
+      hammocks: Hängematten
+      know_how: Know-How
+      know_how_faq: Häufig gestellte Fragen
+      know_how_hammocks: Hängematten Video und Anleitung
+      know_how_tarps: Tarp Video und Anleitung
+      our_story: Unsere Geschichte
+      product_info: Produkt Info
+      products: Produkte
       sign_up: Registrieren
-      tarps: 'TRANSLATE: Tarps'
+      tarps: Tarp-Tent
   pages:
     about:
       headline: "Über Hammock Tent"
     cancel_checkout:
-      headline: Checkout cancelled
+      headline: Checkout abgebrochen
     contact:
-      headline: Contact
+      headline: Kontakt
     finish_checkout:
-      headline: Thank you!
+      headline: Besten Dank!
     home:
       headline: Die 90 Grad Hängematte – die wahrscheinlich bequemste und vielseitigste Hängematte der Welt.
     know_how_faq:
-      headline: 'TRANSLATE: Frequently asked questions'
+      headline: Häufig gestellte Fragen
     know_how_hammocks:
-      headline: 'TRANSLATE: Hammock instructions'
+      headline: Hängematten Videos und Anleitung
     know_how_hammocks_manual:
-      headline: 90° Hammock Manual
+      headline: 90° Hängematten Anleitung
     know_how_tarps:
-      headline: 'TRANSLATE: Tarp instructions'
+      headline: 90° Tarp-Tent Videos und Anleitung
     know_how_tarps_manual:
-      headline: 'TRANSLATE: 90° Tarp-Tent Manual'
+      headline: 90° Tarp-Tent Anleitung
     our_story:
-      headline: 'TRANSLATE: Our story'
+      headline: Unsere Geschichte
     out_of_stock:
-      headline: Product out of Stock
+      headline: Produkt nicht an Lager
     product_info:
-      headline: 'TRANSLATE: Product Info'
+      headline: Produkt Info
     shipping_info:
-      headline: 'TRANSLATE: Shipping Info'
+      headline: Versand Info
     terms_and_conditions:
-      headline: Terms and Conditions
+      headline: Allgemeine Geschäftsbedingungen
   products:
     accessories:
-      headline: 'TRANSLATE: Accessories'
+      headline: Zubehör
     hammocks:
-      headline: 'TRANSLATE: Hammocks'
+      headline: 90 Grad Hängematte
     tarps:
-      headline: 'TRANSLATE: Tarps'
+      headline: 90° Tarp-Tent
   'true': Ja
   users:
     new:
