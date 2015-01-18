@@ -10,8 +10,21 @@ nav#navigation.navbar.yamm.navbar-inverse.navbar-fixed-top
 
     .collapse.navbar-collapse
       = semantic_navigation :primary_navigation, config: :bootstrap do |navigation|
-        - navigation.item User.model_name.human(count: 2), users_path
-        - navigation.item t('.about'), page_path('about')
+        - navigation.item t('.product_info'), page_path('product_info')
+
+        - navigation.group t('.products') do
+          - navigation.item t('.hammocks'), products_path('hammocks')
+          - navigation.item t('.tarps'), products_path('tarps')
+          - navigation.item t('.accessories'), products_path('accessories')
+
+        - navigation.group t('.know_how') do
+          - navigation.item t('.know_how_hammocks'), page_path('know_how_hammocks')
+          - navigation.item t('.know_how_tarps'), page_path('know_how_tarps')
+          - navigation.item t('.know_how_faq'), page_path('know_how_faq')
+
+        - navigation.item t('.about') do
+          - navigation.item t('.our_story'), page_path('our_story')
+          - navigation.item t('.contact'), page_path('contact')
 
       = semantic_navigation :meta_navigation, config: :bootstrap, class: 'navbar-right' do |navigation|
         - if current_user.guest?

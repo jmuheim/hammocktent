@@ -2,10 +2,10 @@
 de:
   layouts:
     navigation:
-      home: Hammock Tent
       about: "Über"
       admin: Admin
       edit_account: Konto bearbeiten
+      home: Hammock Tent
       log_out: Abmelden
       sign_in: Anmelden
       user_menu: Benutzer Menü

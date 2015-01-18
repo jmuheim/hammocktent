@@ -1,17 +1,61 @@
 ---
 en:
-  pages:
-    home:
-      headline: Welcome to Hammock Tent!
-    about:
-      headline: About Hammock Tent
   buttons:
     save: Save
   'false': 'No'
   layouts:
     navigation:
-      sign_up: Sign up
+      accessories: Accessories
       choose_language: Choose language
+      contact: Contact
+      hammocks: Hammock
+      know_how: Know-How
+      know_how_faq: Frequently Asked Questions
+      know_how_hammocks: 90° Hammock Videos and Manual
+      know_how_tarps: 90° Tarp-Tent Videos and Manual
+      our_story: Our story
+      product_info: Product info
+      products: Products
+      sign_up: Sign up
+      tarps: Tarp-Tent
+  pages:
+    about:
+      headline: About HammockTent
+    cancel_checkout:
+      headline: Checkout cancelled
+    contact:
+      headline: Contact
+    finish_checkout:
+      headline: Thank you!
+    home:
+      headline: The 90 Degree Hammock – possibly the most comfortable and versatile hammock in the world.
+    know_how_faq:
+      headline: Frequently Asked Questions
+    know_how_hammocks:
+      headline: 90° Hammock Videos and Manual
+    know_how_hammocks_manual:
+      headline: 90° Hammocks Manual
+    know_how_tarps:
+      headline: 90° Tarp-Tent Videos and Manual
+    know_how_tarps_manual:
+      headline: 90° Tarp-Tent Manual
+    our_story:
+      headline: Our story
+    out_of_stock:
+      headline: Product out of Stock
+    product_info:
+      headline: Product info
+    shipping_info:
+      headline: Shipping Info
+    terms_and_conditions:
+      headline: Terms and Conditions
+  products:
+    accessories:
+      headline: Accessories
+    hammocks:
+      headline: 90 Degree Hammock
+    tarps:
+      headline: 90 Degree Tarp-Tent
   'true': 'Yes'
   users:
     new:

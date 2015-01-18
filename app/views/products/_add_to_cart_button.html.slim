@@ -1,0 +1,33 @@
+button.btn.btn-danger.add_to_cart data-target="#accept_toc_#{id}" data-toggle="modal"
+  = fa_icon 'shopping-cart'
+  |&nbsp;Add to shopping cart →
+
+.modal.fade id="accept_toc_#{id}" tabindex="-1" data-backdrop="static"
+  .modal-dialog
+    .modal-content
+      .modal-header
+        button type="button" class="close" data-dismiss="modal"
+          span aria-hidden="true" &times;
+          span.sr-only Close
+        h4 class="modal-title" Thanks for your interest!
+
+      .modal-body
+        .row
+          .col-md-6
+            markdown:
+              Before proceeding though, please read carefully:
+
+              - #{link_to 'Terms and conditions', page_path('terms_and_conditions'), target: '_blank'}
+              - #{link_to 'Shipping info', page_path('shipping_info'), target: '_blank'}
+
+          .col-md-6
+            markdown:
+              The ordering process is handled through PayPal. You will return to our site afterwards.
+
+            = image_tag 'paypal.png', width: 200
+
+      .modal-footer
+        form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="paypal"
+          input name="cmd" type="hidden" value="_s-xclick"
+          input name="hosted_button_id" type="hidden" value="#{id}"
+          button.btn.btn-danger type="submit" I fully agree, please proceed!
