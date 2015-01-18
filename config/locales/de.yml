@@ -17,7 +17,7 @@ de:
       product_info: Produkt Info
       products: Produkte
       sign_up: Registrieren
-      tarps: Tarp-Tent
+      tarps: Tarp-Zelt
   pages:
     about:
       headline: "Über Hammock Tent"
@@ -36,15 +36,21 @@ de:
     know_how_hammocks_manual:
       headline: 90° Hängematten Anleitung
     know_how_tarps:
-      headline: 90° Tarp-Tent Videos und Anleitung
+      headline: 90° Tarp-Zelt Videos und Anleitung
     know_how_tarps_manual:
-      headline: 90° Tarp-Tent Anleitung
+      headline: 90° Tarp-Zelt Anleitung
     our_story:
       headline: Unsere Geschichte
     out_of_stock:
       headline: Produkt nicht an Lager
     product_info:
+      90_degree_hammock_features_and_naming: 'TRANSLATE: 90 Degree Hammock Features and Naming'
+      90_degree_tarp_tent_features_and_naming: 'TRANSLATE: 90 Degree Tarp-Tent Features and Naming'
+      click_on_the_image_to_enlarge_it: 'TRANSLATE: Click on the image to enlarge it.'
       headline: Produkt Info
+      if_you_intend_to_camp_in_the_outdoors: 'TRANSLATE: If you intend to camp in the outdoors with the 90 Degree Hammock you may want to combine it with our high tech ultralight cuben fiber 90 Degree Tarp-Tent. It gives you protection from the rain and an area of shelter for cooking and arranging your gear. The 90 Degree Tarp-Tent features doors that can be rolled down for all around protection in the event of stormy weather and for pitching it as a tent on the ground with two hiking poles or sticks.'
+      the_90_degree_hammock_comes_in_several_versions: 'TRANSLATE: The 90 Degree Hammock comes in several versions for many different purposes and preferences; and can be combined with our state of the art ultralight 90 Degree Tarp-Tent. This converts the hammock into an all around shelter system for camping pretty much everywhere, even without any trees!'
+      the_90_degree_hammock_is_unique: 'TRANSLATE: The 90 Degree Hammock is unique in that you lie in a 90 degree angle to the suspension axis of the hammock. This makes for a super comfortable recline and sleeping with a flat lay, even on your side! It solves two age old hammock design issues that may be holding some people back from using hammocks altogether: The banana lay and the cold back, which can be a challenge in colder areas. And, it is guaranteed no tip!'
     shipping_info:
       headline: Versand Info
     terms_and_conditions:
@@ -55,7 +61,7 @@ de:
     hammocks:
       headline: 90 Grad Hängematte
     tarps:
-      headline: 90° Tarp-Tent
+      headline: 90° Tarp-Zelt
   'true': Ja
   users:
     new:
