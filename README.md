@@ -84,8 +84,3 @@ That's all, folks!
 ## Backlog
 
 You can find the backlog here: [`BACKLOG.md`](./BACKLOG.md).
-
-
-http://www.hammocktent.com/pages/out-of-stock
-http://www.hammocktent.com/pages/cancel-checkout
-http://www.hammocktent.com/pages/finish-checkout
