@@ -5,6 +5,7 @@ class PagesController < ApplicationController
 
   protected
 
+  # TODO: Add spec!
   def body_css_classes
     super << params[:view]
   end
