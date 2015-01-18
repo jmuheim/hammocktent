@@ -4,10 +4,15 @@ describe 'Showing "Know How: Hammocks" page' do
   before { visit page_path('know_how_hammocks') }
 
   it 'displays the details' do
-    expect(page).to have_content 'The 90 Degree Hammock is different from hammocks you know and a bit more complex'
+    within 'main' do
+      expect(page).to have_content 'How to hang and pack up the 90 Degree Hammock'
+      expect(page).to have_content '90 Degree Hammock Tips and Tricks'
+    end
   end
 
   it 'displays a link to the manual download' do
-    expect(page).to have_link 'Download 90° Hammock Manual'
+    within 'main' do
+      expect(page).to have_link 'Download 90° Hammock Manual'
+    end
   end
 end
