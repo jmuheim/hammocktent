@@ -9,6 +9,8 @@ de:
     video:
       watch_the_video: Video anschauen
   layouts:
+    application:
+      visit_us_on_facebook: Besuche uns auf Facebook!
     navigation:
       accessories: Zubehör
       choose_language: Sprache wählen
@@ -182,6 +184,7 @@ de:
       weight_grams: Gewicht (Gramm)
     tarps:
       10_stakes_are_required: 'TRANSLATE: 10 stakes are required if it is to be pitched as a tent, with an additional optional 2 stakes for the storm tie outs. Makes 12 stakes total if you want to use all features.'
+      2_of_the_guy_lines: 'TRANSLATE: 2 of the guy lines are detachable (with mini biners) and can be used as additional storm tie outs when the Tarp-Tent is used as a tent on the ground'
       4_doors_with_attachment_loops: 'TRANSLATE: 4 doors with attachment loops'
       8_guy_lines: 'TRANSLATE: 8 guy lines for tying it to the two trees your hammock is hanged from, and down to the ground li 2 of the guy lines are detachable (with mini biners) and can be used as additional storm tie outs when the Tarp-Tent is used as a tent on the ground'
       90_Degree_Tarp_Tent_hanging_closed: 'TRANSLATE: 90 Degree Tarp-Tent hanging (closed)'
