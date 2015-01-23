@@ -8,34 +8,34 @@ section.headline
       iframe width="560" height="315" src="//www.youtube.com/embed/5Bb5oKVzcTM" frameborder="0" allowfullscreen="true"
 
     .col-md-4
-      p The 90 Degree Hammock is unique in that you lie in a 90 degree angle to the suspension axis of the hammock. This makes for a super comfortable recline and sleeping with a flat lay, even on your side! It solves two age old hammock design issues that may be holding some people back from using hammocks altogether: The banana lay and the cold back, which can be a challenge in colder areas. And, it is guaranteed no tip!
+      p = t '.the_90_degree_hammock_is_unique'
 
   .row
     .col-md-12
-      p The 90 Degree Hammock comes in several versions for many different purposes and preferences; and can be combined with our state of the art ultralight 90 Degree Tarp-Tent. This converts the hammock into an all around shelter system for camping pretty much everywhere, even without any trees!
+      p = t '.the_90_degree_hammock_comes_in_several_versions'
 
 section
-  h2 90 Degree Hammock Features and Naming
+  h2 = t '.90_degree_hammock_features_and_naming'
 
   / p Discover the peace- and restful world of the 90 Degree Hammock for yourself; out under the stars, on your verandah, the beach, on deck of a yacht, on a motorcycle adventure or even on a backpacking trip. In fact, a growing community of backpackers know that camping in a hammock is not only much more comfortable, decent and cool, but it also opens up a gazillion of otherwise unsuitable places, such as steep woodland slopes, as convenient campgrounds.
 
   p
     = fa_icon :search
-    |&nbsp;Click on the image to enlarge it.
+    = t '.click_on_the_image_to_enlarge_it'
 
   figure
-    = link_to image_path('pages/product_info/info.jpg'), target: '_blank' do
-      = image_tag 'pages/product_info/info.jpg'
+    = link_to image_path("pages/product_info/info_#{I18n.locale}.jpg"), target: '_blank' do
+      = image_tag "pages/product_info/info_#{I18n.locale}.jpg"
 
 section
-  h2 90 Degree Tarp-Tent Features and Naming
+  h2 = t '.90_degree_tarp_tent_features_and_naming'
 
-  p If you intend to camp in the outdoors with the 90 Degree Hammock you may want to combine it with our high tech ultralight cuben fiber 90 Degree Tarp-Tent. It gives you protection from the rain and an area of shelter for cooking and arranging your gear. The 90 Degree Tarp-Tent features doors that can be rolled down for all around protection in the event of stormy weather and for pitching it as a tent on the ground with two hiking poles or sticks.
+  p = t '.if_you_intend_to_camp_in_the_outdoors'
 
   p
     = fa_icon :search
-    |&nbsp;Click on the image to enlarge it.
+    = t '.click_on_the_image_to_enlarge_it'
 
   figure
-    = link_to image_path('pages/product_info/arrangements.jpg'), target: '_blank' do
-      = image_tag 'pages/product_info/arrangements.jpg'
+    = link_to image_path("pages/product_info/arrangements_#{I18n.locale}.jpg"), target: '_blank' do
+      = image_tag "pages/product_info/arrangements_#{I18n.locale}.jpg"

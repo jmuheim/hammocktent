@@ -17,7 +17,7 @@ set :repository_name, 'hammocktent'
 set :domain, "#{server_name}.uberspace.de"
 set :deploy_to, "/home/#{user}/rails"
 set :repository, "https://github.com/jmuheim/#{repository_name}.git"
-set :branch, 'master'
+set :branch, 'features/i18n-de'
 
 # Manually create these paths in shared/ (eg: shared/config/database.yml) in your server.
 # They will be linked in the 'deploy:link_shared_paths' step.
