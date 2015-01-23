@@ -55,14 +55,51 @@ de:
       headline: Produkt Info
       if_you_intend_to_camp_in_the_outdoors: Wenn du mit der 90 Grad Hängematte draussen campieren willst empfiehlt sich die Kombination unserem high-tech ultraleicht cuben fiber 90 Grad Tarp-Zelt. Dieses bietet dir Schutz vor Regen und einen trockenen Raum um zu kochen und deine Ausrüstung auszupacken. Das 90 Grad Tarp-Zelt hat 4 Türen die heruntergerollt werden können für Rundumschutz bei stürmischem Wetter und um es mit zwei Trekkingstöcken oder Stecken am Boden als Zelt aufstellen zu können.
       the_90_degree_hammock_comes_in_several_versions: Die 90 Grad Hängematte gibt's in mehreren Versionen für unterschiedlichste Anwendungen, und sie kann mit unserem state-of-the-art ultraleicht 90 Grad Tarp-Zelt kombiniert werden. Dies verwandelt sie in eine rundum Camping-Ausrüstung, die es dir so ziemlich überall ermöglicht zu Campieren, sogar ohne Bäume!
-      the_90_degree_hammock_is_unique: Die 90 Grad Hängematte ist einzigartig weil du in einem rechten Winkel (90 Grad) zur Aufhängachse der Hängematte liegst. Das macht sie super bequem zum Liegen und Schlafen mit geradem Rücken, sogar auf deiner Seite! Sie löst zwei altbekannte Hängematten-Designfragen, die vielleicht manche Leute ganz vom Hängemattengebrauch abhalten: Die gekrümmte "Bananen"-Liegeposition und den kalten Rücken, der in kühleren Gegenden ein Thema sein kann. Und sie kippt garantiert nicht!
+      the_90_degree_hammock_is_unique: 'Die 90 Grad Hängematte ist einzigartig weil du in einem rechten Winkel (90 Grad) zur Aufhängachse der Hängematte liegst. Das macht sie super bequem zum Liegen und Schlafen mit geradem Rücken, sogar auf deiner Seite! Sie löst zwei altbekannte Hängematten-Designfragen, die vielleicht manche Leute ganz vom Hängemattengebrauch abhalten: Die gekrümmte "Bananen"-Liegeposition und den kalten Rücken, der in kühleren Gegenden ein Thema sein kann. Und sie kippt garantiert nicht!'
     shipping_info:
       headline: Versand Info
     terms_and_conditions:
       headline: Allgemeine Geschäftsbedingungen
   products:
     accessories:
+      and: 'TRANSLATE: und'
+      diameter: 'TRANSLATE: Diameter'
+      drip_clips: 'TRANSLATE: Drip Clips'
+      drip_clips_and_slit_line_hammock_suspension: 'TRANSLATE: Drip Clips and Slit Line Hammock Suspension'
+      drip_clips_and_slit_line_hammock_suspension_html: 'TRANSLATE: Drip Clips and Slit Line Hammock Suspension, by %{exped}'
+      drip_shields_make_sure: 'TRANSLATE: Drip Shields make sure rain water is dripping off before it gets into the hammock'
+      dyneema_sk75_rope: 'TRANSLATE: 2.3 mm Dyneema SK75 rope with a minimal breaking strength of 560 kg (1''200 lb) and a length of 1.9 m (6'' 2''''), connected to the strap by a fancy eye splice'
+      extensions_replacement_tree_straps: 'TRANSLATE: Extensions / Replacement Tree Straps'
+      hammock_suspension_ropes: 'TRANSLATE: Hammock Suspension Ropes'
       headline: Zubehör
+      if_you_prefer_an_even_easier_option_html: 'TRANSLATE: If you prefer an even easier (though heavier) option, check out the %{drip_clips_and_slit_line_hammock_suspension} below.'
+      if_you_want_to_use_the_slit_lines: 'TRANSLATE: If you want to use the Slit Lines on trees it is recommended to add our Extension / Replacement Tree Straps'
+      just_add_these_tree_straps: 'TRANSLATE: Just add these tree straps to the straps of your Hammock Suspension Ropes to make them suitable for thicker trees (up to 60 cm / 23'''' diameter)'
+      length: 'TRANSLATE: Length'
+      lightweight_guy_line_by_the_meter: 'TRANSLATE: Lightweight Guy Line by the Meter'
+      lightweight_sturdy_and_durable_titanium: 'TRANSLATE: Lightweight, sturdy and durable titanium alloy stake with read coated head for easy visibility. Suitable for most firm soil types. Use V-stakes (available in outdoor stores) for soft soils such as sand and peat, though.'
+      loops_with_descender_rings: 'TRANSLATE: loops with descender rings'
+      manufacturer_details: 'TRANSLATE: Manufacturer''s details'
+      material: 'TRANSLATE: Material'
+      per_meter: 'TRANSLATE: per meter'
+      polyester_tree_straps: 'TRANSLATE: 3 x 115 cm (1.2'''' x 45'''') polyester tree straps protect the bark of the tree from getting incised and the rope from wear'
+      polypropylene: 'TRANSLATE: polypropylene'
+      polypropylene_slit_line: 'TRANSLATE: 2 x 5 m 8 mm polypropylene Slit Line, with slits for hooking carabiners every 9 cm'
+      slit_lines: 'TRANSLATE: Slit Lines'
+      specifications: 'TRANSLATE: Specifications'
+      stainless_steel_descender_rings: 'TRANSLATE: Stainless steel descender rings that do not rust, even in seawater spray'
+      straps_and_ropes: 'TRANSLATE: straps and ropes'
+      the_2_drip_clips_carabiners: 'TRANSLATE: The 2 Drip Clips carabiners can be attached to the connector loops of your hammock'
+      the_descender_rings: 'TRANSLATE: The descender rings come with a continuous loop to easily mount them on the connector loop of the hammock.'
+      the_descender_rings_allow_easy_adjustment: 'TRANSLATE: The descender rings allow easy adjustment of the position of the hammock and help preventing rainwater running down the ropes into the hammock. They work both on the rope (preferred) as well as the strap.'
+      the_drip_clips_and_slit_lines: 'TRANSLATE: The Drip Clips and Slit Lines are sold together as a complete hammock suspension kit.'
+      this_hammock_suspension_system_html: 'TRANSLATE: This hammock suspension system is an alternative to our %{hammock_suspension_ropes} that is even easier and quicker, particularly if you want to be able to remove and rehang the hammock many times. It may be your suspension system of choice if weight is not your primary concern.'
+      this_is_the_same_guy_line: 'TRANSLATE: This is the same guy line that is used on the 90 Degree Tarp-Tent. It is one of the lightest that reliably fastens in the LineLoc 3, even under high tension.'
+      total: 'TRANSLATE: total'
+      ultralight_titanium_tent_stakes: 'TRANSLATE: Ultralight Titanium Tent Stakes'
+      weight: 'TRANSLATE: Weight'
+      weight_per_pair: 'TRANSLATE: Weight per pair'
+      with_this_incredibly_lightweight_suspension_system: 'TRANSLATE: With this incredibly lightweight suspension system you hang your 90 Degree Hammock quickly without any knots, and easily adjust its position if needed.'
     add_to_cart_button:
       add_to_shopping_cart: Zum Warenkorb hinzufügen
       before_proceeding_though_please_read_carefully: Bitte vor dem Fortfahren aufmerksam durchlesen
@@ -99,14 +136,15 @@ de:
       common_specifications_and_features_shared_by_all_models: Gemeinsame Spezifikationen und Ausstattungen aller Modelle
       comparison_chart: Vergleichstabelle
       designed_for_a_single_user: Konzipiert für eine bis zu 2 m grosse und maximal 100 kg schwere Person
-      dimensions_of_hammock_body: Dimensionen der Hängemattenfläche: 220 x 110 cm
+      dimensions_of_hammock_body: 'Dimensionen der Hängemattenfläche: 220 x 110 cm'
       feel: Beschaffenheit
       firm: weniger weich
       glacier_gray: Glacier Gray
-      hammock_sleepers_and_nappers_in_colder_climates: Übernachten und Nickerchen halten in kühleren Klimaten; dein zusätzliches Gästebett für die Stube oder Veranda
+      hammock_sleepers_and_nappers_in_colder_climates: "Übernachten und Nickerchen halten in kühleren Klimaten; dein zusätzliches Gästebett für die Stube oder Veranda"
       hammock_suspension_ropes_and_descender_rings: Hängematten-Aufhängeseile und Descenderringe
       headline: 90 Grad Hängematte
       high_quality_strong_lightweight_and_breathable_nylon: Aus hochwertigem, robustem, leichtem und atmungsfähigem Nylon 6-6 Ripstopp-Stoff, Oeko-Tex zertifiziert.
+      hikers_backpackers_and_cyclists_in_hot_areas: 'TRANSLATE: Hikers, backpackers and cyclists in hot areas or with different insulation preferences'
       hikers_backpackers_cyclists: Wanderer, Trekker, Velotourenfahrer, alle für die Packmass und Gewicht wichtig sind
       in_addition_to_all_other_features: Zusätzlich kommt diese Version mit einem nicht abnehmbaren Moskitonetz mit einer Reissver-schlussöffnung am Fussende. Der Mattenärmel bleibt erreichbar vom Hängematteninneren am Kopfende.
       know_how_section: Know-How Teil
@@ -117,9 +155,9 @@ de:
       outdoor_hammock_sleepers: Outdoor-Übernachter wie Töff- / Velofahrer, Yachtkapitäne, Reiter usw.
       pad_sleeve_fits_most_common_single_person_camping_pads: In den Mattenärmel passen die meisten üblichen Single-Campingmatten (200 x 68 x 7 cm). Er hat eine lange Reissverschlussöffnung am Fussende und eine kleine Reissverschlussöffnung am Kopfende für einen einfachen Zugang zum Isoliermaterial
       pad_sleeve_insulation: Mattenärmel-Isolation
-      pad_sleeve_that_fits_most_common_single_person_camping_pads:
+      pad_sleeve_that_fits_most_common_single_person_camping_pads: 'TRANSLATE: Pad-sleeve that fits most common single person camping pads (200 x 68 x 7 cm / 79'''' x 27'''' x 3'''') with a large zippered opening at the foot end and a small zippered opening at the head end for easy accessibility and adjustment of the insulating material from inside the hammock'
       peapod_green: Peapod Green
-      please_scroll_to_the_bottom_of_the_page_html: Bitte scrolle an das Ende der Seite für die %{gemeinsamen Spezifikationen und Ausstattungen}, welche alle Modelle gemein haben, und eine %{Vergleichstabelle}.
+      please_scroll_to_the_bottom_of_the_page_html: Bitte scrolle an das Ende der Seite für die %{common_specifications_and_features}, welche alle Modelle gemein haben, und eine %{comparison_chart}.
       price_chf: Preis
       soft: weich
       spacious_bug_net_suspended_by_shock_cord: Geräumiges Moskitonetz aufgehängt durch zwei Elastikkordeln und justierbar mit Cord-stoppern, nicht abnehmbar, mit Reissverschlussöffnung
@@ -135,7 +173,7 @@ de:
       this_is_your_hammock_if_you_intend_to_go_backpacking_or_cycling: Dies ist deine Hängematte wenn du auf Trekking- oder Velotouren gehen willst. Sie kommt mit allen Ausstattungen, aber ist aus leichteren Materialien gefertigt. Weil jedes Gramm, das du nicht tragen musst, weniger Schmerz und mehr Spass bedeutet!
       this_is_your_light_small_no_frills_and_affordable_90_degree_hammock: Dies ist deine leichte, geringvolumige, schlichte und günstige 90 Grad Hängematte, um auf der Veranda, am Strand oder im Park zu chillen.
       this_model_comes_with_a_pad_sleeve_underneath_the_lying_surface: Diese Model weist einen Mattenärmel unterhalb der Liegefläche auf. Dieser erlaubt das Ein-schieben einer Campingmatte oder von anderem geeigneten Isolationsmaterial, wie Kleidern oder Decken. Beste Resultate werden mit Campingmatten die so lang oder länger wie du sel-ber sind, da diese dich nicht nur warm halten, sondern die Hängematte auch in ein sehr kom-fortables und geräumiges Bett zum Schlafen verwandeln.
-      together_with_our_special_lightweight_html: Zusammen mit unseren leichten %{Spezial-Hängematten-Aufhängeseilen und Descender-Ringen} (separat erhältlich – vgl. Zubehör) kann die 90 Grad Hängematte sehr einfach und ohne Knoten zwischen Bäumen und anderen Ankerpunkten aufgehängt werden.
+      together_with_our_special_lightweight_html: Zusammen mit unseren leichten %{hammock_suspension_ropes_and_descender_rings} (separat erhältlich – vgl. Zubehör) kann die 90 Grad Hängematte sehr einfach und ohne Knoten zwischen Bäumen und anderen Ankerpunkten aufgehängt werden.
       two_bug_net_storage_pouches_inside_the_hammock: Zwei Aufbewahrungsbeutel innerhalb der Hängematte
       typical_use_users: Typische Anwendung / Anwender
       ultra_light_ul: Ultraleicht (UL)
@@ -143,7 +181,32 @@ de:
       weight: Gewicht
       weight_grams: Gewicht (Gramm)
     tarps:
+      10_stakes_are_required: 'TRANSLATE: 10 stakes are required if it is to be pitched as a tent, with an additional optional 2 stakes for the storm tie outs. Makes 12 stakes total if you want to use all features.'
+      4_doors_with_attachment_loops: 'TRANSLATE: 4 doors with attachment loops'
+      8_guy_lines: 'TRANSLATE: 8 guy lines for tying it to the two trees your hammock is hanged from, and down to the ground li 2 of the guy lines are detachable (with mini biners) and can be used as additional storm tie outs when the Tarp-Tent is used as a tent on the ground'
+      90_Degree_Tarp_Tent_hanging_closed: 'TRANSLATE: 90 Degree Tarp-Tent hanging (closed)'
+      90_degree_tarp_tent: 'TRANSLATE: 90 Degree Tarp-Tent'
+      90_degree_tarp_tent_from_below: 'TRANSLATE: 90 Degree Tarp-Tent from below'
+      90_degree_tarp_tent_from_the_outside_closed: 'TRANSLATE: 90 Degree Tarp-Tent from the outside (closed)'
+      90_degree_tarp_tent_from_the_side: 'TRANSLATE: 90 Degree Tarp-Tent from the side'
+      90_degree_tarp_tent_inner: 'TRANSLATE: 90 Degree Tarp-Tent (inner)'
+      90_degree_tarp_tent_over_an_empty_hammock: 'TRANSLATE: 90 Degree Tarp-Tent over an empty hammock'
+      90_degree_tarp_tent_ul: 'TRANSLATE: 90° Tarp-Tent UL'
+      accessories: 'TRANSLATE: Accessories'
+      can_be_pitched_independently: 'TRANSLATE: Can be pitched independently, either before or after the hammock is hanged'
+      catenary_cut_edges_for_a_taut_pitch: 'TRANSLATE: Catenary cut-edges for a taut pitch'
+      comes_in_a_cuban_fibre_stuff_bag: 'TRANSLATE: Comes in a cuban fibre stuff bag (12 cm x 23 cm) for storage and with a piece of repair tape'
+      cuben_fiber_is_the_lightest_most_advanced: 'TRANSLATE: Cuben Fiber is the lightest, most advanced (and probably most expensive) high tech fabric on the market that has originally been developed for America''s Cup racing sails. Because it is so incredibly lightweight it obviously needs a certain amount of care when handling it, but it is easily as strong and durable as comparable Nylon ultralight fabrics. Over the last decade or so it has become the material of choice for thru-hikers and ultralight backpackers.'
+      dimensions: 'TRANSLATE: Dimensions: hexagonal with doors; ridge 216 cm (7''), width 350 cm (11.5'')'
+      especially_designed_to_fit: 'TRANSLATE: Especially designed to fit all 90 Degree Hammock models and made of ultralight Cuben Fiber fabric.'
+      features_4_doors_that_can_be_rolled_down: 'TRANSLATE: Features 4 doors that can be rolled down and overlapped if the hammock needs to be enclosed all around for storm protection. It can also be pitched as a spacious tent on the ground, using two hiking poles or sticks and a minimum of 10 stakes. This can be handy if you''re going on a trip where you expect to not find trees or other hanging points every night.'
+      guy_lines: 'TRANSLATE: guy lines'
       headline: 90° Tarp-Zelt
+      reinforced_tie_out_loops_with_guy_lines: 'TRANSLATE: Reinforced tie out loops with guy lines'
+      specifications: 'TRANSLATE: Specifications'
+      stuff_bag: 'TRANSLATE: stuff bag'
+      ultralight_titanium_stakes_are_sold_separately_html: 'TRANSLATE: Ultralight titanium stakes are sold separately (%{accessories}) (%{accessories})'''
+      weight: 'TRANSLATE: Weight'
   terms_and_conditions: Allgemeine Geschäftsbedingungen
   'true': Ja
   users:
