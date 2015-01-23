@@ -3,6 +3,11 @@ en:
   buttons:
     save: Save
   'false': 'No'
+  helpers:
+    products:
+      price: Price
+    video:
+      watch_the_video: Watch the video
   layouts:
     navigation:
       accessories: Accessories
@@ -50,7 +55,7 @@ en:
       headline: Product info
       if_you_intend_to_camp_in_the_outdoors: If you intend to camp in the outdoors with the 90 Degree Hammock you may want to combine it with our high tech ultralight cuben fiber 90 Degree Tarp-Tent. It gives you protection from the rain and an area of shelter for cooking and arranging your gear. The 90 Degree Tarp-Tent features doors that can be rolled down for all around protection in the event of stormy weather and for pitching it as a tent on the ground with two hiking poles or sticks.
       the_90_degree_hammock_comes_in_several_versions: The 90 Degree Hammock comes in several versions for many different purposes and preferences; and can be combined with our state of the art ultralight 90 Degree Tarp-Tent. This converts the hammock into an all around shelter system for camping pretty much everywhere, even without any trees!
-      the_90_degree_hammock_is_unique: 'The 90 Degree Hammock is unique in that you lie in a 90 degree angle to the suspension axis of the hammock. This makes for a super comfortable recline and sleeping with a flat lay, even on your side! It solves two age old hammock design issues that may be holding some people back from using hammocks altogether: The banana lay and the cold back, which can be a challenge in colder areas. And, it is guaranteed no tip!'
+      the_90_degree_hammock_is_unique: 'The 90 Degree Hammock is unique in that you lie in a right angle (90 degrees) to the suspension axis of the hammock. This makes for a super comfortable recline and sleeping with a flat lay, even on your side! It solves two age old hammock design issues that may be holding some people back from using hammocks altogether: The banana lay and the cold back, which can be a challenge in colder areas. And, it is guaranteed no tip!'
     shipping_info:
       headline: Shipping Info
     terms_and_conditions:
@@ -58,10 +63,89 @@ en:
   products:
     accessories:
       headline: Accessories
+    add_to_cart_button:
+      add_to_shopping_cart: Add to shopping cart
+      before_proceeding_though_please_read_carefully: Before proceeding though, please read carefully
+      close: Close
+      i_fully_agree_please_proceed: I fully agree, please proceed!
+      shipping_info: Shipping info
+      terms_and_conditions: Terms and conditions
+      thanks_for_your_interest: Thanks for your interest!
+      the_ordering_process_is_handled_through_paypal: The ordering process is handled through PayPal. You will return to our site afterwards.
     hammocks:
+      4_shock_cord_tie_outs: 4 shock cord tie outs for pitching the hammock on the ground with two hiking poles and 6 stakes, or inside the 90 Degree Tarp-Tent
+      90_degree_hammock_alpha: 90 Degree Hammock Alpha
+      90_degree_hammock_beta: 90 Degree Hammock Beta
+      90_degree_hammock_beta_with_pad_sleeve: 90° Hammock Beta (with pad-sleeve)
+      90_degree_hammock_gamma: 90 Degree Hammock Gamma
+      90_degree_hammock_gamma_pad_sleeve: 90 Degree Hammock Gamma pad sleeve
+      90_degree_hammock_gamma_ul_ultralight_with_pad_sleeve_and_bug_net: 90° Hammock Gamma UL (ultralight, with pad-sleeve and bug-net)
+      90_degree_hammock_gamma_view_at_the_feet: 90 Degree Hammock Gamma view at the feet
+      90_degree_hammock_gamma_view_from_inside: 90 Degree Hammock Gamma view from inside
+      90_degree_hammock_gamma_view_from_the_top: 90 Degree Hammock Gamma view from the top
+      90_degree_hammock_gamma_with_a_person_lying_on_the_side: 90 Degree Hammock Gamma with a person lying on the side
+      90_degree_hammock_gamma_with_nobody_lying_in_it: 90 Degree Hammock Gamma with nobody lying in it
+      90_degree_hammock_gamma_with_pad_sleeve_and_bug_net: 90° Hammock Gamma (with pad-sleeve and bug-net)
+      90_hammock_delta_ul_ultralight_with_bug_net_only: 90° Hammock Delta UL (ultralight, with bug-net only)
+      a_ridgeline_limits_the_span_of_the_hammock: A ridgeline limits the span of the hammock to its safe and comfortable maximum. The bug-net featuring models have an adjustable ridgeline with integrated bottle holder.
+      adjustable_ridge_line: Adjustable ridge-line with integrated bottle holder
+      all_hammock_versions_are_basically_the_same_design: All hammock versions are basically the same design, but boast a different amount of features and different materials (ultralight models).
+      basic: basic
+      beach_park_and_verandah_goers: Beach-, park- and verandah goers
+      bug_bivy: Bug bivy
+      bug_net: Bug net
+      color: Color
+      common_specifications_and_features: Common Specifications and Features
+      common_specifications_and_features_shared_by_all_models: Common specifications and features shared by all models
+      comparison_chart: Comparison Chart
+      designed_for_a_single_user: Designed for a single user of up to 2 m (6' 7'') in size and a maximum weight of 100 kg (220 lb).
+      dimensions_of_hammock_body: 'Dimensions of hammock body: 220 x 110 cm (87'''' x 43'''')'
+      feel: Feel
+      firm: firm
+      glacier_gray: glacier gray
+      hammock_sleepers_and_nappers_in_colder_climates: Hammock sleepers and nappers in colder climates; your additional deployable guest bed in the living room or verandah
+      hammock_suspension_ropes_and_descender_rings: Hammock Suspension Ropes and descender rings
       headline: 90 Degree Hammock
+      high_quality_strong_lightweight_and_breathable_nylon: High quality, strong, lightweight and breathable Nylon 6-6 ripstop fabric, Oeko-Tex certified.
+      hikers_backpackers_and_cyclists_in_hot_areas: Hikers, backpackers and cyclists in hot areas or with different insulation preferences
+      hikers_backpackers_cyclists: Hikers, backpackers, cyclists, any- one concerned with pack size and weight
+      in_addition_to_all_other_features: In addition to all other features this version comes with a non removable bug-net with a zippered entrance at the foot end. The pad-sleeve remains accessible from the inside of the hammock at the head end.
+      know_how_section: know-how section
+      learn_more_about_how_to_use_our_hammocks_html: Learn more about how to use our hammocks in the %{know_how_section} of this webpage.
+      lids_at_the_head_and_foot_end_of_the_hammock: Lids at the head and foot end of the hammock make you and everything you have in the hammock stay inside.
+      light_gray: light gray
+      olive_green: olive green
+      outdoor_hammock_sleepers: Outdoor hammock sleepers such as bikers, cyclists, yachties, road trippers and equestrians
+      pad_sleeve_fits_most_common_single_person_camping_pads: Pad-sleeve fits most common single person camping pads (200 x 68 x 7 cm / 79'' x 27'' x 3''), has a large zippered opening at the foot end and a small zippered opening at the head end for easy accessibility and adjustment of the insulating material
+      pad_sleeve_insulation: Pad-sleeve insulation
+      pad_sleeve_that_fits_most_common_single_person_camping_pads: Pad-sleeve that fits most common single person camping pads (200 x 68 x 7 cm / 79'' x 27'' x 3'') with a large zippered opening at the foot end and a small zippered opening at the head end for easy accessibility and adjustment of the insulating material from inside the hammock
+      peapod_green: peapod_green
+      please_scroll_to_the_bottom_of_the_page_html: Please scroll to the bottom of the page to see the %{common_specifications_and_features} shared by all models and a %{comparison_chart}.
+      price_chf: Price (CHF)
+      soft: soft
+      spacious_bug_net_suspended_by_shock_cord: Spacious bug-net suspended by shock cord, adjustable with cord stoppers, non removable, with zippered entrance
+      spacious_ultralight_no_see_um_bug_net: Spacious ultralight No-See-Um bug-net with 155 holes per square Centimeter, suspended by shock cord, adjustable with cord stoppers, non removable, with zippered entrance
+      specifications: Specifications
+      storage_pouches: Storage pouches
+      string_suspension_protection_sleeves_with_snap_closures: String suspension protection sleeves with snap closures prevent entanglements while transporting, storing and hanging the hammock.
+      stuff_bag: stuff bag
+      the_hammock_suspension_strings_of_the_standard_models: The hammock suspension strings of the standard models are made of Nylon and have a certain stretchiness. This makes the hammock very soft and adjusting to individual body proportions.
+      the_ideal_hammock_for_backpacking_cycling_or_camping_adventures: The ideal hammock for backpacking, cycling or camping adventures in areas where it is very warm; or for those preferring alternative methods of bottom insulation, such as a pad inside the hammock or an under-quilt.
+      the_strings_of_the_ultralight_models_are_made_of_dyneema: The strings of the ultralight models are made of Dyneema SK75 and have no stretchiness, making these hammocks feel a little bit firmer but equally comfortable.
+      they_come_in_a_stuff_bag: They come in a stuff bag of approximately 17 x 32 cm (7'' x 12'') for storage.
+      this_is_your_hammock_if_you_intend_to_go_backpacking_or_cycling: This is your hammock if you intend to go backpacking or cycling. It boasts each and every feature, but it is made of much lighter materials. Because every gram you do not have to carry means less pain and more fun!
+      this_is_your_light_small_no_frills_and_affordable_90_degree_hammock: This is your light, small, no frills and affordable 90 Degree Hammock for chilling out and resting on the verandah, at the beach or in the park.
+      this_model_comes_with_a_pad_sleeve_underneath_the_lying_surface: This model comes with a pad-sleeve underneath the lying surface. This enables you to insert a camping pad or any other suitable insulating material, such as clothes or a quilt. Best results are achieved with camping pads as long or longer as yourself, since they will not only keep you warm but will also transform the hammock into a very comfortable and spacious bed for sleeping.
+      together_with_our_special_lightweight_html: Together with our special lightweight %{hammock_suspension_ropes_and_descender_rings} (sold separately – see accessories) the 90 Degree Hammock can very easily be hanged between trees or other anchor points without any knots.
+      two_bug_net_storage_pouches_inside_the_hammock: Two bug-net storage pouches inside the hammock
+      typical_use_users: Typical use / users
+      ultra_light_ul: Ultra light (UL)
+      ultra_strong_and_ultralight_dyneema: Ultra strong and ultralight Dyneema SK75 string suspension system
+      weight: Weight
+      weight_grams: Weight (grams)
     tarps:
       headline: 90 Degree Tarp-Tent
+  terms_and_conditions: Terms and conditions
   'true': 'Yes'
   users:
     new:
