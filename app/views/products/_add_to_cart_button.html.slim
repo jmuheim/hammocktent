@@ -1,6 +1,7 @@
 button.btn.btn-danger.add_to_cart data-target="#accept_toc_#{id}" data-toggle="modal"
   = fa_icon 'shopping-cart'
-  |&nbsp;Add to shopping cart →
+  = t '.add_to_shopping_cart'
+  | →
 
 .modal.fade id="accept_toc_#{id}" tabindex="-1" data-backdrop="static"
   .modal-dialog
@@ -8,21 +9,21 @@ button.btn.btn-danger.add_to_cart data-target="#accept_toc_#{id}" data-toggle="m
       .modal-header
         button type="button" class="close" data-dismiss="modal"
           span aria-hidden="true" &times;
-          span.sr-only Close
-        h4 class="modal-title" Thanks for your interest!
+          span.sr-only = t '.close'
+        h4 class="modal-title" = t '.thanks_for_your_interest'
 
       .modal-body
         .row
           .col-md-6
-            markdown:
-              Before proceeding though, please read carefully:
+            p
+              = t('.before_proceeding_though_please_read_carefully') + ':'
 
-              - #{link_to 'Terms and conditions', page_path('terms_and_conditions'), target: '_blank'}
-              - #{link_to 'Shipping info', page_path('shipping_info'), target: '_blank'}
+            ul
+              li = link_to t('.terms_and_conditions'), page_path('terms_and_conditions'), target: '_blank'
+              li = link_to t('.shipping_info'), page_path('shipping_info'), target: '_blank'
 
           .col-md-6
-            markdown:
-              The ordering process is handled through PayPal. You will return to our site afterwards.
+            p = t '.the_ordering_process_is_handled_through_paypal'
 
             = image_tag 'paypal.png', width: 200
 
@@ -30,4 +31,4 @@ button.btn.btn-danger.add_to_cart data-target="#accept_toc_#{id}" data-toggle="m
         form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="paypal"
           input name="cmd" type="hidden" value="_s-xclick"
           input name="hosted_button_id" type="hidden" value="#{id}"
-          button.btn.btn-danger type="submit" I fully agree, please proceed!
+          button.btn.btn-danger type="submit" = t '.i_fully_agree_please_proceed'
