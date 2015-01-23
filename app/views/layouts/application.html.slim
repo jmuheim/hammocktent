@@ -19,3 +19,17 @@ html
         .col-md-12
           == render 'layouts/messages'
           == yield
+
+    footer
+      .container
+        .row
+          .col-md-6
+            p.hammocktent
+              = image_tag 'hammocktent_logo.png', class: 'img-rounded hammocktent'
+              |&copy; 2015 HammockTent GmbH
+
+          .col-md-6
+            p.facebook
+              = link_to 'https://www.facebook.com/HammockTent' do
+                = t '.visit_us_on_facebook'
+                = image_tag 'facebook.png', class: 'img-rounded facebook'
