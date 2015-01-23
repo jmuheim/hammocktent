@@ -5,9 +5,9 @@ de:
   'false': Nein
   helpers:
     products:
-      price: 'TRANSLATE: Price'
+      price: Preis
     video:
-      watch_the_video: 'TRANSLATE: Watch the video'
+      watch_the_video: Video anschauen
   layouts:
     navigation:
       accessories: Zubehör
@@ -49,13 +49,13 @@ de:
     out_of_stock:
       headline: Produkt nicht an Lager
     product_info:
-      90_degree_hammock_features_and_naming: 'TRANSLATE: 90 Degree Hammock Features and Naming'
-      90_degree_tarp_tent_features_and_naming: 'TRANSLATE: 90 Degree Tarp-Tent Features and Naming'
-      click_on_the_image_to_enlarge_it: 'TRANSLATE: Click on the image to enlarge it.'
+      90_degree_hammock_features_and_naming: 90 Grad Hängematte Eigenschaften und Namensgebung
+      90_degree_tarp_tent_features_and_naming: 90 Grad Tarp-Zelt Eigenschaften und Namensgebung
+      click_on_the_image_to_enlarge_it: Klicke auf das Bild, um es zu vergrössern.
       headline: Produkt Info
-      if_you_intend_to_camp_in_the_outdoors: 'TRANSLATE: If you intend to camp in the outdoors with the 90 Degree Hammock you may want to combine it with our high tech ultralight cuben fiber 90 Degree Tarp-Tent. It gives you protection from the rain and an area of shelter for cooking and arranging your gear. The 90 Degree Tarp-Tent features doors that can be rolled down for all around protection in the event of stormy weather and for pitching it as a tent on the ground with two hiking poles or sticks.'
-      the_90_degree_hammock_comes_in_several_versions: 'TRANSLATE: The 90 Degree Hammock comes in several versions for many different purposes and preferences; and can be combined with our state of the art ultralight 90 Degree Tarp-Tent. This converts the hammock into an all around shelter system for camping pretty much everywhere, even without any trees!'
-      the_90_degree_hammock_is_unique: 'TRANSLATE: The 90 Degree Hammock is unique in that you lie in a 90 degree angle to the suspension axis of the hammock. This makes for a super comfortable recline and sleeping with a flat lay, even on your side! It solves two age old hammock design issues that may be holding some people back from using hammocks altogether: The banana lay and the cold back, which can be a challenge in colder areas. And, it is guaranteed no tip!'
+      if_you_intend_to_camp_in_the_outdoors: Wenn du mit der 90 Grad Hängematte draussen campieren willst empfiehlt sich die Kombination unserem high-tech ultraleicht cuben fiber 90 Grad Tarp-Zelt. Dieses bietet dir Schutz vor Regen und einen trockenen Raum um zu kochen und deine Ausrüstung auszupacken. Das 90 Grad Tarp-Zelt hat 4 Türen die heruntergerollt werden können für Rundumschutz bei stürmischem Wetter und um es mit zwei Trekkingstöcken oder Stecken am Boden als Zelt aufstellen zu können.
+      the_90_degree_hammock_comes_in_several_versions: Die 90 Grad Hängematte gibt's in mehreren Versionen für unterschiedlichste Anwendungen, und sie kann mit unserem state-of-the-art ultraleicht 90 Grad Tarp-Zelt kombiniert werden. Dies verwandelt sie in eine rundum Camping-Ausrüstung, die es dir so ziemlich überall ermöglicht zu Campieren, sogar ohne Bäume!
+      the_90_degree_hammock_is_unique: Die 90 Grad Hängematte ist einzigartig weil du in einem rechten Winkel (90 Grad) zur Aufhängachse der Hängematte liegst. Das macht sie super bequem zum Liegen und Schlafen mit geradem Rücken, sogar auf deiner Seite! Sie löst zwei altbekannte Hängematten-Designfragen, die vielleicht manche Leute ganz vom Hängemattengebrauch abhalten: Die gekrümmte "Bananen"-Liegeposition und den kalten Rücken, der in kühleren Gegenden ein Thema sein kann. Und sie kippt garantiert nicht!
     shipping_info:
       headline: Versand Info
     terms_and_conditions:
@@ -64,87 +64,87 @@ de:
     accessories:
       headline: Zubehör
     add_to_cart_button:
-      add_to_shopping_cart: 'TRANSLATE: Add to shopping cart'
-      before_proceeding_though_please_read_carefully: 'TRANSLATE: Before proceeding though, please read carefully'
-      close: 'TRANSLATE: Close'
-      i_fully_agree_please_proceed: 'TRANSLATE: I fully agree, please proceed!'
-      shipping_info: 'TRANSLATE: Shipping info'
-      terms_and_conditions: 'TRANSLATE: TRANSLATE: '
-      thanks_for_your_interest: 'TRANSLATE: Thanks for your interest!'
-      the_ordering_process_is_handled_through_paypal: 'TRANSLATE: The ordering process is handled through PayPal. You will return to our site afterwards.'
+      add_to_shopping_cart: Zum Warenkorb hinzufügen
+      before_proceeding_though_please_read_carefully: Bitte vor dem Fortfahren aufmerksam durchlesen
+      close: Schliessen
+      i_fully_agree_please_proceed: Ich bin einverstanden, bitte fortfahren!
+      shipping_info: Versand-Info
+      terms_and_conditions: Allgemeine Geschäftsbedingungen
+      thanks_for_your_interest: Danke für dein Interesse!
+      the_ordering_process_is_handled_through_paypal: Der Bestellvorgang wird durch PayPal abgewickelt. Du wirst danach auf unsere Seite zurückgeleitet.
     hammocks:
-      4_shock_cord_tie_outs: 'TRANSLATE: 4 shock cord tie outs for pitching the hammock on the ground with two hiking poles and 6 stakes, or inside the 90 Degree Tarp-Tent'
-      90_degree_hammock_alpha: 'TRANSLATE: 90 Degree Hammock Alpha'
-      90_degree_hammock_beta: 'TRANSLATE: 90 Degree Hammock Beta'
-      90_degree_hammock_beta_with_pad_sleeve: 'TRANSLATE: 90° Hammock Beta (with pad-sleeve)'
-      90_degree_hammock_gamma: 'TRANSLATE: TRANSLATE: '
-      90_degree_hammock_gamma_pad_sleeve: 'TRANSLATE: 90 Degree Hammock Gamma pad sleeve'
-      90_degree_hammock_gamma_ul_ultralight_with_pad_sleeve_and_bug_net: 'TRANSLATE: 90° Hammock Gamma UL (ultralight, with pad-sleeve and bug-net)'
-      90_degree_hammock_gamma_view_at_the_feet: 'TRANSLATE: 90 Degree Hammock Gamma view at the feet'
-      90_degree_hammock_gamma_view_from_inside: 'TRANSLATE: 90 Degree Hammock Gamma view from inside'
-      90_degree_hammock_gamma_view_from_the_top: 'TRANSLATE: 90 Degree Hammock Gamma view from the top'
-      90_degree_hammock_gamma_with_a_person_lying_on_the_side: 'TRANSLATE: 90 Degree Hammock Gamma with a person lying on the side'
-      90_degree_hammock_gamma_with_nobody_lying_in_it: 'TRANSLATE: 90 Degree Hammock Gamma with nobody lying in it'
-      90_degree_hammock_gamma_with_pad_sleeve_and_bug_net: 'TRANSLATE: 90° Hammock Gamma (with pad-sleeve and bug-net)'
-      90_hammock_delta_ul_ultralight_with_bug_net_only: 'TRANSLATE: 90° Hammock Delta UL (ultralight, with bug-net only)'
-      a_ridgeline_limits_the_span_of_the_hammock: 'TRANSLATE: A ridgeline limits the span of the hammock to its safe and comfortable maximum. The bug-net featuring models have an adjustable ridgeline with integrated bottle holder.'
-      adjustable_ridge_line: 'TRANSLATE: Adjustable ridge-line with integrated bottle holder'
-      all_hammock_versions_are_basically_the_same_design: 'TRANSLATE: All hammock versions are basically the same design, but boast a different amount of features and different materials (ultralight models).'
-      basic: 'TRANSLATE: basic'
-      beach_park_and_verandah_goers: 'TRANSLATE: Beach-, park- and verandah goers'
-      bug_bivy: 'TRANSLATE: Bug bivy'
-      bug_net: 'TRANSLATE: Bug net'
-      color: 'TRANSLATE: Color'
-      common_specifications_and_features: 'TRANSLATE: Common Specifications and Features'
-      common_specifications_and_features_shared_by_all_models: 'TRANSLATE: Common specifications and features shared by all models'
-      comparison_chart: 'TRANSLATE: Comparison Chart'
-      designed_for_a_single_user: 'TRANSLATE: Designed for a single user of up to 2 m (6'' 7'''') in size and a maximum weight of 100 kg (220 lb).'
-      dimensions_of_hammock_body: 'TRANSLATE: Dimensions of hammock body: 220 x 110 cm (87'''' x 43'''')'
-      feel: 'TRANSLATE: Feel'
-      firm: 'TRANSLATE: firm'
-      glacier_gray: 'TRANSLATE: glacier gray'
-      hammock_sleepers_and_nappers_in_colder_climates: 'TRANSLATE: Hammock sleepers and nappers in colder climates; your additional deployable guest bed in the living room or verandah'
-      hammock_suspension_ropes_and_descender_rings: 'TRANSLATE: Hammock Suspension Ropes and descender rings'
+      4_shock_cord_tie_outs: 4 Elastikkordeln für die Insektenbivak Funktionalität – stelle die Hängematte am Boden auf, entweder im Tarp-Zelt oder separat mit zwei Trekkingstöcken und 6 Heringen.
+      90_degree_hammock_alpha: 90 Grad Hängematte Alpha
+      90_degree_hammock_beta: 90 Grad Hängematte Beta
+      90_degree_hammock_beta_with_pad_sleeve: 90 Grad Hängematte Beta (mit Mattenärmel)
+      90_degree_hammock_gamma: 90 Grad Hängematte Gamma
+      90_degree_hammock_gamma_pad_sleeve: 90 Grad Hängematte Gamma (mit Mattenärmel und Moskitonetz)
+      90_degree_hammock_gamma_ul_ultralight_with_pad_sleeve_and_bug_net: 90 Grad Hängematte Gamma UL (ultraleicht, mit Mattenärmel und Moskitonetz)
+      90_degree_hammock_gamma_view_at_the_feet: 90 Grad Hängematte Gamma Fussansicht
+      90_degree_hammock_gamma_view_from_inside: 90 Grad Hängematte Gamma Innenansicht
+      90_degree_hammock_gamma_view_from_the_top: 90 Grad Hängematte Gamma Draufsicht
+      90_degree_hammock_gamma_with_a_person_lying_on_the_side: 90 Grad Hängematte Gamma mit Seitenschläfer
+      90_degree_hammock_gamma_with_nobody_lying_in_it: 90 Grad Hängematte Gamma mit Niemandem drin
+      90_degree_hammock_gamma_with_pad_sleeve_and_bug_net: 90° Häangematte Gamma (mit Mattenärmel und Moskitonetz)
+      90_hammock_delta_ul_ultralight_with_bug_net_only: 90° Hängematte Delta UL (ultraleicht, nur mit Moskitonetz)'
+      a_ridgeline_limits_the_span_of_the_hammock: Eine Ridgeline limitiert die Spannweite der Hängematte auf das sichere und komfortable Maximum. Die Moskitonetz aufweisenden Modelle haben eine justierbare Ridgeline mit integriertem Flaschenhalter.
+      adjustable_ridge_line: Justable Ridgeline mit integriertem Flaschenhalter
+      all_hammock_versions_are_basically_the_same_design: Alle Hängemattenversionen haben dasselbe Grunddesign, aber weisen eine unterschiedliche Anzahl Ausstattungen und unterschiedliche Materialien auf (Ultraleicht-Modelle).
+      basic: basic
+      beach_park_and_verandah_goers: Strand-, Park- und Veranda-Hänger
+      bug_bivy: Moskitobywak
+      bug_net: Moskitonetz
+      color: Farbe
+      common_specifications_and_features: Gemeinsame Spezifikationen und Ausstattungen
+      common_specifications_and_features_shared_by_all_models: Gemeinsame Spezifikationen und Ausstattungen aller Modelle
+      comparison_chart: Vergleichstabelle
+      designed_for_a_single_user: Konzipiert für eine bis zu 2 m grosse und maximal 100 kg schwere Person
+      dimensions_of_hammock_body: Dimensionen der Hängemattenfläche: 220 x 110 cm
+      feel: Beschaffenheit
+      firm: weniger weich
+      glacier_gray: Glacier Gray
+      hammock_sleepers_and_nappers_in_colder_climates: Übernachten und Nickerchen halten in kühleren Klimaten; dein zusätzliches Gästebett für die Stube oder Veranda
+      hammock_suspension_ropes_and_descender_rings: Hängematten-Aufhängeseile und Descenderringe
       headline: 90 Grad Hängematte
-      high_quality_strong_lightweight_and_breathable_nylon: 'TRANSLATE: High quality, strong, lightweight and breathable Nylon 6-6 ripstop fabric, Oeko-Tex certified.'
-      hikers_backpackers_cyclists: 'TRANSLATE: Hikers, backpackers, cyclists, any- one concerned with pack size and weight'
-      in_addition_to_all_other_features: 'TRANSLATE: In addition to all other features this version comes with a non removable bug-net with a zippered entrance at the foot end. The pad-sleeve remains accessible from the inside of the hammock at the head end.'
-      know_how_section: 'TRANSLATE: know-how section'
-      learn_more_about_how_to_use_our_hammocks_html: 'TRANSLATE: Learn more about how to use our hammocks in the %{know_how_section} of this webpage.'
-      lids_at_the_head_and_foot_end_of_the_hammock: 'TRANSLATE: Lids at the head and foot end of the hammock make you and everything you have in the hammock stay inside.'
-      light_gray: 'TRANSLATE: light gray'
-      olive_green: 'TRANSLATE: olive green'
-      outdoor_hammock_sleepers: 'TRANSLATE: Outdoor hammock sleepers such as bikers, cyclists, yachties, road trippers and equestrians'
-      pad_sleeve_fits_most_common_single_person_camping_pads: 'TRANSLATE: Pad-sleeve fits most common single person camping pads (200 x 68 x 7 cm / 79'''' x 27'''' x 3''''), has a large zippered opening at the foot end and a small zippered opening at the head end for easy accessibility and adjustment of the insulating material'
-      pad_sleeve_insulation: 'TRANSLATE: Pad-sleeve insulation'
-      pad_sleeve_that_fits_most_common_single_person_camping_pads: 'TRANSLATE: TRANSLATE: '
-      peapod_green: 'TRANSLATE: peapod_green'
-      please_scroll_to_the_bottom_of_the_page_html: 'TRANSLATE: Please scroll to the bottom of the page to see the %{common_specifications_and_features} shared by all models and a %{comparison_chart}.'
-      price_chf: 'TRANSLATE: Price (CHF)'
-      soft: 'TRANSLATE: soft'
-      spacious_bug_net_suspended_by_shock_cord: 'TRANSLATE: Spacious bug-net suspended by shock cord, adjustable with cord stoppers, non removable, with zippered entrance'
-      spacious_ultralight_no_see_um_bug_net: 'TRANSLATE: Spacious ultralight No-See-Um bug-net with 155 holes per square Centimeter, suspended by shock cord, adjustable with cord stoppers, non removable, with zippered entrance'
-      specifications: 'TRANSLATE: Specifications'
-      storage_pouches: 'TRANSLATE: Storage pouches'
-      string_suspension_protection_sleeves_with_snap_closures: 'TRANSLATE: String suspension protection sleeves with snap closures prevent entanglements while transporting, storing and hanging the hammock.'
-      stuff_bag: 'TRANSLATE: stuff bag'
-      the_hammock_suspension_strings_of_the_standard_models: 'TRANSLATE: The hammock suspension strings of the standard models are made of Nylon and have a certain stretchiness. This makes the hammock very soft and adjusting to individual body proportions.'
-      the_ideal_hammock_for_backpacking_cycling_or_camping_adventures: 'TRANSLATE: The ideal hammock for backpacking, cycling or camping adventures in areas where it is very warm; or for those preferring alternative methods of bottom insulation, such as a pad inside the hammock or an under-quilt.'
-      the_strings_of_the_ultralight_models_are_made_of_dyneema: 'TRANSLATE: The strings of the ultralight models are made of Dyneema SK75 and have no stretchiness, making these hammocks feel a little bit firmer but equally comfortable.'
-      they_come_in_a_stuff_bag: 'TRANSLATE: They come in a stuff bag of approximately 17 x 32 cm (7'''' x 12'''') for storage.'
-      this_is_your_hammock_if_you_intend_to_go_backpacking_or_cycling: 'TRANSLATE: This is your hammock if you intend to go backpacking or cycling. It boasts each and every feature, but it is made of much lighter materials. Because every gram you do not have to carry means less pain and more fun!'
-      this_is_your_light_small_no_frills_and_affordable_90_degree_hammock: 'TRANSLATE: This is your light, small, no frills and affordable 90 Degree Hammock for chilling out and resting on the verandah, at the beach or in the park.'
-      this_model_comes_with_a_pad_sleeve_underneath_the_lying_surface: 'TRANSLATE: This model comes with a pad-sleeve underneath the lying surface. This enables you to insert a camping pad or any other suitable insulating material, such as clothes or a quilt. Best results are achieved with camping pads as long or longer as yourself, since they will not only keep you warm but will also transform the hammock into a very comfortable and spacious bed for sleeping.'
-      together_with_our_special_lightweight_html: 'TRANSLATE: Together with our special lightweight %{hammock_suspension_ropes_and_descender_rings} (sold separately – see accessories) the 90 Degree Hammock can very easily be hanged between trees or other anchor points without any knots.'
-      two_bug_net_storage_pouches_inside_the_hammock: 'TRANSLATE: Two bug-net storage pouches inside the hammock'
-      typical_use_users: 'TRANSLATE: Typical use / users'
-      ultra_light_ul: 'TRANSLATE: Ultra light (UL)'
-      ultra_strong_and_ultralight_dyneema: 'TRANSLATE: Ultra strong and ultralight Dyneema SK75 string suspension system'
-      weight: 'TRANSLATE: Weight'
-      weight_grams: 'TRANSLATE: Weight (grams)'
+      high_quality_strong_lightweight_and_breathable_nylon: Aus hochwertigem, robustem, leichtem und atmungsfähigem Nylon 6-6 Ripstopp-Stoff, Oeko-Tex zertifiziert.
+      hikers_backpackers_cyclists: Wanderer, Trekker, Velotourenfahrer, alle für die Packmass und Gewicht wichtig sind
+      in_addition_to_all_other_features: Zusätzlich kommt diese Version mit einem nicht abnehmbaren Moskitonetz mit einer Reissver-schlussöffnung am Fussende. Der Mattenärmel bleibt erreichbar vom Hängematteninneren am Kopfende.
+      know_how_section: Know-How Teil
+      learn_more_about_how_to_use_our_hammocks_html: Lerne mehr über die Anwendung unserer Hängematten im Know-How Teil dieser Webseite.
+      lids_at_the_head_and_foot_end_of_the_hammock: Deckel am Kopf- und Fussende der Hängematte behalten dich und alles was du in der Hängematte hast drinnen.
+      light_gray: Hellgrau
+      olive_green: Olivgrün
+      outdoor_hammock_sleepers: Outdoor-Übernachter wie Töff- / Velofahrer, Yachtkapitäne, Reiter usw.
+      pad_sleeve_fits_most_common_single_person_camping_pads: In den Mattenärmel passen die meisten üblichen Single-Campingmatten (200 x 68 x 7 cm). Er hat eine lange Reissverschlussöffnung am Fussende und eine kleine Reissverschlussöffnung am Kopfende für einen einfachen Zugang zum Isoliermaterial
+      pad_sleeve_insulation: Mattenärmel-Isolation
+      pad_sleeve_that_fits_most_common_single_person_camping_pads:
+      peapod_green: Peapod Green
+      please_scroll_to_the_bottom_of_the_page_html: Bitte scrolle an das Ende der Seite für die %{gemeinsamen Spezifikationen und Ausstattungen}, welche alle Modelle gemein haben, und eine %{Vergleichstabelle}.
+      price_chf: Preis
+      soft: weich
+      spacious_bug_net_suspended_by_shock_cord: Geräumiges Moskitonetz aufgehängt durch zwei Elastikkordeln und justierbar mit Cord-stoppern, nicht abnehmbar, mit Reissverschlussöffnung
+      spacious_ultralight_no_see_um_bug_net: Geräumiges ultraleicht No-See-Um Moskitonetz mit 155 Löchern pro Quadratzentimeter, aufgehängt durch 2 Elastikkordeln, justierbar mit Cordstoppern, nicht abnehmbar, mit Reissverschlusseingang
+      specifications: Spezifikationen
+      storage_pouches: Aufbewahrungsbeutel
+      string_suspension_protection_sleeves_with_snap_closures: Schnuraufhängesystem-Schutzärmel mit Druckknöpfen verhindern ein Schnurgewirr während des Transports, der Aufbewahrung und Aufhängung.
+      stuff_bag: Aufbewahrungssack
+      the_hammock_suspension_strings_of_the_standard_models: Die Aufhängeschnüre der Standard-Modelle sind aus Nylon und haben eine gewisse Elastizität. Dies macht die Hängematte sehr weich und anpassungsfähig.
+      the_ideal_hammock_for_backpacking_cycling_or_camping_adventures: Die ideale Hängematte für Trekking-, Velo- oder Campingtouren in warmen Gegenden, oder bei der Anwendung anderer Unterseitenisolationsmethoden, wie eine Campingmatte innerhalb der Hängematte oder einem "under-quilt".
+      the_strings_of_the_ultralight_models_are_made_of_dyneema: Die Aufhängeschnüre der Ultraleicht-Modelle sind aus Dyneema SK75 und weisen keine Elastizität auf, weshalb sich diese Hängematten etwas härter anfühlen, aber ebenso bequem.
+      they_come_in_a_stuff_bag: Mit Aufbewahrungssack ca. 17 x 32 cm.
+      this_is_your_hammock_if_you_intend_to_go_backpacking_or_cycling: Dies ist deine Hängematte wenn du auf Trekking- oder Velotouren gehen willst. Sie kommt mit allen Ausstattungen, aber ist aus leichteren Materialien gefertigt. Weil jedes Gramm, das du nicht tragen musst, weniger Schmerz und mehr Spass bedeutet!
+      this_is_your_light_small_no_frills_and_affordable_90_degree_hammock: Dies ist deine leichte, geringvolumige, schlichte und günstige 90 Grad Hängematte, um auf der Veranda, am Strand oder im Park zu chillen.
+      this_model_comes_with_a_pad_sleeve_underneath_the_lying_surface: Diese Model weist einen Mattenärmel unterhalb der Liegefläche auf. Dieser erlaubt das Ein-schieben einer Campingmatte oder von anderem geeigneten Isolationsmaterial, wie Kleidern oder Decken. Beste Resultate werden mit Campingmatten die so lang oder länger wie du sel-ber sind, da diese dich nicht nur warm halten, sondern die Hängematte auch in ein sehr kom-fortables und geräumiges Bett zum Schlafen verwandeln.
+      together_with_our_special_lightweight_html: Zusammen mit unseren leichten %{Spezial-Hängematten-Aufhängeseilen und Descender-Ringen} (separat erhältlich – vgl. Zubehör) kann die 90 Grad Hängematte sehr einfach und ohne Knoten zwischen Bäumen und anderen Ankerpunkten aufgehängt werden.
+      two_bug_net_storage_pouches_inside_the_hammock: Zwei Aufbewahrungsbeutel innerhalb der Hängematte
+      typical_use_users: Typische Anwendung / Anwender
+      ultra_light_ul: Ultraleicht (UL)
+      ultra_strong_and_ultralight_dyneema: Ultrastarkes und ultraleichtes Dyneema SK75 Schnur-Aufhängesystem
+      weight: Gewicht
+      weight_grams: Gewicht (Gramm)
     tarps:
       headline: 90° Tarp-Zelt
-  terms_and_conditions: 'TRANSLATE: Terms and conditions'
+  terms_and_conditions: Allgemeine Geschäftsbedingungen
   'true': Ja
   users:
     new:
