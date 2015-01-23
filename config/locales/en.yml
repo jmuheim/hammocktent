@@ -62,7 +62,44 @@ en:
       headline: Terms and Conditions
   products:
     accessories:
+      and: und
+      diameter: Diameter
+      drip_clips: Drip Clips
+      drip_clips_and_slit_line_hammock_suspension: Drip Clips and Slit Line Hammock Suspension
+      drip_clips_and_slit_line_hammock_suspension_html: Drip Clips and Slit Line Hammock Suspension, by %{exped}
+      drip_shields_make_sure: Drip Shields make sure rain water is dripping off before it gets into the hammock
+      dyneema_sk75_rope: 2.3 mm Dyneema SK75 rope with a minimal breaking strength of 560 kg (1'200 lb) and a length of 1.9 m (6' 2''), connected to the strap by a fancy eye splice
+      extensions_replacement_tree_straps: Extensions / Replacement Tree Straps
+      hammock_suspension_ropes: Hammock Suspension Ropes
       headline: Accessories
+      if_you_prefer_an_even_easier_option_html: If you prefer an even easier (though heavier) option, check out the %{drip_clips_and_slit_line_hammock_suspension} below.
+      if_you_want_to_use_the_slit_lines: If you want to use the Slit Lines on trees it is recommended to add our Extension / Replacement Tree Straps
+      just_add_these_tree_straps: Just add these tree straps to the straps of your Hammock Suspension Ropes to make them suitable for thicker trees (up to 60 cm / 23'' diameter)
+      length: Length
+      lightweight_guy_line_by_the_meter: Lightweight Guy Line by the Meter
+      lightweight_sturdy_and_durable_titanium: Lightweight, sturdy and durable titanium alloy stake with read coated head for easy visibility. Suitable for most firm soil types. Use V-stakes (available in outdoor stores) for soft soils such as sand and peat, though.
+      loops_with_descender_rings: loops with descender rings
+      manufacturer_details: Manufacturer's details
+      material: Material
+      per_meter: per meter
+      polyester_tree_straps: 3 x 115 cm (1.2'' x 45'') polyester tree straps protect the bark of the tree from getting incised and the rope from wear
+      polypropylene: polypropylene
+      polypropylene_slit_line: 2 x 5 m 8 mm polypropylene Slit Line, with slits for hooking carabiners every 9 cm
+      slit_lines: Slit Lines
+      specifications: Specifications
+      stainless_steel_descender_rings: Stainless steel descender rings that do not rust, even in seawater spray
+      straps_and_ropes: straps and ropes
+      the_2_drip_clips_carabiners: The 2 Drip Clips carabiners can be attached to the connector loops of your hammock
+      the_descender_rings: The descender rings come with a continuous loop to easily mount them on the connector loop of the hammock.
+      the_descender_rings_allow_easy_adjustment: The descender rings allow easy adjustment of the position of the hammock and help preventing rainwater running down the ropes into the hammock. They work both on the rope (preferred) as well as the strap.
+      the_drip_clips_and_slit_lines: The Drip Clips and Slit Lines are sold together as a complete hammock suspension kit.
+      this_hammock_suspension_system_html: This hammock suspension system is an alternative to our %{hammock_suspension_ropes} that is even easier and quicker, particularly if you want to be able to remove and rehang the hammock many times. It may be your suspension system of choice if weight is not your primary concern.
+      this_is_the_same_guy_line: This is the same guy line that is used on the 90 Degree Tarp-Tent. It is one of the lightest that reliably fastens in the LineLoc 3, even under high tension.
+      total: total
+      ultralight_titanium_tent_stakes: Ultralight Titanium Tent Stakes
+      weight: Weight
+      weight_per_pair: Weight per pair
+      with_this_incredibly_lightweight_suspension_system: With this incredibly lightweight suspension system you hang your 90 Degree Hammock quickly without any knots, and easily adjust its position if needed.
     add_to_cart_button:
       add_to_shopping_cart: Add to shopping cart
       before_proceeding_though_please_read_carefully: Before proceeding though, please read carefully
