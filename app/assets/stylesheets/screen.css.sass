@@ -49,6 +49,12 @@ img
     border-left-color: $navbar-inverse-border
     border-right-color: $navbar-inverse-border
 
+#view_cart
+  height: 50px
+
+  form
+    margin: 12px 6px 0 8px
+
 #logo
   height: 44px
   position: absolute
@@ -245,5 +251,30 @@ iframe
 .modal
   color: #000
 
-#meta_navigation
+#sign_in,
+#sign_up
   +hide_visually
+
+footer
+  .container
+    @extend %box
+    border-top: 5px solid #66825c
+    margin-top: 60px
+    padding:
+      top: 15px
+
+    a
+      color: #a7c292
+
+    .hammocktent
+      img
+        margin-top: -10px
+        height: 47px
+        margin-right: 0.5em
+
+    .facebook
+      text-align: right
+
+      img
+        margin-left: 1em
+        height: 37px
