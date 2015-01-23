@@ -7,31 +7,31 @@ article#hammock_suspension_ropes
       figure = image_tag 'products/accessories_suspension_ropes.jpg'
 
     .col-md-6
-      h2 Hammock Suspension Ropes
+      h2 = t '.hammock_suspension_ropes'
 
-      p With this incredibly lightweight suspension system you hang your 90 Degree Hammock quickly without any knots, and easily adjust its position if needed.
+      p = t '.with_this_incredibly_lightweight_suspension_system'
 
-      p If you prefer an even easier (though heavier) option, check out the #{link_to 'Drip Clips and Slit Line Hammock Suspension', '#drip_clips_and_slit_line'} below.
+      p = t '.if_you_prefer_an_even_easier_option_html', drip_clips_and_slit_line_hammock_suspension: link_to(t('.drip_clips_and_slit_line_hammock_suspension'), '#drip_clips_and_slit_line')
 
       = video_link 'https://www.youtube.com/watch?v=bQ979Jfqe-c'
 
   .specs
     .row
       .col-md-12
-        h3 Specifications
+        h3 = t '.specifications'
 
     .row
       .col-md-6
         ul.specs
-          li 3 x 115 cm (1.2'' x 45'') polyester tree straps protect the bark of the tree from getting incised and the rope from wear
-          li 2.3 mm Dyneema SK75 rope with a minimal breaking strength of 560 kg (1'200 lb) and a length of 1.9 m (6' 2''), connected to the strap by a fancy eye splice
-          li Stainless steel descender rings that do not rust, even in seawater spray
-          li The descender rings come with a continuous loop to easily mount them on the connector loop of the hammock.
+          li = t '.polyester_tree_straps'
+          li = t '.dyneema_sk75_rope'
+          li = t '.stainless_steel_descender_rings'
+          li = t '.the_descender_rings'
 
       .col-md-6
         ul.specs
-          li The descender rings allow easy adjustment of the position of the hammock and help preventing rainwater running down the ropes into the hammock. They work both on the rope (preferred) as well as the strap.
-          li Weight per pair: straps and ropes 60 g, loops with descender rings 18 g; 78 g total
+          li = t '.the_descender_rings_allow_easy_adjustment'
+          li #{t '.weight_per_pair'}: #{t '.straps_and_ropes'} 60 g, #{t '.loops_with_descender_rings'} 18 g; 78 g #{t '.total'}
           li = price 34
 
         = add_to_cart_button('8VD48G39AX4Y4')
@@ -42,20 +42,20 @@ article
       figure = image_tag 'products/accessories_extension_replacement_tree_straps.jpg'
 
     .col-md-6
-      h2 Extensions / Replacement Tree Straps
+      h2 = t '.extensions_replacement_tree_straps'
 
-      p Just add these tree straps to the straps of your Hammock Suspension Ropes to make them suitable for thicker trees (up to 60 cm / 23'' diameter)
+      p = t '.just_add_these_tree_straps'
 
   .specs
     .row
       .col-md-12
-        h3 Specifications
+        h3 = t '.specifications'
 
     .row
       .col-md-6
         ul.specs
-          li 3 x 100 cm (1.2'' x 40'') polyester tree straps with end loops
-          li Weight per pair: 45 g (1.6 oz)
+          li = t '.polyester_tree_straps'
+          li #{t '.weight_per_pair'}: 45 g (1.6 oz)
 
       .col-md-6
         ul.specs
@@ -69,34 +69,34 @@ article#drip_clips_and_slit_line
       figure = image_tag 'products/accessories_drip_clips_and_slit_line.jpg'
 
     .col-md-6
-      h2 Drip Clips and Slit Line Hammock Suspension, by #{link_to 'Exped', 'http://www.exped.com'}
+      h2 = t '.drip_clips_and_slit_line_hammock_suspension_html', exped: link_to('Exped', 'http://www.exped.com')
 
-      p This hammock suspension system is an alternative to our #{link_to 'Hammock Suspension Ropes', '#hammock_suspension_ropes'} that is even easier and quicker, particularly if you want to be able to remove and rehang the hammock many times. It may be your suspension system of choice if weight is not your primary concern.
+      p = t '.this_hammock_suspension_system_html', hammock_suspension_ropes: link_to(t('.hammock_suspension_ropes'), '#hammock_suspension_ropes')
 
-      p The Drip Clips and Slit Lines are sold together as a complete hammock suspension kit.
+      p = t '.the_drip_clips_and_slit_lines'
 
-      p Manufacturer's details:
+      p #{t '.manufacturer_details'}:
 
       ul
-        li = link_to 'Drip Clips', 'http://www.exped.com/switzerland/en/product-category/hammocks/drip-clips', target: '_blank'
-        li = link_to 'Slit Lines', 'http://www.exped.com/switzerland/en/product-category/hammocks/slit-line', target: '_blank'
+        li = link_to t('.drip_clips'), 'http://www.exped.com/switzerland/en/product-category/hammocks/drip-clips', target: '_blank'
+        li = link_to t('.slit_lines'), 'http://www.exped.com/switzerland/en/product-category/hammocks/slit-line', target: '_blank'
 
   .specs
     .row
       .col-md-12
-        h3 Specifications
+        h3 = t '.specifications'
 
     .row
       .col-md-6
         ul.specs
-          li The 2 Drip Clips carabiners can be attached to the connector loops of your hammock
-          li Drip Shields make sure rain water is dripping off before it gets into the hammock
-          li 2 x 5 m 8 mm polypropylene Slit Line, with slits for hooking carabiners every 9 cm
-          li If you want to use the Slit Lines on trees it is recommended to add our Extension / Replacement Tree Straps
+          li = t '.the_2_drip_clips_carabiners'
+          li = t '.drip_shields_make_sure'
+          li = t '.polypropylene_slit_line'
+          li = t '.if_you_want_to_use_the_slit_lines'
 
       .col-md-6
         ul.specs
-          li Weight: 2 Drip Clips 50 g and 2 Slit Lines 200 g = 250g / pair
+          li #{t '.weight'}: 2 #{t '.drip_clips'} 50 g #{t '.and'} 2 #{t '.slit_lines'} 200 g = 250g / #{'.pair'}
           li = price 36, 'per pair'
 
         = add_to_cart_button('M49FAC7E6W4VW')
@@ -107,21 +107,21 @@ article
       figure = image_tag 'products/accessories_ultralight_titanium_tent_stakes.jpg'
 
     .col-md-6
-      h2 Ultralight Titanium Tent Stakes
+      h2 = t '.ultralight_titanium_tent_stakes'
 
-      p Lightweight, sturdy and durable titanium alloy stake with read coated head for easy visibility. Suitable for most firm soil types. Use V-stakes (available in outdoor stores) for soft soils such as sand and peat, though.
+      p = t '.lightweight_sturdy_and_durable_titanium'
 
   .specs
     .row
       .col-md-12
-        h3 Specifications
+        h3 = t '.specifications'
 
     .row
       .col-md-6
         ul.specs
-          li Length: 150 mm
-          li Diameter: 3 mm
-          li Weight per piece: 5.8 g
+          li #{t '.length'}: 150 mm
+          li #{t '.diameter'}: 3 mm
+          li #{t '.weight'}: 5.8 g
 
       .col-md-6
         ul.specs
@@ -135,24 +135,24 @@ article
       figure = image_tag 'products/accessories_guy_line.jpg'
 
     .col-md-6
-      h2 Lightweight Guy Line by the Meter
+      h2 = t '.lightweight_guy_line_by_the_meter'
 
-      p This is the same guy line that is used on the 90 Degree Tarp-Tent. It is one of the lightest that reliably fastens in the LineLoc 3, even under high tension.
+      p = t '.this_is_the_same_guy_line'
 
   .specs
     .row
       .col-md-12
-        h3 Specifications
+        h3 = t '.specifications'
 
     .row
       .col-md-6
         ul.specs
-          li Material: polypropylene
-          li Diameter: 3 mm
-          li Weight per meter: 3.2 g
+          li #{t '.material'}: #{t '.polypropylene'}
+          li #{t '.diameter'}: 3 mm
+          li #{t '.weight'} #{t '.per_meter'}: 3.2 g
 
       .col-md-6
         ul.specs
-          li = price 0.9, 'per meter'
+          li = price 0.9, t('.per_meter')
 
         = add_to_cart_button('LNZMFEB83TLMS')
