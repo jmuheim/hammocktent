@@ -53,4 +53,8 @@ module ApplicationHelper
       icon :user
     end
   end
+
+  def view_cart_button
+    render partial: 'products/view_cart_button'
+  end
 end

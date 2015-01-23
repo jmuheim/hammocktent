@@ -28,9 +28,9 @@ nav#navigation.navbar.yamm.navbar-inverse.navbar-fixed-top
 
       = semantic_navigation :meta_navigation, config: :bootstrap, class: 'navbar-right' do |navigation|
         - if current_user.guest?
-          - navigation.item t('.sign_up'), new_user_registration_path
+          - navigation.item t('.sign_up'), new_user_registration_path, id: 'sign_up'
 
-          - navigation.group t('.sign_in') do
+          - navigation.group t('.sign_in'), id: 'sign_in' do
             li
               .yamm-content
                 .row = render 'devise/sessions/form', resource: User.new, display: :small
@@ -47,6 +47,7 @@ nav#navigation.navbar.yamm.navbar-inverse.navbar-fixed-top
               li.divider
               li = link_to fa_icon(:gears) + t('.admin'), rails_admin_path(locale: :en)
 
+        - navigation.item view_cart_button, id: 'view_cart'
         - navigation.group flag(current_locale_flag), id: :language_chooser, title: t('.choose_language'), data: {placement: 'bottom'} do
           li = link_to locale: 'en' do
             =' flag(:gb, 'Flag of England')
