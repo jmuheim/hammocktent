@@ -220,7 +220,6 @@ en:
       stuff_bag: stuff bag
       ultralight_titanium_stakes_are_sold_separately_html: Ultralight titanium stakes are sold separately (%{accessories}) (%{accessories})'
       weight: Weight
-  terms_and_conditions: Terms and conditions
   'true': 'Yes'
   users:
     new:
