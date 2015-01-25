@@ -14,7 +14,9 @@ body.modal-open
 
 main
   position: relative
-  margin-top: 78px // accommodate the navbar
+  margin:
+    top: 78px    // Accommodate the navbar
+    bottom: 40px // Accommodate the footer
   background-color: $container-bg
 
 h2, .h2
@@ -255,26 +257,31 @@ iframe
 #sign_up
   +hide_visually
 
-footer
+#footer
+  padding-top: $line-height-computed / 2
+  bottom: 0
+  width: 100%
+  color: $navbar-inverse-color
+
   .container
+    background-color: $navbar-inverse-bg
     @extend %box
     border-top: 5px solid #66825c
-    margin-top: 60px
     padding:
       top: 15px
 
-    a
-      color: #a7c292
+  a
+    color: #a7c292
 
-    .hammocktent
-      img
-        margin-top: -10px
-        height: 47px
-        margin-right: 0.5em
+  .hammocktent
+    img
+      margin-top: -10px
+      height: 47px
+      margin-right: 0.5em
 
-    .facebook
-      text-align: right
+  .facebook
+    text-align: right
 
-      img
-        margin-left: 1em
-        height: 37px
+    img
+      margin-left: 1em
+      height: 37px

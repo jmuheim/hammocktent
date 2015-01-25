@@ -17,7 +17,7 @@ guard :livereload, port: 35729 do
 end
 
 # TODO: Why is bundle exec needed? More infos here: http://stackoverflow.com/questions/22555324 and https://github.com/rails/spring/issues/277
-guard :rspec, cmd: 'bundle exec spring rspec',
+guard :rspec, cmd: 'spring rspec',
               failed_mode: :focus do
   watch(%r{^spec/.+_spec\.rb$})
   watch(%r{^lib/(.+)\.rb$})     { |m| "spec/lib/#{m[1]}_spec.rb" }
@@ -53,18 +53,19 @@ guard :bundler do
   # watch(/^.+\.gemspec/)
 end
 
-guard 'migrate', cmd:          'spring rake',
-                 run_on_start: false,
-                 test_clone:   true,
-                 reset:        true,
-                 seed:         true do
+guard :migrate, cmd:          'spring rake',
+                run_on_start: false,
+                test_clone:   true,
+                reset:        true,
+                seed:         true do
   watch(%r{^db/migrate/(\d+).+\.rb})
   watch('db/seeds.rb')
 end
 
-guard 'annotate', show_indexes:   true,
-                  show_migration: true do
-  watch( 'db/schema.rb' )
+guard :annotate, show_indexes:   true,
+                 show_migration: true,
+                 run_at_start: false do
+  watch('db/schema.rb')
 
   # Uncomment the following line if you also want to run annotate anytime
   # a model file changes
@@ -73,4 +74,19 @@ guard 'annotate', show_indexes:   true,
   # Uncomment the following line if you are running routes annotation
   # with the ":routes => true" option
   # watch( 'config/routes.rb' )
+end
+
+guard :shell do
+  # Some problems with this approach:
+  # - https://github.com/glebm/i18n-tasks/issues/125
+  # - http://stackoverflow.com/questions/28136107/guard-gem-pause-file-modification-within-guardfile-for-execution-of-a-block
+  # - http://stackoverflow.com/questions/28136122/guard-gem-run-some-code-at-startup-or-shutdown
+  # watch %r{app/\w+/(.+\.(html|rb)).*} do |m|
+  #   n m[0], 'Changed'
+  #   `i18n-tasks add-missing -v 'TRANSLATE: %{value}'`
+  # end
+
+  # watch 'Gemfile.lock' do |m|
+  #   `spring reload`
+  # end
 end

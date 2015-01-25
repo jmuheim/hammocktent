@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '4.1'
+gem 'rails', '4.2'
 
 gem 'rails-i18n' # Locale data
 
@@ -76,6 +76,8 @@ gem 'redcarpet' # Markdown parser
 
 gem 'actionview-encoded_mail_to' # Rails mail_to helper with obfuscation
 
+gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw] # Timezone Data for TZInfo (needed when run on Microsoft Windows, see https://github.com/tzinfo/tzinfo/wiki/Resolving-TZInfo::DataSourceNotFound-Errors)
+
 gem 'rollbar' # Exception tracking
 
 group :doc do
@@ -121,6 +123,7 @@ group :development do
   gem 'guard-bundler'                    # Automatically install/update gem bundle when needed
   gem 'guard-annotate'                   # Automatically run the annotate gem when needed
   gem 'guard-migrate'                    # Automatically run migrations when they are edited
+  gem 'guard-shell'                      # Automatically run shell commands
 
   gem 'rerun', require: false # Restarts an app when the filesystem changes
 
