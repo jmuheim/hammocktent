@@ -61,6 +61,15 @@ task setup: :environment do
   queue  %[echo "-----> Be sure to edit 'shared/config/database.yml'."]
 end
 
+desc "Notifies rollbar."
+task :notify_rollbar do
+  revision = `git log -n 1 --pretty=format:"%H"`
+  local_user = `whoami`
+  rollbar_token = '5d2ee288270c45ffaaf3176b74a64d47' # TODO: Store rollbar token at one single place!
+  rails_env = 'production'
+  queue "curl https://api.rollbar.com/api/1/deploy/ -F access_token=#{rollbar_token} -F environment=#{rails_env} -F revision=#{revision} -F local_username=#{local_user} >/dev/null 2>&1"
+end
+
 desc "Deploys the current version to the server."
 task deploy: :environment do
   deploy do
@@ -71,6 +80,7 @@ task deploy: :environment do
     invoke :'bundle:install'
     invoke :'rails:db_migrate'
     invoke :'rails:assets_precompile'
+    invoke :'notify_rollbar'
 
     to :launch do
       queue "svc -h ~/service/nginx"
