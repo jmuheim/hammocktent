@@ -76,6 +76,8 @@ gem 'redcarpet' # Markdown parser
 
 gem 'actionview-encoded_mail_to' # Rails mail_to helper with obfuscation
 
+gem 'rollbar' # Exception tracking
+
 group :doc do
   gem 'sdoc', require: false # bundle exec rake doc:rails generates the API under doc/api.
 end

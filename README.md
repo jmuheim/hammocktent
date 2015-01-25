@@ -81,6 +81,10 @@ That's all, folks!
 
 - The project is configured to be continuously integrated using [Travis CI](https://travis-ci.org/jmuheim/hammock) (`master` branch only).
 
+## Exception monitoring
+
+- Exception monitoring on production system is achieved using [Rollbar](https://rollbar.com/jmuheim/HammockTent/).
+
 ## Backlog
 
 You can find the backlog here: [`BACKLOG.md`](./BACKLOG.md).
