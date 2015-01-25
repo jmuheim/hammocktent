@@ -67,7 +67,7 @@ task :notify_rollbar do
   local_user = `whoami`
   rollbar_token = '5d2ee288270c45ffaaf3176b74a64d47' # TODO: Store rollbar token at one single place!
   rails_env = 'production'
-  queue "curl https://api.rollbar.com/api/1/deploy/ -F access_token=#{rollbar_token} -F environment=#{rails_env} -F revision=#{revision} -F local_username=#{local_user} >/dev/null 2>&1"
+  queue "curl https://api.rollbar.com/api/1/deploy/ -F access_token=#{rollbar_token} -F environment=#{rails_env} -F revision=#{revision} -F local_username=#{local_user} >/dev/null 2>&1" # TODO: Prevent display of CURL output! https://github.com/mina-deploy/mina/issues/268
 end
 
 desc "Deploys the current version to the server."
