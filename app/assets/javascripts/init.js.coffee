@@ -22,3 +22,6 @@ $(document).ready ->
       thumbs:
         width: 100,
         height: 100
+
+  # Skrollr
+  skrollr.init()
