@@ -33,6 +33,7 @@ de:
     contact:
       any_questions_issues_or_feedback_html: 'TRANSLATE: TRANSLATE: '
       headline: Kontakt
+      please_excuse_late_replies: 'TRANSLATE: Please excuse late replies as we might happen to be out hiking...'
     finish_checkout:
       headline: Besten Dank!
     home:
@@ -239,11 +240,33 @@ de:
     product_info:
       90_degree_hammock_features_and_naming: 90 Grad Hängematte Eigenschaften und Namensgebung
       90_degree_tarp_tent_features_and_naming: 90 Grad Tarp-Zelt Eigenschaften und Namensgebung
+      bug_bivy_functionality_text: 'TRANSLATE: TRANSLATE: '
+      bug_bivy_functionality_title: 'TRANSLATE: TRANSLATE: '
+      bug_net_text: 'TRANSLATE: TRANSLATE: '
+      bug_net_title: 'TRANSLATE: TRANSLATE: '
       click_on_the_image_to_enlarge_it: Klicke auf das Bild, um es zu vergrössern.
+      connector_loops_text: 'TRANSLATE: TRANSLATE: '
+      connector_loops_title: 'TRANSLATE: TRANSLATE: '
+      hammock_body_text: 'TRANSLATE: TRANSLATE: '
+      hammock_body_title: 'TRANSLATE: TRANSLATE: '
+      hammock_suspension_ropes_text: 'TRANSLATE: Hammock Suspension Ropes with tree straps and descender rings let you hang and adjust the hammock quickly, without any knots. Hang the hammock anywhere between two vertical struc-tures 2 to 5.5 m (6 to 18ft) apart, or one overhead horizontal structure (sold seperately).'
+      hammock_suspension_ropes_title: 'TRANSLATE: Hammock Suspension Ropes'
       headline: Produkt Info
       if_you_intend_to_camp_in_the_outdoors: Wenn du mit der 90 Grad Hängematte draussen campieren willst empfiehlt sich die Kombination unserem high-tech ultraleicht cuben fiber 90 Grad Tarp-Zelt. Dieses bietet dir Schutz vor Regen und einen trockenen Raum um zu kochen und deine Ausrüstung auszupacken. Das 90 Grad Tarp-Zelt hat 4 Türen die heruntergerollt werden können für Rundumschutz bei stürmischem Wetter und um es mit zwei Trekkingstöcken oder Stecken am Boden als Zelt aufstellen zu können.
+      note_not_all_models: 'TRANSLATE: Note: not all models are equipped with all of these features. Please see the "products" section.'
+      pad_sleeve_text_1: 'TRANSLATE: Pad-sleeve with a zippered foot-side opening and a zippered access from inside the hammock. Insert a camping pad and the 90 Degree Hammock will get ridiculously spacious, comfortable and warm!'
+      pad_sleeve_text_2: 'TRANSLATE: Bottom insulation is very important if you intend to sleep in a hammock. If you have ever spent a night in a hammock you will know that it can be very cold from underneath as soon as the temperature drops below 25 Degrees C (77 Degrees F) or so – a phenomenon known as the "cold butt syndrome" by hammock campers. This is due to the fact that your sleeping bag is com-pressed below your body and thus does not offer any insulation, as well as the fact that any body heat is instantly gone with the wind (wind chill).'
+      pad_sleeve_title: 'TRANSLATE: TRANSLATE: '
+      ridgeline_with_bottle_holder_text: 'TRANSLATE: Adjustable ridgeline with bottle holder – drink or brush your teeth sitting inside the hammock.'
+      ridgeline_with_bottle_holder_title: 'TRANSLATE: Ridgeline with Bottle Holder'
+      string_suspension_protection_sleeves_text: 'TRANSLATE: TRANSLATE: '
+      string_suspension_protection_sleeves_title: 'TRANSLATE: TRANSLATE: '
+      string_suspension_system_text: 'TRANSLATE: TRANSLATE: '
+      string_suspension_system_title: 'TRANSLATE: TRANSLATE: '
       the_90_degree_hammock_comes_in_several_versions: Die 90 Grad Hängematte gibt's in mehreren Versionen für unterschiedlichste Anwendungen, und sie kann mit unserem state-of-the-art ultraleicht 90 Grad Tarp-Zelt kombiniert werden. Dies verwandelt sie in eine rundum Camping-Ausrüstung, die es dir so ziemlich überall ermöglicht zu Campieren, sogar ohne Bäume!
       the_90_degree_hammock_is_unique: 'Die 90 Grad Hängematte ist einzigartig weil du in einem rechten Winkel (90 Grad) zur Aufhängachse der Hängematte liegst. Das macht sie super bequem zum Liegen und Schlafen mit geradem Rücken, sogar auf deiner Seite! Sie löst zwei altbekannte Hängematten-Designfragen, die vielleicht manche Leute ganz vom Hängemattengebrauch abhalten: Die gekrümmte "Bananen"-Liegeposition und den kalten Rücken, der in kühleren Gegenden ein Thema sein kann. Und sie kippt garantiert nicht!'
+      two_bug_net_suspenders_text: 'TRANSLATE: TRANSLATE: '
+      two_bug_net_suspenders_title: 'TRANSLATE: TRANSLATE: '
     shipping_info:
       headline: Versand Info
     terms_and_conditions:

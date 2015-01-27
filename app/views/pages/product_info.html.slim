@@ -10,32 +10,117 @@ section.headline
     .col-md-4
       p = t '.the_90_degree_hammock_is_unique'
 
-  .row
-    .col-md-12
-      p = t '.the_90_degree_hammock_comes_in_several_versions'
+  p = t '.the_90_degree_hammock_comes_in_several_versions'
+
+  p
+    = fa_icon :search
+    = t '.click_on_the_image_to_enlarge_it'
 
 section
   h2 = t '.90_degree_hammock_features_and_naming'
 
-  / p Discover the peace- and restful world of the 90 Degree Hammock for yourself; out under the stars, on your verandah, the beach, on deck of a yacht, on a motorcycle adventure or even on a backpacking trip. In fact, a growing community of backpackers know that camping in a hammock is not only much more comfortable, decent and cool, but it also opens up a gazillion of otherwise unsuitable places, such as steep woodland slopes, as convenient campgrounds.
-
-  p
-    = fa_icon :search
-    = t '.click_on_the_image_to_enlarge_it'
-
-  figure
-    = link_to image_path("pages/product_info/info_#{I18n.locale}.jpg"), target: '_blank' do
-      = image_tag "pages/product_info/info_#{I18n.locale}.jpg"
+  p = t '.note_not_all_models'
 
 section
-  h2 = t '.90_degree_tarp_tent_features_and_naming'
+  h3 = t '.hammock_suspension_ropes_title'
 
-  p = t '.if_you_intend_to_camp_in_the_outdoors'
+  .row
+    .col-md-8
+      p = t '.hammock_suspension_ropes_text'
 
-  p
-    = fa_icon :search
-    = t '.click_on_the_image_to_enlarge_it'
+    .col-md-4
+      = image_tag 'pages/product_info/hammock_suspension_ropes.jpg'
 
-  figure
-    = link_to image_path("pages/product_info/arrangements_#{I18n.locale}.jpg"), target: '_blank' do
-      = image_tag "pages/product_info/arrangements_#{I18n.locale}.jpg"
+section
+  h3 = t '.ridgeline_with_bottle_holder_title'
+
+  .row
+    .col-md-8
+      p = t '.ridgeline_with_bottle_holder_text'
+
+    .col-md-4
+      = image_tag 'pages/product_info/ridgeline_with_bottle_holder.jpg'
+
+section
+  h3 = t '.string_suspension_protection_sleeves_title'
+
+  .row
+    .col-md-8
+      p = t '.string_suspension_protection_sleeves_text'
+
+    .col-md-4
+      = image_tag 'pages/product_info/string_suspension_protection_sleeves_1.jpg'
+      = image_tag 'pages/product_info/string_suspension_protection_sleeves_2.jpg'
+      = image_tag 'pages/product_info/string_suspension_protection_sleeves_3.jpg'
+
+section
+  h3 = t '.two_bug_net_suspenders_title'
+
+  .row
+    .col-md-8
+      p = t '.two_bug_net_suspenders_text'
+
+    .col-md-4
+      = image_tag 'pages/product_info/two_bug_net_suspenders.jpg'
+
+section
+  h3 = t '.bug_net_title'
+
+  .row
+    .col-md-8
+      p = t '.bug_net_text'
+
+    .col-md-4
+      = image_tag 'pages/product_info/bug_net.jpg'
+
+section
+  h3 = t '.bug_bivy_functionality_title'
+
+  .row
+    .col-md-8
+      p = t '.bug_bivy_functionality_text'
+
+section
+  h3 = t '.pad_sleeve_title'
+
+  .row
+    .col-md-8
+      p = t '.pad_sleeve_text_1'
+      p = t '.pad_sleeve_text_2'
+
+    .col-md-4
+      = image_tag 'pages/product_info/pad_sleeve_1.jpg'
+      = image_tag 'pages/product_info/pad_sleeve_2.jpg'
+
+section
+  h3 = t '.hammock_body_title'
+
+  .row
+    .col-md-8
+      p = t '.hammock_body_text'
+
+    .col-md-4
+      = image_tag 'pages/product_info/hammock_body_1.jpg'
+      = image_tag 'pages/product_info/hammock_body_2.jpg'
+
+section
+  h3 = t '.string_suspension_system_title'
+
+  .row
+    .col-md-8
+      p = t '.string_suspension_system_text'
+
+    .col-md-4
+      = image_tag 'pages/product_info/string_suspension_system_1.jpg'
+      = image_tag 'pages/product_info/string_suspension_system_2.jpg'
+
+section
+  h3 = t '.connector_loops_title'
+
+  .row
+    .col-md-8
+      p = t '.connector_loops_text'
+
+    .col-md-4
+      = image_tag 'pages/product_info/connector_loops_1.jpg'
+      = image_tag 'pages/product_info/connector_loops_2.jpg'
