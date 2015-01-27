@@ -107,9 +107,30 @@ de:
       what_do_you_do_if_you_cant_find_any_trees: 'TRANSLATE: What do you do if you can''t find any trees?'
       wrap_the_straps_of_the_suspension_system: 'TRANSLATE: Wrap the straps of the suspension system'
     know_how_tarps:
+      download_90_degree_tarp_manual: 'TRANSLATE: Download 90° Tarp Manual'
       headline: 90° Tarp-Zelt Videos und Anleitung
+      how_to_pitch_the_90_degree_tarp_tent_above_the_hammock: 'TRANSLATE: How to pitch the 90 Degree Tarp-Tent above the hammock'
+      how_to_pitch_the_90_degree_tarp_tent_on_the_ground: 'TRANSLATE: How to pitch the 90 Degree Tarp-Tent on the ground'
+      tipps_and_tricks_how_to_keep_the_guy_lines_tidy: 'TRANSLATE: Tipps and Tricks: How to keep the guy lines tidy'
     know_how_tarps_manual:
+      adjust_all_line_locs: 'TRANSLATE: Adjust all Line Locs to get the tarp taut and as well ventilated as permitted by the weather conditions.'
+      adjust_the_line_locs_to_get_it_taut: 'TRANSLATE: Adjust the Line Locs to get it taut, and to raise or lower it.'
+      consider_condensation: 'TRANSLATE: Consider condensation that can build up on the inner surfaces of the tarp. Make sure your sleeping bag/hammock does not touch the walls, and keep the Tarp-Tent ventilated as much as is permitted by the weather (doors partially opened, other areas not sealed right to the ground all around).'
+      get_the_two_main_guy_lines_on_the_ridge: 'TRANSLATE: Get the two main guy lines on the ridge of the Tarp-Tent around the tree trunk (or other structure) your hammock is hanged from (or will be hanged later, respectively). Just attach the end hooks onto the guy line itself to form a loop around the tree. Position the tarp above the hammock by tying the guy lines with the Line Locs.'
       headline: 90° Tarp-Zelt Anleitung
+      loosen_all_line_locs: 'TRANSLATE: Loosen all Line Locs and remove all stakes.'
+      make_sure_all_doors_are_rolled_down: 'TRANSLATE: Make sure all doors are rolled down (unrolled); and also that all guy lines are ready with their end-hooks / end loops right next to the Line Locs.'
+      make_sure_the_tarp_is_completely_dry: 'TRANSLATE: Make sure the tarp is completely dry before you pack it. If not, use the first opportunity to dry it out thoroughly.'
+      overlap_the_doors: 'TRANSLATE: Overlap the doors and stake each side down with a separate stake if you want to have the doors completely closed.'
+      pitch_the_tarp_tent_before_you_hang_the_hammock: 'TRANSLATE: Pitch the Tarp-Tent before you hang the hammock if it is raining; pitch it afterwards if it is not.'
+      pitching_the_90_degree_tarp_tent_between_trees_structures: 'TRANSLATE: Pitching the 90 Degree Tarp-Tent between trees / structures'
+      remove_the_two_ridge_tie_outs: 'TRANSLATE: Remove the two ridge tie outs from the stakes (leaving the door tie outs staked down), take your two hiking poles or sticks, attach them to the ridge guy lines, and stake these down.'
+      roll_down_the_doors_if_needed: 'TRANSLATE: Roll down the doors if needed and tie them to the tree trunks (or other structures) your hammock is hanging from. Close the zippers if needed, but leave them partially open on the top to keep space for the hammock suspension ropes. Overlap the doors if you need to close them completely.'
+      stake_down_the_four_other_tie_outs: 'TRANSLATE: Stake down the four other tie outs through the end-loop on the guy lines, making sure the tarp lies symmetrically and taut on the ground.'
+      stake_down_the_ridge_tie_outs: 'TRANSLATE: Stake down the ridge tie outs together with the 2 door tie outs on both ends, using 1 stake on each side. Make sure it lies taut on the ground, but then move inward with the second stake / the second side 10 cm (4'''') or so.'
+      tie_down_the_other_four_guy_lines: 'TRANSLATE: Tie down the other four guy lines.'
+      to_prevent_guy_line_entanglements: 'TRANSLATE: To prevent guy line entanglements we recommend pulling one side of the guy lines through the Line Locs almost entirely and then winding them up (suggestion: with the figure 8 method and with the loop / hook end close to the Line Loc).'
+      you_may_install_the_hammock: 'TRANSLATE: You may install the hammock (Gamma UL version only) inside the Tarp-Tent as an improvised bug bivy. Hang the bug-net shock cord onto the mitten hook lo-cated in the center of the tarp ridge, and attach the four hammock tie out shock cords to the 4 main wing stakes of the tarp. The suspension sleeves will lie loosely on the ground exposing the lower portion of the strings – take care not to tangle them.'
     our_story:
       headline: Unsere Geschichte
     out_of_stock:
