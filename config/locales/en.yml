@@ -31,7 +31,9 @@ en:
     cancel_checkout:
       headline: Checkout cancelled
     contact:
+      any_questions_issues_or_feedback_html: 'Any questions, issues, or feedback? Please check our know-how and FAQ section and if you can''t find the answer contact: %{email}.'
       headline: Contact
+      please_excuse_late_replies: Please excuse late replies as we might happen to be out hiking...
     finish_checkout:
       headline: Thank you!
     home:
@@ -45,7 +47,7 @@ en:
       hiking_biking_canoeing: Hiking, biking, canoeing – don't worry about getting back before nightfall.
       laugh_at_the_mud: Laugh at the mud, snow, critters, roots and rocks a few inches below you. No mosquito attacks thanks to the integrated net!
       spend_a_summer_night_under_the_stars: Spend a summer night under the stars, above the ground and protected from all kinds of bugs and critters.
-      welcome_to_the_exciting_experience: Welcome to the exciting experience of sleeping in a hammock - wherever you are, however you like. We are sure you will love it!
+      welcome_to_the_exciting_experience: Welcome to the exciting experience of sleeping in a hammock - wherever you are, in whatever position you prefer. We are sure you will love it!
     know_how_faq:
       also_consider_that_wind_chill: Also, consider that wind chill is a significant factor in a hammock. Pitch the 90 Degree Hammock Tarp-Tent low and close the doors to best keep out the wind, if needed.
       also_in_the_outdoors: Also in the outdoors you want to stay dry. Use our 90 Degree Tarp-Tent, and pitch it prior to the hammock if it is raining already.
@@ -214,7 +216,25 @@ en:
       to_prevent_guy_line_entanglements: 'To prevent guy line entanglements we recommend pulling one side of the guy lines through the Line Locs almost entirely and then winding them up (suggestion: with the figure 8 method and with the loop / hook end close to the Line Loc).'
       you_may_install_the_hammock: You may install the hammock (Gamma UL version only) inside the Tarp-Tent as an improvised bug bivy. Hang the bug-net shock cord onto the mitten hook lo-cated in the center of the tarp ridge, and attach the four hammock tie out shock cords to the 4 main wing stakes of the tarp. The suspension sleeves will lie loosely on the ground exposing the lower portion of the strings – take care not to tangle them.
     our_story:
+      after_one_of_those_midnight_splashes: "...after one of those midnight splashes of cold rain water down our backs."
+      all_our_products: 'All our products and components thereof are made in one or several of these countries: Indonesia, USA, China, European Union and Switzerland.'
+      also_in_2012: 'Also in 2012 I quit my job as a Geologist and headed out on an epic adventure: A 4.5 month southbound thru hike of the 4''000 km (2''600 mile) long Pacific Crest Trail in the western United States. And obviously I spent the entire 4.5 months camping in a suspended Ergo Hammock every night except two. On the entire trip I slept incredibly well, felt very lucky, very comfortable and the opposite of jealous of everyone with a tent; but obviously I could not help but think about even more improvements that still seemed to be possible...'
+      but_we_still_had_tasted: But, we still had tasted the sweet benefits of hammock camping and I could not get the concept out of my head. My brain started milling around on possible improvements and soon after I acquired a couple of old disused light-blue army parachutes to salvage fabric, bought a second hand sewing machine and started to come up with a new hammock model for each of our yearly summer biking or hiking trips across Europe.
+      good_morning: Good morning and...
+      good_night: "...good night in the Ergo Hammock, somewhere along the Pacific Crest Trail in 2012."
+      hammocktent_gmbh_was_founded: HammockTent GmbH was founded in 2014 by Luke in his home country of Switzerland. However, our story began in 2005, when my adventure buddy reckoned we should take a couple of cheap hammocks instead of our crappy and moldy tent on a bicycle trip down to Croatia.
       headline: Our story
+      i_got_to_know_him: I got to know him through unlikely circumstances and could win him as a collaborator and friend. And thus the 90 Degree Hammock may in fact represent a combination of Swiss engineering, Italian design and Indonesian workmanship. On the other hand, you might correctly assume that cultural differences between these three have posed a certain challenge at times.
+      late_in_2013: Late in 2013, in agreement with Exped, I made the decision to give it a go myself. By autumn 2014, after all of my savings had been invested, several thousand or so emails been written, 3 months been spent in Indonesia and a lot of my friends and family had volunteered with various tasks, the unique 90 Degree Hammock is right here in stock and HammockTent.com up and running!
+      on_the_way_to_croatia: On the way to Croatia in 2005...
+      our_cuben_fiber_tarps: Our Cuben Fiber tarps are produced in the USA by an excellent cottage manufacturing contractor that has many years of experience in the production of Cuben Fiber outdoor gear.
+      rest_assured: Rest assured that there is no child labor or inhuman working conditions whatsoever and that the hammocks are being manufactured by a few skilled and distinguished Indonesian tailors earning good money with it.
+      somewhat_advanced_models: Somewhat advanced models, in action in...
+      switzerland_and_norway: Switzerland and Norway, 2008.
+      the_whole_project: The whole project could benefit from the great Italian artist, philosopher, designer and specialty hammock manufacturer Alberto, who – already in his 70ies – contributed a great deal and is carrying out the near impossible production of the 90 Degree Hammock on his Indonesian home island. He had in fact been tinkering with this kind of hammock design for 20 years and first developed it with Yucatan Indians in Mexico he spent some time with. By replacing some fabric of their traditional hammocks with strings he could improve the visibility from inside the hammock, and make it possible to hang them well hidden high up on some single branch of a tree.
+      though_we_could_faintly_imagine: Though we could faintly imagine the potential of camping in hammocks, the trip was mainly a disaster, with us either freezing to near death or having rainwater running down our backs in the middle of the night, or both.
+      upon_my_return_to_switzerland: Upon my return to Switzerland I fired up the sewing machine again, just to see that a lot of my ideas that seemed to be so perfect in my head in fact did not work out in reality, or were much more complicated than originally thought. However, I kept on tinkering and trying out ever new solutions, and ended up with what I called a 90 Degree Hammock. A design that was undoubtedly more comfortable and more versatile than anything I'd come up with before, and I reckoned it might be feasible to get it produced, if at great pains.
+      years_later_in_2010: Years later in 2010 I thought that my latest model was actually not too bad, and I approached Swiss outdoor company Exped with it. After a lot of work this resulted in Exped's Ergo Hammock that won a design award at the Outdoor Trade Show in Friedrichshafen Germany in 2011, and was released in 2012.
     out_of_stock:
       headline: Product out of Stock
     product_info:
