@@ -12,10 +12,6 @@ section.headline
 
   p = t '.the_90_degree_hammock_comes_in_several_versions'
 
-  p
-    = fa_icon :search
-    = t '.click_on_the_image_to_enlarge_it'
-
 section
   h2 = t '.90_degree_hammock_features_and_naming'
 
@@ -107,5 +103,28 @@ section
         = t '.connector_loops_text'
 
 section
-  h2 = t '.click_to_see_full_view'
-  
+  h2 = t '.90_degree_tarp_tent_features_and_naming'
+
+  p TODO
+
+section
+  h2 = t '.printable_all_in_one_overview'
+
+  p
+    = fa_icon :search
+    = t '.click_on_the_image_to_enlarge_it'
+
+  .row
+    .col-md-6
+      h3 = t '.90_degree_hammock'
+
+      figure
+        = link_to image_path("pages/product_info/info_#{I18n.locale}.jpg"), target: '_blank' do
+          = image_tag "pages/product_info/info_#{I18n.locale}.jpg"
+
+    .col-md-6
+      h3 = t '.90_degree_tarp_tent'
+
+      figure
+        = link_to image_path("pages/product_info/arrangements_#{I18n.locale}.jpg"), target: '_blank' do
+          = image_tag "pages/product_info/arrangements_#{I18n.locale}.jpg"
