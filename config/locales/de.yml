@@ -238,14 +238,15 @@ de:
     out_of_stock:
       headline: Produkt nicht an Lager
     product_info:
+      90_degree_hammock: 'TRANSLATE: 90 Degree Hammock'
       90_degree_hammock_features_and_naming: 90 Grad Hängematte Eigenschaften und Namensgebung
+      90_degree_tarp_tent: 'TRANSLATE: 90 Degree Tarp-Tent'
       90_degree_tarp_tent_features_and_naming: 90 Grad Tarp-Zelt Eigenschaften und Namensgebung
       bug_bivy_functionality_text: 'TRANSLATE: TRANSLATE: '
       bug_bivy_functionality_title: 'TRANSLATE: TRANSLATE: '
       bug_net_text: 'TRANSLATE: TRANSLATE: '
       bug_net_title: 'TRANSLATE: TRANSLATE: '
       click_on_the_image_to_enlarge_it: Klicke auf das Bild, um es zu vergrössern.
-      printable_all_in_one_overview: 'TRANSLATE: Printable all-in-one Overview'
       connector_loops_text: 'TRANSLATE: TRANSLATE: '
       connector_loops_title: 'TRANSLATE: TRANSLATE: '
       hammock_body_text: 'TRANSLATE: TRANSLATE: '
@@ -258,6 +259,7 @@ de:
       pad_sleeve_text_1: 'TRANSLATE: Pad-sleeve with a zippered foot-side opening and a zippered access from inside the hammock. Insert a camping pad and the 90 Degree Hammock will get ridiculously spacious, comfortable and warm!'
       pad_sleeve_text_2: 'TRANSLATE: Bottom insulation is very important if you intend to sleep in a hammock. If you have ever spent a night in a hammock you will know that it can be very cold from underneath as soon as the temperature drops below 25 Degrees C (77 Degrees F) or so – a phenomenon known as the "cold butt syndrome" by hammock campers. This is due to the fact that your sleeping bag is com-pressed below your body and thus does not offer any insulation, as well as the fact that any body heat is instantly gone with the wind (wind chill).'
       pad_sleeve_title: 'TRANSLATE: TRANSLATE: '
+      printable_all_in_one_overview: 'TRANSLATE: Printable all-in-one Overview'
       ridgeline_with_bottle_holder_text: 'TRANSLATE: Adjustable ridgeline with bottle holder – drink or brush your teeth sitting inside the hammock.'
       ridgeline_with_bottle_holder_title: 'TRANSLATE: Ridgeline with Bottle Holder'
       string_suspension_protection_sleeves_text: 'TRANSLATE: TRANSLATE: '
