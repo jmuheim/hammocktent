@@ -65,7 +65,25 @@ body.pages
         font-weight: 300
         font-size: 24px
 
-body.pages
+  &.our_story
+    figure
+      margin-bottom: 10px
+      margin-top: 6px
+      width: 300px
+
+      &.left
+        +float-left
+        margin-right: 40px
+
+      &.right
+        +float-right
+        margin-left: 40px
+        
+      figcaption
+        text-align: center
+        color: #a7c292
+        margin-top: 6px
+
   &.contact
     p.logo
       +border-radius(5px)
