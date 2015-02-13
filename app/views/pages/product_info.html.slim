@@ -13,156 +13,9 @@ section.headline
   p = t '.the_90_degree_hammock_comes_in_several_versions'
 
 section
-  h2 = t '.90_degree_hammock_features_and_naming'
-
-  p = image_tag 'pages/product_info/hammocks/hammock.jpg'
+  h2 = t '.features_and_naming'
 
   p = t '.note_not_all_models'
-
-.row
-  .col-md-6
-    section
-      h3 = t '.ridgeline_with_bottle_holder_title'
-
-      p
-        = image_tag 'pages/product_info/hammocks/ridgeline_with_bottle_holder.jpg'
-        = t '.ridgeline_with_bottle_holder_text'
-
-    section
-      h3 = t '.two_bug_net_suspenders_title'
-
-      p
-        = image_tag 'pages/product_info/hammocks/two_bug_net_suspenders.jpg'
-        = t '.two_bug_net_suspenders_text'
-
-    section
-      h3 = t '.bug_bivy_functionality_title'
-
-      p = t '.bug_bivy_functionality_text'
-
-  .col-md-6
-    section
-      h3 = t '.hammock_suspension_ropes_title'
-
-      p
-        = image_tag 'pages/product_info/hammocks/hammock_suspension_ropes.jpg'
-        = t '.hammock_suspension_ropes_text'
-
-    section
-      h3 = t '.bug_net_title'
-
-      p
-        = image_tag 'pages/product_info/hammocks/bug_net.jpg'
-        = t '.bug_net_text'
-
-section
-  h3 = t '.string_suspension_protection_sleeves_title'
-
-  p
-    = image_tag 'pages/product_info/hammocks/string_suspension_protection_sleeves_1.jpg'
-    = image_tag 'pages/product_info/hammocks/string_suspension_protection_sleeves_2.jpg'
-    = image_tag 'pages/product_info/hammocks/string_suspension_protection_sleeves_3.jpg'
-    = t '.string_suspension_protection_sleeves_text'
-
-section
-  h3 = t '.pad_sleeve_title'
-
-  p
-    = image_tag 'pages/product_info/hammocks/pad_sleeve_1.jpg'
-    = image_tag 'pages/product_info/hammocks/pad_sleeve_2.jpg'
-    = t '.pad_sleeve_text_1'
-
-  p
-    = t '.pad_sleeve_text_2'
-
-
-.row.three_rows
-  .col-md-4
-    section
-      h3 = t '.hammock_body_title'
-
-      p
-        = image_tag 'pages/product_info/hammocks/hammock_body_1.jpg'
-        = image_tag 'pages/product_info/hammocks/hammock_body_2.jpg'
-        = t '.hammock_body_text'
-
-  .col-md-4
-    section
-      h3 = t '.string_suspension_system_title'
-
-      p
-        = image_tag 'pages/product_info/hammocks/string_suspension_system_2.jpg'
-        = image_tag 'pages/product_info/hammocks/string_suspension_system_1.jpg'
-        = t '.string_suspension_system_text'
-
-  .col-md-4
-    section
-      h3 = t '.connector_loops_title'
-
-      p
-        = image_tag 'pages/product_info/hammocks/connector_loops_1.jpg'
-        = image_tag 'pages/product_info/hammocks/connector_loops_2.jpg'
-        = t '.connector_loops_text'
-
-section
-  h2 = t '.90_degree_tarp_tent_features_and_naming'
-
-  p = image_tag 'pages/product_info/tarp-tent/tarp-tent.jpg'
-
-section
-  h3 = t '.4_doors_title'
-
-  p
-    = image_tag 'pages/product_info/tarp-tent/4_doors_1.jpg'
-    = image_tag 'pages/product_info/tarp-tent/4_doors_2.jpg'
-    = t '.4_doors_text'
-
-section
-  h3 = t '.bonded_reinforcements_with_line_locs_title'
-
-  p
-    = image_tag 'pages/product_info/tarp-tent/bonded_reinforcements_with_line_locs.jpg'
-    = t '.bonded_reinforcements_with_line_locs_text'
-
-section
-  h3 = t '.guy_lines_title'
-
-  p
-    = image_tag 'pages/product_info/tarp-tent/guy_lines_1.jpg'
-    = image_tag 'pages/product_info/tarp-tent/guy_lines_2.jpg'
-    = t '.guy_lines_text'
-
-section
-  h3 = t '.removable_guy_lines_title'
-
-  p
-    = image_tag 'pages/product_info/tarp-tent/removable_guy_lines_1.jpg'
-    = image_tag 'pages/product_info/tarp-tent/removable_guy_lines_2.jpg'
-    = t '.removable_guy_lines_text'
-
-section
-  h3 = t '.mitten_hook_title'
-
-  p
-    = image_tag 'pages/product_info/tarp-tent/mitten_hook.jpg'
-    = t '.mitten_hook_text'
-
-section
-  h3 = t '.storm_tie_outs_title'
-
-  p
-    = image_tag 'pages/product_info/tarp-tent/storm_tie_outs.jpg'
-    = t '.storm_tie_outs_text'
-
-section
-  h3 = t '.as_a_tent_title'
-
-  p
-    = image_tag 'pages/product_info/tarp-tent/as_a_tent.jpg'
-    = t '.as_a_tent_text'
-
-section
-  h2 = t '.printable_all_in_one_overview'
 
   p
     = fa_icon :search
@@ -172,13 +25,153 @@ section
     .col-md-6
       h3 = t '.90_degree_hammock'
 
-      figure
-        = link_to image_path("pages/product_info/info_#{I18n.locale}.jpg"), target: '_blank' do
+      p = link_to image_path("pages/product_info/info_#{I18n.locale}.jpg"), target: '_blank' do
           = image_tag "pages/product_info/info_#{I18n.locale}.jpg"
 
     .col-md-6
       h3 = t '.90_degree_tarp_tent'
 
-      figure
-        = link_to image_path("pages/product_info/arrangements_#{I18n.locale}.jpg"), target: '_blank' do
+      p = link_to image_path("pages/product_info/arrangements_#{I18n.locale}.jpg"), target: '_blank' do
           = image_tag "pages/product_info/arrangements_#{I18n.locale}.jpg"
+
+/ .row
+/   .col-md-6
+/     section
+/       h3 = t '.ridgeline_with_bottle_holder_title'
+/
+/       p
+/         = image_tag 'pages/product_info/hammocks/ridgeline_with_bottle_holder.jpg'
+/         = t '.ridgeline_with_bottle_holder_text'
+/
+/     section
+/       h3 = t '.two_bug_net_suspenders_title'
+/
+/       p
+/         = image_tag 'pages/product_info/hammocks/two_bug_net_suspenders.jpg'
+/         = t '.two_bug_net_suspenders_text'
+/
+/     section
+/       h3 = t '.bug_bivy_functionality_title'
+/
+/       p = t '.bug_bivy_functionality_text'
+/
+/   .col-md-6
+/     section
+/       h3 = t '.hammock_suspension_ropes_title'
+/
+/       p
+/         = image_tag 'pages/product_info/hammocks/hammock_suspension_ropes.jpg'
+/         = t '.hammock_suspension_ropes_text'
+/
+/     section
+/       h3 = t '.bug_net_title'
+/
+/       p
+/         = image_tag 'pages/product_info/hammocks/bug_net.jpg'
+/         = t '.bug_net_text'
+/
+/ section
+/   h3 = t '.string_suspension_protection_sleeves_title'
+/
+/   p
+/     = image_tag 'pages/product_info/hammocks/string_suspension_protection_sleeves_1.jpg'
+/     = image_tag 'pages/product_info/hammocks/string_suspension_protection_sleeves_2.jpg'
+/     = image_tag 'pages/product_info/hammocks/string_suspension_protection_sleeves_3.jpg'
+/     = t '.string_suspension_protection_sleeves_text'
+/
+/ section
+/   h3 = t '.pad_sleeve_title'
+/
+/   p
+/     = image_tag 'pages/product_info/hammocks/pad_sleeve_1.jpg'
+/     = image_tag 'pages/product_info/hammocks/pad_sleeve_2.jpg'
+/     = t '.pad_sleeve_text_1'
+/
+/   p
+/     = t '.pad_sleeve_text_2'
+/
+/
+/ .row.three_rows
+/   .col-md-4
+/     section
+/       h3 = t '.hammock_body_title'
+/
+/       p
+/         = image_tag 'pages/product_info/hammocks/hammock_body_1.jpg'
+/         = image_tag 'pages/product_info/hammocks/hammock_body_2.jpg'
+/         = t '.hammock_body_text'
+/
+/   .col-md-4
+/     section
+/       h3 = t '.string_suspension_system_title'
+/
+/       p
+/         = image_tag 'pages/product_info/hammocks/string_suspension_system_2.jpg'
+/         = image_tag 'pages/product_info/hammocks/string_suspension_system_1.jpg'
+/         = t '.string_suspension_system_text'
+/
+/   .col-md-4
+/     section
+/       h3 = t '.connector_loops_title'
+/
+/       p
+/         = image_tag 'pages/product_info/hammocks/connector_loops_1.jpg'
+/         = image_tag 'pages/product_info/hammocks/connector_loops_2.jpg'
+/         = t '.connector_loops_text'
+/
+/ section
+/   h2 = t '.90_degree_tarp_tent_features_and_naming'
+/
+/   p = image_tag 'pages/product_info/tarp-tent/tarp-tent.jpg'
+/
+/ section
+/   h3 = t '.4_doors_title'
+/
+/   p
+/     = image_tag 'pages/product_info/tarp-tent/4_doors_1.jpg'
+/     = image_tag 'pages/product_info/tarp-tent/4_doors_2.jpg'
+/     = t '.4_doors_text'
+/
+/ section
+/   h3 = t '.bonded_reinforcements_with_line_locs_title'
+/
+/   p
+/     = image_tag 'pages/product_info/tarp-tent/bonded_reinforcements_with_line_locs.jpg'
+/     = t '.bonded_reinforcements_with_line_locs_text'
+/
+/ section
+/   h3 = t '.guy_lines_title'
+/
+/   p
+/     = image_tag 'pages/product_info/tarp-tent/guy_lines_1.jpg'
+/     = image_tag 'pages/product_info/tarp-tent/guy_lines_2.jpg'
+/     = t '.guy_lines_text'
+/
+/ section
+/   h3 = t '.removable_guy_lines_title'
+/
+/   p
+/     = image_tag 'pages/product_info/tarp-tent/removable_guy_lines_1.jpg'
+/     = image_tag 'pages/product_info/tarp-tent/removable_guy_lines_2.jpg'
+/     = t '.removable_guy_lines_text'
+/
+/ section
+/   h3 = t '.mitten_hook_title'
+/
+/   p
+/     = image_tag 'pages/product_info/tarp-tent/mitten_hook.jpg'
+/     = t '.mitten_hook_text'
+/
+/ section
+/   h3 = t '.storm_tie_outs_title'
+/
+/   p
+/     = image_tag 'pages/product_info/tarp-tent/storm_tie_outs.jpg'
+/     = t '.storm_tie_outs_text'
+/
+/ section
+/   h3 = t '.as_a_tent_title'
+/
+/   p
+/     = image_tag 'pages/product_info/tarp-tent/as_a_tent.jpg'
+/     = t '.as_a_tent_text'
