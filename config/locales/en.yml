@@ -96,7 +96,7 @@ en:
       the_descender_rings_seem: The descender rings seem to damage the suspension ropes
       the_fabric_is_fraying: The fabric is fraying in some places and now I have annoying fibers getting in the way!
       the_hammocks_are_designed: The hammocks are designed to keep an average person horizontally. Depending on your build, however, you might have a center of gravity slightly closer to your feet. In this case your head will be a little bit higher than your feet and there will be a tendency for sliding downslope to-wards your feet. Just gently straighten your legs and push yourself up to the head-end of the hammock.
-      the_models_with_bug_net: The models with bug-net come with two storage pouches. Besides, more storage pouches / stuff bags could easily be attached on the ridgeline or the suspension strings, as goes for your shoes, wet socks and the like. Also, you could hang your backpack onto one of the suspension cords to get it off the wet ground and out of reach from critters.
+      the_models_with_bug_net: The models with bug-net come with two interior pockets. Besides, more pockets / stuff bags could easily be attached on the ridgeline or the suspension strings, as goes for your shoes, wet socks and the like. Also, you could hang your backpack onto one of the suspension cords to get it off the wet ground and out of reach from critters.
       the_shape_of_the_hammock: The shape of the hammock and its slight curve are determined by various factors. Rest assured that it is as flat as you want it, also for sleeping on your side, and as comfortable as it possibly gets the way it is designed.
       the_sleeping_area_can_feel_more_confined: The sleeping area can feel more confined. This can be alleviated to some degree by using a pad inside the pad-sleeve (or in the hammock). If hanged on one overhead point it may also be spread by a bar.
       the_straps_work_with_trees: The straps work with trees of 34 cm (13'') diameter or less. With thicker trees, avoid having the rope next to tree bark, as it may do damage to your rope and possibly the tree. Choose smaller trees or use tree branches to attach your hammock instead. Alternatively, you may purchase a pair of Extension Tree Straps, and attach these onto your first straps.
@@ -248,9 +248,9 @@ en:
       bug_net_title: Bug-Net
       click_on_the_image_to_enlarge_it: Click on the image to enlarge it.
       printable_all_in_one_overview: Printable all-in-one Overview
-      connector_loops_text: Connector loops make it possible to not only use our hammock suspension ropes with de-scender rings, but any other ropes, carabiners, hooks or the like to hang the hammock.
+      connector_loops_text: Connector loops make it possible to not only use our hammock suspension ropes with descender rings, but any other ropes, carabiners, hooks or the like to hang the hammock.
       connector_loops_title: Connector Loops
-      hammock_body_text: Hammock body with lids at the foot and head end and two storage pouches inside for your accessories.
+      hammock_body_text: Hammock body with lids at the foot and head end and two interior pockets for your accessories.
       hammock_body_title: Hammock Body
       hammock_suspension_ropes_text: Hammock Suspension Ropes with tree straps and descender rings let you hang and adjust the hammock quickly, without any knots. Hang the hammock anywhere between two vertical struc-tures 2 to 5.5 m (6 to 18ft) apart, or one overhead horizontal structure (sold seperately).
       hammock_suspension_ropes_title: Hammock Suspension Ropes
@@ -268,7 +268,7 @@ en:
       string_suspension_system_title: String Suspension System
       the_90_degree_hammock_comes_in_several_versions: The 90 Degree Hammock comes in several versions for many different purposes and preferences; and can be combined with our state of the art ultralight 90 Degree Tarp-Tent. This converts the hammock into an all around shelter system for camping pretty much everywhere, even without any trees!
       the_90_degree_hammock_is_unique: 'The 90 Degree Hammock is unique in that you lie in a right angle (90 degrees) to the suspension axis of the hammock. This makes for a super comfortable recline and sleeping with a flat lay, even on your side! It solves two age old hammock design issues that may be holding some people back from using hammocks altogether: The banana lay and the cold back, which can be a challenge in colder areas. And, it is guaranteed no tip!'
-      two_bug_net_suspenders_text: 2 Bug-net suspenders keep the bug-net taut at all times and are ad-justable from inside the hammock.
+      two_bug_net_suspenders_text: 2 Bug-net suspenders keep the bugnet taut at all times and are adjustable from inside the hammock.
       two_bug_net_suspenders_title: Bug-net Suspenders
     shipping_info:
       headline: Shipping Info
@@ -377,7 +377,7 @@ en:
       spacious_bug_net_suspended_by_shock_cord: Spacious bug-net suspended by shock cord, adjustable with cord stoppers, non removable, with zippered entrance
       spacious_ultralight_no_see_um_bug_net: Spacious ultralight No-See-Um bug-net with 155 holes per square Centimeter, suspended by shock cord, adjustable with cord stoppers, non removable, with zippered entrance
       specifications: Specifications
-      storage_pouches: Storage pouches
+      storage_pouches: Interor pockets
       string_suspension_protection_sleeves_with_snap_closures: String suspension protection sleeves with snap closures prevent entanglements while transporting, storing and hanging the hammock.
       stuff_bag: stuff bag
       the_hammock_suspension_strings_of_the_standard_models: The hammock suspension strings of the standard models are made of Nylon and have a certain stretchiness. This makes the hammock very soft and adjusting to individual body proportions.
@@ -388,7 +388,7 @@ en:
       this_is_your_light_small_no_frills_and_affordable_90_degree_hammock: This is your light, small, no frills and affordable 90 Degree Hammock for chilling out and resting on the verandah, at the beach or in the park.
       this_model_comes_with_a_pad_sleeve_underneath_the_lying_surface: This model comes with a pad-sleeve underneath the lying surface. This enables you to insert a camping pad or any other suitable insulating material, such as clothes or a quilt. Best results are achieved with camping pads as long or longer as yourself, since they will not only keep you warm but will also transform the hammock into a very comfortable and spacious bed for sleeping.
       together_with_our_special_lightweight_html: Together with our special lightweight %{hammock_suspension_ropes_and_descender_rings} (sold separately – see accessories) the 90 Degree Hammock can very easily be hanged between trees or other anchor points without any knots.
-      two_bug_net_storage_pouches_inside_the_hammock: Two bug-net storage pouches inside the hammock
+      two_bug_net_storage_pouches_inside_the_hammock: Two bug-net interior pockets inside the hammock
       typical_use_users: Typical use / users
       ultra_light_ul: Ultra light (UL)
       ultra_strong_and_ultralight_dyneema: Ultra strong and ultralight Dyneema SK75 string suspension system
