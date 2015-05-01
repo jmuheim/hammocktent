@@ -5,7 +5,10 @@ en:
   'false': 'No'
   helpers:
     products:
+      excl_vat_and_shipping: excl. %{vat} and shipping
+      for_swiss_customers_only: for Swiss customers only
       price: Price
+      vat: VAT
     video:
       watch_the_video: Watch the video
   layouts:
@@ -230,7 +233,7 @@ en:
       our_cuben_fiber_tarps: Our Cuben Fiber tarps are produced in the USA by an excellent cottage manufacturing contractor that has many years of experience in the production of Cuben Fiber outdoor gear.
       rest_assured: Rest assured that there is no child labor or inhuman working conditions whatsoever and that the hammocks are being manufactured by a few skilled and distinguished Indonesian tailors earning good money with it.
       somewhat_advanced_models: Somewhat advanced models, in action in...
-      switzerland_and_norway: ...Switzerland and Norway, 2008.
+      switzerland_and_norway: "...Switzerland and Norway, 2008."
       the_whole_project: The whole project could benefit from the great Italian artist, philosopher, designer and specialty hammock manufacturer Alberto, who – already in his 70ies – contributed a great deal and is carrying out the near impossible production of the 90 Degree Hammock on his Indonesian home island. He had in fact been tinkering with this kind of hammock design for 20 years and first developed it with Yucatan Indians in Mexico he spent some time with. By replacing some fabric of their traditional hammocks with strings he could improve the visibility from inside the hammock, and make it possible to hang them well hidden high up on some single branch of a tree.
       though_we_could_faintly_imagine: Though we could faintly imagine the potential of camping in hammocks, the trip was mainly a disaster, with us either freezing to near death or having rainwater running down our backs in the middle of the night, or both.
       upon_my_return_to_switzerland: Upon my return to Switzerland I fired up the sewing machine again, just to see that a lot of my ideas that seemed to be so perfect in my head in fact did not work out in reality, or were much more complicated than originally thought. However, I kept on tinkering and trying out ever new solutions, and ended up with what I called a 90 Degree Hammock. A design that was undoubtedly more comfortable and more versatile than anything I'd come up with before, and I reckoned it might be feasible to get it produced, if at great pains.
@@ -241,7 +244,6 @@ en:
       4_doors_text: 4 doors can individually be rolled up or down and tied to the trees or to stakes. Keep them rolled up if there is no wind, or roll them down for all around storm protection.
       4_doors_title: 4 Doors
       90_degree_hammock: 90 Degree Hammock
-      features_and_naming: Features and Naming
       90_degree_tarp_tent: 90 Degree Tarp-Tent
       as_a_tent_text: No trees? Pitch it as a tent on the ground with two hiking poles, sticks or structures around you (bicycles, fence posts etc.) and 10 to 12 stakes. The 90 Degree Hammock Gamma UL can be pitched inside as an inner tent for bug protection.
       as_a_tent_title: As a Tent
@@ -252,10 +254,11 @@ en:
       bug_net_text: Bug-net – makes you laugh at all those mosquitoes outside!
       bug_net_title: Bug-Net
       click_on_the_image_to_enlarge_it: Click on the image to enlarge it.
-      guy_lines_text: Lightweight polypropylene guy lines with loops and end hooks can be quickly attached to stakes, as well as to trees, branches, roots and whatever is already there around you; quickly and without any knots.
-      guy_lines_title: Guy Lines
       connector_loops_text: Connector loops make it possible to not only use our hammock suspension ropes with descender rings, but any other ropes, carabiners, hooks or the like to hang the hammock.
       connector_loops_title: Connector Loops
+      features_and_naming: Features and Naming
+      guy_lines_text: Lightweight polypropylene guy lines with loops and end hooks can be quickly attached to stakes, as well as to trees, branches, roots and whatever is already there around you; quickly and without any knots.
+      guy_lines_title: Guy Lines
       hammock_body_text: Hammock body with lids at the foot and head end and two interior pockets for your accessories.
       hammock_body_title: Hammock Body
       hammock_suspension_ropes_text: Hammock Suspension Ropes with tree straps and descender rings let you hang and adjust the hammock quickly, without any knots. Hang the hammock anywhere between two vertical struc-tures 2 to 5.5 m (6 to 18ft) apart, or one overhead horizontal structure (sold seperately).
@@ -308,6 +311,7 @@ en:
       manufacturer_details: Manufacturer's details
       material: Material
       per_meter: per meter
+      per_pair: per pair
       polyester_tree_straps: 3 x 115 cm (1.2'' x 45'') polyester tree straps protect the bark of the tree from getting incised and the rope from wear
       polypropylene: polypropylene
       polypropylene_slit_line: 2 x 5 m 8 mm polypropylene Slit Line, with slits for hooking carabiners every 9 cm
@@ -373,6 +377,7 @@ en:
       hikers_backpackers_and_cyclists_in_hot_areas: Hikers, backpackers and cyclists in hot areas or with different insulation preferences
       hikers_backpackers_cyclists: Hikers, backpackers, cyclists, any- one concerned with pack size and weight
       in_addition_to_all_other_features: In addition to all other features this version comes with a non removable bug-net with a zippered entrance at the foot end. The pad-sleeve remains accessible from the inside of the hammock at the head end.
+      interior_pockets: Interor pockets
       know_how_section: know-how section
       learn_more_about_how_to_use_our_hammocks_html: Learn more about how to use our hammocks in the %{know_how_section} of this webpage.
       lids_at_the_head_and_foot_end_of_the_hammock: Lids at the head and foot end of the hammock make you and everything you have in the hammock stay inside.
@@ -389,7 +394,6 @@ en:
       spacious_bug_net_suspended_by_shock_cord: Spacious bug-net suspended by shock cord, adjustable with cord stoppers, non removable, with zippered entrance
       spacious_ultralight_no_see_um_bug_net: Spacious ultralight No-See-Um bug-net with 155 holes per square Centimeter, suspended by shock cord, adjustable with cord stoppers, non removable, with zippered entrance
       specifications: Specifications
-      interior_pockets: Interor pockets
       string_suspension_protection_sleeves_with_snap_closures: String suspension protection sleeves with snap closures prevent entanglements while transporting, storing and hanging the hammock.
       stuff_bag: stuff bag
       the_hammock_suspension_strings_of_the_standard_models: The hammock suspension strings of the standard models are made of Nylon and have a certain stretchiness. This makes the hammock very soft and adjusting to individual body proportions.
