@@ -288,7 +288,43 @@ de:
     shipping_info:
       headline: Versand Info
     terms_and_conditions:
+      after_the_deadline_of_30_days: 'TRANSLATE: After the deadline of 30 days the customer will be in default. The vendor will charge 5% default interest of the purchasing price, subject to additional claims. Default of the customer will take effect with the expiry of the deadline, without any reminders.'
+      all_prices_are_to_be_understood: 'TRANSLATE: All prices are to be understood in Swiss Francs (CHF) and are net prices quoted without VAT and shipping costs. Binding are the valid catalog prices of the vendor on the day of delivery.'
+      any_special_or_general_terms: 'TRANSLATE: Any special or general terms contradicting these terms and conditions will not be accepted by the vendor and have no validity in the contract between the vendor and the customer. Individual arrangements will be considered prior to these terms and conditions.'
+      applicable_law_place_of_jurisdiction: 'TRANSLATE: 11. Applicable law, place of jurisdiction'
+      billing_amounts_are_to_be_paid: 'TRANSLATE: Billing amounts are to be paid net cash within 30 days after date of invoice free of postage and expense, unless other arrangements have been agreed upon in writing. The customer is not authorized to bill any counterclaims.'
+      contract_formation: 'TRANSLATE: 2. Contract formation'
+      data_privacy: 'TRANSLATE: 10. Data privacy'
+      dates_of_delivery: 'TRANSLATE: 6. Dates of delivery'
+      deferring_arrangements: 'TRANSLATE: Deferring arrangements are accepted only if agreed upon explicitly in writing by both the vendor and the customer. By ordering and / or paying for products on the website of the vendor the customer fully accepts these terms and conditions.'
+      deliveries: 'TRANSLATE: 5. Deliveries'
+      general: 'TRANSLATE: 1. General'
       headline: Allgemeine Geschäftsbedingungen
+      if_the_customer_makes_justified_warranty_claims: 'TRANSLATE: If the customer makes justified warranty claims the vendor can, at his option, refund the purchasing price or deliver a replacement. Further claims, particularly damage claims including lost profits and pecuniary damages, are completely disqualified, unless the cause of the damage can be traced to criminal intent or gross negligence of the vendor.'
+      if_the_vendor_can_not_comply: 'TRANSLATE: If the vendor can not comply with his delivery obligations due to operating troubles, a lack of workforce, strike, supplies interruption, fire damage, warfare, regulatory disposal, significant changes in currency conversions, acts of nature and other factors beyond the vendor''s control the vendor will be exempt from delivery obligations.'
+      offers: 'TRANSLATE: Offers are, unless limited in time, always non binding until contract formation, particularly in regards to prices, delivery obligations, quantities and times.'
+      oral_agreement: 'TRANSLATE: Oral agreement, payment for, or delivery of goods and services brings into existence a legally binding contract between the customer and the vendor on these terms at hand or documented individual arrangements.'
+      payments: 'TRANSLATE: 7. Payments'
+      place_of_delivery: 'TRANSLATE: Place of delivery is the place of business of the vendor. Transporting risks are transferred to the customer with the handover of the goods to the postal or parcel service, carrier or freight forwarder; or with the goods leaving the vendors premises. Costs for packaging and shipping of goods will be billed to the customer.'
+      possible_defects_must_be_reported: 'TRANSLATE: Possible defects must be reported to the vendor immediately, within 3 days of receipt, in writing or by email.'
+      prices: 'TRANSLATE: 4. Prices'
+      products_can_be_subject_to_change: 'TRANSLATE: Products can be subject to change without notice, which includes their color, shape or weight. Product specifications can slightly defer from the information given on the website.'
+      safety: 'TRANSLATE: 9. Safety'
+      specific_dates_of_delivery: 'TRANSLATE: Specific dates of delivery are not stipulated. Any stated delivery times are meant to provide guidance only. The customer is required to accept delivered goods.'
+      the_customer_agrees: 'TRANSLATE: The customer agrees with data storage and use by the vendor.'
+      the_customer_can_only_deduce_compensation: 'TRANSLATE: The customer can only deduce compensation for delayed or deferred deliveries if the vendor can be blamed with criminal intent or gross negligence. In case the vendor should be obliged to pay compensation the amount will be limited to the net invoice value. Lost profits, damages due to supply shortage or damages to third parties will not be compensated.'
+      the_customer_can_withdraw_from_the_contract: 'TRANSLATE: by contacting the vendor via email and then returning the unused products according to the instructions of the vendor in their original state and packaging at his own cost and risk within 20 days after payment or order submission. The vendor will fully or partially refund the customer, depending on the conditions of the returned products as determined by the vendor.'
+      the_terms_and_conditions: 'TRANSLATE: The terms and conditions and the legal relationship between the vendor and the customer are amenable to Swiss law. Exclusive place of jurisdiction is the place of business of the vendor.'
+      the_use_of_hammocks: 'TRANSLATE: The use of hammocks is inherently associated with dangers. The customer agrees that he is using the hammocks of the vendor at his own risk and is obliged to always use common sense and good judgement to ensure his safety. This includes checking all product components for wear and aging before every use, and replacing / repairing these components if needed. Hammocks should not be hanged more than 50 cm above the ground, which has to be flat and soft; and not above or under dangerous objects. Trees that could drop limbs or parts thereof are to be avoided as anchor / hanging points for hammocks. The safety and strength of a hanged hammock has to be tested thoroughly in a seated position each time before lying down. Minors using the hammocks of the vendor are to be supervised at all times.'
+      the_vendor_adopts_all_reasonable_measures: 'TRANSLATE: The vendor adopts all reasonable measures to protect stored data. However, third party access to data stored by the vendor or his contractors does not imply liability of the vendor or his contractors.'
+      the_vendor_is_entitled_to_withdraw: 'TRANSLATE: The vendor is entitled to withdraw from any contract at any time in case of mistakes or inaccuracies on the website. In this case the vendor may inform the customer about any changes and may ask if the customer wishes to continue with the order, or to cancel the order.'
+      the_vendor_must_receive_payment: 'TRANSLATE: The vendor must receive payment in full for ordered products and services before the order can be accepted and the contract formed.'
+      the_vendor_uses_customer_data: 'TRANSLATE: The vendor uses customer data solely for the fulfillment of offered services in accordance with the contract and applicable laws.'
+      the_vendor_warrants_the_delivery: 'TRANSLATE: The vendor warrants the delivery of products free of material defects and defects of title.'
+      the_warranty_period: 'TRANSLATE: The warranty period is 1 year from delivery. The warranty period starts with the delivery to the customer. The vendor is not liable for damages that happen after delivery because of non compliance with instructions for use and care of the products or because of exceeding recommended maximum loads for hammocks. The vendor is not liable for damages caused by inappropriate use and wear of the products. The customer is obliged to demonstrate that the product was deficient at the time of delivery.'
+      these_terms_and_conditions: 'TRANSLATE: These terms and conditions apply for all services and products rendered, delivered or sold by HammockTent GmbH (hereinafter referred to as "vendor") to the customer or vendee.'
+      warranty: 'TRANSLATE: 8. Warranty'
+      withdrawal_from_the_contract: 'TRANSLATE: 3. Withdrawal from the contract'
   products:
     accessories:
       and: und
