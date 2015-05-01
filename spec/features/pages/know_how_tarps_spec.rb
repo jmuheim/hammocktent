@@ -7,7 +7,7 @@ describe 'Showing "Know How: Tarps" page' do
     within 'main' do
       expect(page).to have_content 'How to pitch the 90 Degree Tarp-Tent above the hammock'
       expect(page).to have_content 'How to pitch the 90 Degree Tarp-Tent on the ground'
-      expect(page).to have_content 'Tipps and Tricks: How to keep the guy lines tidy'
+      expect(page).to have_content 'Tips and Tricks: How to keep the guy lines tidy'
     end
   end
 
