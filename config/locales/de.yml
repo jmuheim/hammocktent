@@ -286,7 +286,13 @@ de:
       two_bug_net_suspenders_text: 2 Moskitonetzaufhängungen behalten es straff und sind justierbar vom Hängematteninneren.
       two_bug_net_suspenders_title: Moskitonetzaufhängungen
     shipping_info:
+      a_flat_rate_shipping_fee: 'TRANSLATE: A flat rate shipping fee of CHF 15.00 will be added to your order, regardless of your shipping address. All orders are sent by Swiss Post and delivered to you by your country''s postal service. Tracking is not always possible; if so we''ll email you a tracking number.'
+      delivery_time: 'TRANSLATE: Delivery Time'
       headline: Versand Info
+      orders_from_outside_switzerland: 'TRANSLATE: Orders from outside Switzerland'
+      orders_from_outside_switzerland_may_be_subject: 'TRANSLATE: Orders from outside Switzerland may be subject to additional import charges (customs fees, VAT). Please check the regulations of your country / your postal service; and please be aware that in some EU countries VAT is very high (20% or more). Please also note that you may have to pay these in cash upon delivery, or that you might even have to go pick up the package yourself at the customs / post office.'
+      shipping_costs: 'TRANSLATE: Shipping Costs'
+      we_kindly_ask_for_your_patience: 'TRANSLATE: We kindly ask for your patience as it may take up to 4 weeks to receive your order. Please report back to us if you have not received it after 5 weeks, and we''ll find it for you or send it again. This may take another 4 weeks or more.'
     terms_and_conditions:
       after_the_deadline_of_30_days: 'TRANSLATE: After the deadline of 30 days the customer will be in default. The vendor will charge 5% default interest of the purchasing price, subject to additional claims. Default of the customer will take effect with the expiry of the deadline, without any reminders.'
       all_prices_are_to_be_understood: 'TRANSLATE: All prices are to be understood in Swiss Francs (CHF) and are net prices quoted without VAT and shipping costs. Binding are the valid catalog prices of the vendor on the day of delivery.'
