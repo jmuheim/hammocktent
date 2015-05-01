@@ -5,10 +5,10 @@ de:
   'false': Nein
   helpers:
     products:
-      excl_vat_and_shipping: 'TRANSLATE: TRANSLATE: '
-      for_swiss_customers_only: 'TRANSLATE: TRANSLATE: '
+      excl_vat_and_shipping: exkl. %{vat} und Versand
+      for_swiss_customers_only: nur für Schweizer Kunden
       price: Preis
-      vat: 'TRANSLATE: TRANSLATE: '
+      vat: MWST
     video:
       watch_the_video: Video anschauen
   layouts:
@@ -237,18 +237,18 @@ de:
       the_whole_project: Das Projekt konnte vom grossen Italienischen Künstler, Philosophen, Desig-ner und Spezialhängemattenproduzenten Alberto profitieren, der – bereits in seinen 70ern – viel dazu beigetragen hat und die fast unmögliche Produktion auf seiner Indonesischen Heimatinsel durchführt. Er hat bereits seit 20 Jahren mit diesem Design experimentiert und es in Yucatan, Mexico, mit Eingeborenen entwickelt. Indem ein Teil des Stoffes durch Schnüre ersetzt wurden konnte die Sicht aus der Hängematte verbessert werden; und das Aufhängen hoch in einem Baum an einem Ast ermöglicht.
       though_we_could_faintly_imagine: Obwohl wir uns das Potential des Campierens mit Hängematten ansatzweise vorstellen konnten war die Tour ein ziemliches Desaster. Entweder froren wir uns einen ab, oder Regenwasser lief uns mitten in der Nacht den Rücken herunter, oder beides.
       upon_my_return_to_switzerland: Nach meiner Rückkehr in die Schweiz heizte ich die Nähmaschine noch einmal ein, nur um zu sehen, dass viele meiner Ideen in der Realität nicht funktionierten, oder viel komplizierter als angenommen waren. Wie auch immer, ich tüftelte weiter und gelangte schliesslich zum "90 Grad Hängematte" genannten Design. Dieses war bequemer und vielseitiger als alles zuvor und ich dachte, dass es produziert werden könnte, wenn auch mit grossem Aufwand.
-      years_later_in_2010: Jahre später, im 2010, dachte ich, dass meine neuste Entwicklung eigentlich gar nicht so schlecht war, und stellte es der Schweizer Outdoor Firma Exped vor. Nach viel Arbeit re-sultierte daraus Exped's Ergo Hammock, die 2011 einen Design-Award an der Outdoor-Messe Friedrichshafen erhielt und 2012 herausgegeben wurde.
+      years_later_in_2010: Jahre später, im 2010, dachte ich, dass meine neuste Entwicklung eigentlich gar nicht so schlecht war, und stellte es der Schweizer Outdoor Firma Exped vor. Nach viel Arbeit resultierte daraus Exped's Ergo Hammock, die 2011 einen Design-Award an der Outdoor-Messe Friedrichshafen erhielt und 2012 herausgegeben wurde.
     out_of_stock:
       headline: Produkt nicht an Lager
     product_info:
-      4_doors_text: 'TRANSLATE: 4 doors can individually be rolled up or down and tied to the trees or to stakes. Keep them rolled up if there is no wind, or roll them down for all around storm protection.'
-      4_doors_title: 'TRANSLATE: 4 Doors'
+      4_doors_text: 4 Türen können individuell herauf- oder heruntergerollt und an die Bäume oder Heringe abgespannt werden. Behalte sie aufgerollt wenn es nicht windet, und roll sie herunter für Rundum-Sturmschutz.
+      4_doors_title: 4 Türen
       90_degree_hammock: 90 Grad Hängematte
       90_degree_tarp_tent: 90 Grad Tarp-Zelt
-      as_a_tent_text: 'TRANSLATE: No trees? Pitch it as a tent on the ground with two hiking poles, sticks or structures around you (bicycles, fence posts etc.) and 10 to 12 stakes. The 90 Degree Hammock Gamma UL can be pitched inside as an inner tent for bug protection.'
-      as_a_tent_title: 'TRANSLATE: As a Tent'
-      bonded_reinforcements_with_line_locs_text: 'TRANSLATE: All 6 tie-outs have bonded reinforcements and are equipped with LineLocs. These enable you to tighten and readjust them at any time from underneath the sheltered area of the 90 Degree Tarp-Tent.'
-      bonded_reinforcements_with_line_locs_title: 'TRANSLATE: Bonded Reinforcements with LineLocs'
+      as_a_tent_text: Keine Bäume? Stelle es am Boden als Zelt auf, mit zwei Trekkingstöcken, Stecken oder Strukturen in der Umge-bung (Velos, Zaunpfosten etc.) und 10 bis 12 Heringen. Die 90 Grad Hängematte Gamma UL als Innenzelt darin aufgehängt werden.
+      as_a_tent_title: Als Zelt
+      bonded_reinforcements_with_line_locs_text: Alle 6 Abspannpunkte weisen geklebte Verstärkungen auf und sind mit LineLocs ausgerüstet. Diese erlauben jederzeit das Nachspan-nen / justieren von innerhalb der geschützten Fläche des 90 Grad Tarp-Zelts.
+      bonded_reinforcements_with_line_locs_title: Verstärkte Abspannpunket mit LineLocs
       bug_bivy_functionality_text: 4 Elastikkordeln für die Insektenbiwak Funktionalität – stelle die Hängematte am Boden auf, entweder im Tarp-Zelt oder separat mit zwei Trekkingstöcken und 6 Heringen.
       bug_bivy_functionality_title: Moskitobiwak-Funktionalität
       bug_net_text: Moskitonetz – lache über all die Mücken da draussen!
@@ -257,26 +257,26 @@ de:
       connector_loops_text: Verbindungsschlaufen ermöglichen das Aufhängen nicht nur mit unseren Aufhängeseilen mit Descender-Ringen, sondern auch jegliche andere Seile, Karabiner, Hacken usw.
       connector_loops_title: Verbindungsschlaufen
       features_and_naming: Eigenschaften und Namensgebung
-      guy_lines_text: 'TRANSLATE: Lightweight polypropylene guy lines with loops and end hooks can be quickly attached to stakes, as well as to trees, branches, roots and whatever is already there around you; quickly and without any knots.'
-      guy_lines_title: 'TRANSLATE: Guy Lines'
+      guy_lines_text: Leichte Polypropylen-Abspannleinen mit Endschlaufen und -Hacken können rasch und ohne Knoten an Heringe, sowie Bäume, Äste, Wurzeln und was auch immer sich um dich befindet befestigt werden.
+      guy_lines_title: Abspannleinen
       hammock_body_text: Hängemattenfläche mit Deckeln am Fuss- und Kopfende und zwei Innentaschen für deine Accessoires.
       hammock_body_title: Hängemattenfläche
       hammock_suspension_ropes_text: Hängematten-Aufhängeseile mit Baumgurten und Descender-Ringen lassen dich die Hängematte schnell aufhängen und justieren, ohne Knoten. Hänge sie zwischen zwei vertikale 2 bis 5.5 m voneinander entfernte Strukturen, oder an eine sich über Kopfhöhe befindende horizontale Struktur.
       hammock_suspension_ropes_title: Hängematten-Aufhängeseile
       headline: Produkt Info
       if_you_intend_to_camp_in_the_outdoors: Wenn du mit der 90 Grad Hängematte draussen campieren willst empfiehlt sich die Kombination unserem high-tech ultraleicht cuben fiber 90 Grad Tarp-Zelt. Dieses bietet dir Schutz vor Regen und einen trockenen Raum um zu kochen und deine Ausrüstung auszupacken. Das 90 Grad Tarp-Zelt hat 4 Türen die heruntergerollt werden können für Rundumschutz bei stürmischem Wetter und um es mit zwei Trekkingstöcken oder Stecken am Boden als Zelt aufstellen zu können.
-      mitten_hook_text: 'TRANSLATE: Mitten hook to hang the bug-net of the 90 Degree Ham-mock in tent mode.'
-      mitten_hook_title: 'TRANSLATE: Mitten Hook'
+      mitten_hook_text: Aufhängehaken um das Moskitonetz der 90 Grad Hängematte im Zeltmodus aufhängen zu können.
+      mitten_hook_title: Aufhängehaken
       note_not_all_models: 'Beachte: nicht alle Modelle sind mit all diesen Features ausgerüstet. Bitte vergleiche die Prudukte-Seite.'
       pad_sleeve_text_1: Mattenärmel mit Reissverschlussöffnung am Fussende und Zugang vom Inneren der Hängematte. Schiebe eine Campingmatte hinein und die 90 Grad Hängematte wird wunderbar geräumig, komfortabel und warm!
-      pad_sleeve_text_2: Bodenisolation ist sehr wichtig, wenn du vorhast in der Hängematte zu schla-fen. Wenn du schon mal eine Nacht in einer Hängematte verbracht hast weisst du, dass es von unten sehr kalt sein kann, sobald die Temperatur unter 25° C oder so fällt – ein Phänomen das als "cold butt syndrome" unter Hängematten-Campierern bekannt ist. Dies rührt daher, dass dein Schlafsack unter deinem Körper komprimiert ist und somit kaum isoliert, sowie aufgrund des Körperwärmeverlustes durch Wind.
+      pad_sleeve_text_2: Bodenisolation ist sehr wichtig, wenn du vorhast in der Hängematte zu schlafen. Wenn du schon mal eine Nacht in einer Hängematte verbracht hast weisst du, dass es von unten sehr kalt sein kann, sobald die Temperatur unter 25° C oder so fällt – ein Phänomen das als "cold butt syndrome" unter Hängematten-Campierern bekannt ist. Dies rührt daher, dass dein Schlafsack unter deinem Körper komprimiert ist und somit kaum isoliert, sowie aufgrund des Körperwärmeverlustes durch Wind.
       pad_sleeve_title: Mattenärmel
-      removable_guy_lines_text: 'TRANSLATE: 2 removable guy lines with mini biners can be used to tie down the doors or the storm tie outs.'
-      removable_guy_lines_title: 'TRANSLATE: Removable Guy Lines'
+      removable_guy_lines_text: 2 wegnehmbare Abspannleinen mit Mini-Karabinern können für die Türen oder die Schturmabspannpunkte verwendet werden.
+      removable_guy_lines_title: Wegnehmbare Abspannleinen
       ridgeline_with_bottle_holder_text: Justierbare Ridgeline mit Flaschenhalter – trinke oder putze die Zähne, in der Hängematte sitzend.
       ridgeline_with_bottle_holder_title: Ridgeline mit Flaschenhalter
-      storm_tie_outs_text: 'TRANSLATE: 2 additional storm tie outs in the central area.'
-      storm_tie_outs_title: 'TRANSLATE: Storm Tie Outs'
+      storm_tie_outs_text: 2 zusätzliche Schturmabspannpunkte in der zentralen Fläche.
+      storm_tie_outs_title: Sturmabspannpunkte
       string_suspension_protection_sleeves_text: Schnuraufhängung-Schutzärmel mit Druckknöpfen verhindern Schnurgewirre wenn die Hängematte nicht gebraucht wird.
       string_suspension_protection_sleeves_title: Schnuraufhängung-Schutzärmel
       string_suspension_system_text: Ein Computer designtes Schnuraufhängesystem entfaltet eine fast flache Hängemattenfläche, in einem 90 Grad Winkel zur Aufhängeachse.
