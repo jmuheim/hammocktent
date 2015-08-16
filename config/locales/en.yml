@@ -450,7 +450,7 @@ en:
       specifications: Specifications
       stuff_bag: stuff bag
       the_depicted_hammock_is_not_part_of_the_tarp_tent: 'Note: the depicted hammock is not part of the Tarp Tent and can be ordered separately.'
-      ultralight_titanium_stakes_are_sold_separately_html: Ultralight titanium stakes are sold separately (%{accessories}) (%{accessories})'
+      ultralight_titanium_stakes_are_sold_separately_html: Ultralight titanium stakes are sold separately (%{accessories})
       weight: Weight
   'true': 'Yes'
   users:
