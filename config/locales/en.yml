@@ -395,7 +395,7 @@ en:
       reinforced_tie_out_loops_with_guy_lines: Reinforced tie out loops with guy lines
       specifications: Specifications
       stuff_bag: stuff bag
-      ultralight_titanium_stakes_are_sold_separately_html: Ultralight titanium stakes are sold separately (%{accessories}) (%{accessories})'
+      ultralight_titanium_stakes_are_sold_separately_html: Ultralight titanium stakes are sold separately (%{accessories})
       weight: Weight
   'true': 'Yes'
   users:
