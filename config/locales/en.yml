@@ -33,12 +33,16 @@ en:
       headline: About HammockTent
     cancel_checkout:
       headline: Checkout cancelled
+      not_convinced_yet?: Not convinced yet?
+      please_drop_us_a_line_html: Please drop us a line to %{mail} if you have any questions or feedback. We are happy to talk to you!
     contact:
       any_questions_issues_or_feedback_html: 'Any questions, issues, or feedback? Please check our know-how and FAQ section and if you can''t find the answer contact: %{email}.'
       headline: Contact
       please_excuse_late_replies: Please excuse late replies as we might happen to be out hiking...
     finish_checkout:
       headline: Thank you!
+      thank_you_for_buying_our_products: Thank you for buying our products. Your transaction has been completed, and a receipt for your purchase has been emailed to you (please also check your spam folder if necessary).
+      you_may_log_into_your_account_at_paypal_html: You may log into your account at %{paypal} to view details of this transaction.
     home:
       a_hammock_you_can_comfortably_sleep: A hammock you can comfortably sleep a whole night in, even on your side!
       always_have_that_extra_bed_for_guests: Always have that extra bed for guests in the house that is not in your way.
@@ -240,6 +244,8 @@ en:
       years_later_in_2010: Years later in 2010 I thought that my latest model was actually not too bad, and I approached Swiss outdoor company Exped with it. After a lot of work this resulted in Exped's Ergo Hammock that won a design award at the Outdoor Trade Show in Friedrichshafen Germany in 2011, and was released in 2012.
     out_of_stock:
       headline: Product out of Stock
+      please_drop_us_a_line_html: Please drop us a line to %{mail} if you have any questions or feedback. We are happy to talk to you!
+      the_selected_item_is_out_of_stock: We are sorry, but the selected item is out of stock.
     product_info:
       90_degree_hammock: 90 Degree Hammock
       90_degree_tarp_tent: 90 Degree Tarp-Tent

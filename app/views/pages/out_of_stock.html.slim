@@ -4,6 +4,6 @@ section.headline
 section
   .row
     .col-md-12
-      p We are sorry, but the selected item is out of stock.
+      p = t '.the_selected_item_is_out_of_stock'
 
-      p Please drop us a line to #{mail_to('info@hammocktent.com', nil, encode: 'javascript')}, and we will inform you, when there's new stock available.
+      p = t '.please_drop_us_a_line_html', mail: mail_to('info@hammocktent.com', nil, encode: 'javascript')

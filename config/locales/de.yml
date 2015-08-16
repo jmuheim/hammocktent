@@ -33,12 +33,16 @@ de:
       headline: "Über Hammock Tent"
     cancel_checkout:
       headline: Checkout abgebrochen
+      not_convinced_yet?: Noch nicht überzeugt?
+      please_drop_us_a_line_html: Bitte schreiben Sie uns ein paar Zeilen auf %{mail}, falls Sie Fragen oder Feedback haben. Wir freuen uns, mit Ihnen zu reden!
     contact:
       any_questions_issues_or_feedback_html: 'Fragen, Schwierigkeiten, Feedback? Bitte studiere zuerst den Know-How und FAQ Teil der Webseite, und wenn du nichts finden kannst kontaktiere: %{email}.'
       headline: Kontakt
       please_excuse_late_replies: Entschuldige späte Antworten, da wir wahrscheinlich draussen am Wandern sind...
     finish_checkout:
       headline: Besten Dank!
+      thank_you_for_buying_our_products: Herzlichen Dank für das Bestellen unserer Produkte. Ihre Transaktion wurde abgeschlossen und ein Beleg für Ihre Bestellung wurde Ihnen per Mail zugestellt (bitte überprüfen Sie Ihren Spam-Ordner, falls nötig).
+      you_may_log_into_your_account_at_paypal_html: Sie können sich einloggen in Ihr Konto bei %{paypal} um Ihre Transaktionen einzusehen.
     home:
       a_hammock_you_can_comfortably_sleep: Eine Hängematte, in der du komfortabel die ganze Nacht schlafen kannst, sogar auf deiner Seite!
       always_have_that_extra_bed_for_guests: Habe immer ein Gästebett im Haus, das nicht im Weg steht.
@@ -240,6 +244,8 @@ de:
       years_later_in_2010: Jahre später, im 2010, dachte ich, dass meine neuste Entwicklung eigentlich gar nicht so schlecht war, und stellte es der Schweizer Outdoor Firma Exped vor. Nach viel Arbeit resultierte daraus Exped's Ergo Hammock, die 2011 einen Design-Award an der Outdoor-Messe Friedrichshafen erhielt und 2012 herausgegeben wurde.
     out_of_stock:
       headline: Produkt nicht an Lager
+      please_drop_us_a_line_html: Bitte schreiben Sie uns ein paar Zeilen auf %{mail}, falls Sie Fragen oder Feedback haben. Wir freuen uns, mit Ihnen zu reden!
+      the_selected_item_is_out_of_stock: Es tut uns leid, aber das gewählte Produkt ist zur Zeit nicht an Lager.
     product_info:
       90_degree_hammock: 90 Grad Hängematte
       90_degree_tarp_tent: 90 Grad Tarp-Zelt
