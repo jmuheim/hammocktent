@@ -80,8 +80,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw] # Timezone Data for T
 
 gem 'rollbar' # Exception tracking
 
-gem 'skrollr-rails' # JavaScript parallax scrolling library
-
 group :doc do
   gem 'sdoc', require: false # bundle exec rake doc:rails generates the API under doc/api.
 end

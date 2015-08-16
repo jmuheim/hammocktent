@@ -13,10 +13,6 @@
 #= require bootstrap-formhelpers
 #= require jasny-bootstrap
 #= require fancybox
-#= require skrollr
-#= require skrollr.ie
-#= require skrollr.menu
-#= require skrollr.stylesheets
 #
 #= require_self
 #
