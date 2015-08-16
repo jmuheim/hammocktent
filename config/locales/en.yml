@@ -241,58 +241,22 @@ en:
     out_of_stock:
       headline: Product out of Stock
     product_info:
-      4_doors_text: 4 doors can individually be rolled up or down and tied to the trees or to stakes. Keep them rolled up if there is no wind, or roll them down for all around storm protection.
-      4_doors_title: 4 Doors
       90_degree_hammock: 90 Degree Hammock
       90_degree_tarp_tent: 90 Degree Tarp-Tent
-      as_a_tent_text: No trees? Pitch it as a tent on the ground with two hiking poles, sticks or structures around you (bicycles, fence posts etc.) and 10 to 12 stakes. The 90 Degree Hammock Gamma UL can be pitched inside as an inner tent for bug protection.
-      as_a_tent_title: As a Tent
-      bonded_reinforcements_with_line_locs_text: All 6 tie-outs have bonded reinforcements and are equipped with LineLocs. These enable you to tighten and readjust them at any time from underneath the sheltered area of the 90 Degree Tarp-Tent.
-      bonded_reinforcements_with_line_locs_title: Bonded Reinforcements with LineLocs
-      bug_bivy_functionality_text: Shock cord tie outs for bug-bivy functionality – pitch the hammock on the ground, either inside the tarp-tent or separately with two hiking poles.
-      bug_bivy_functionality_title: Bug-Bivy Functionality
-      bug_net_text: Bug-net – makes you laugh at all those mosquitoes outside!
-      bug_net_title: Bug-Net
       click_on_the_image_to_enlarge_it: Click on the image to enlarge it.
-      connector_loops_text: Connector loops make it possible to not only use our hammock suspension ropes with descender rings, but any other ropes, carabiners, hooks or the like to hang the hammock.
-      connector_loops_title: Connector Loops
       features_and_naming: Features and Naming
-      guy_lines_text: Lightweight polypropylene guy lines with loops and end hooks can be quickly attached to stakes, as well as to trees, branches, roots and whatever is already there around you; quickly and without any knots.
-      guy_lines_title: Guy Lines
-      hammock_body_text: Hammock body with lids at the foot and head end and two interior pockets for your accessories.
-      hammock_body_title: Hammock Body
-      hammock_suspension_ropes_text: Hammock Suspension Ropes with tree straps and descender rings let you hang and adjust the hammock quickly, without any knots. Hang the hammock anywhere between two vertical struc-tures 2 to 5.5 m (6 to 18ft) apart, or one overhead horizontal structure (sold seperately).
-      hammock_suspension_ropes_title: Hammock Suspension Ropes
       headline: Product info
-      if_you_intend_to_camp_in_the_outdoors: If you intend to camp in the outdoors with the 90 Degree Hammock you may want to combine it with our high tech ultralight cuben fiber 90 Degree Tarp-Tent. It gives you protection from the rain and an area of shelter for cooking and arranging your gear. The 90 Degree Tarp-Tent features doors that can be rolled down for all around protection in the event of stormy weather and for pitching it as a tent on the ground with two hiking poles or sticks.
-      mitten_hook_text: Mitten hook to hang the bug-net of the 90 Degree Hammock in tent mode.
-      mitten_hook_title: Mitten Hook
       note_not_all_models: 'Note: not all models are equipped with all of these features. Please see the "products" section.'
-      pad_sleeve_text_1: Pad-sleeve with a zippered foot-side opening and a zippered access from inside the hammock. Insert a camping pad and the 90 Degree Hammock will get ridiculously spacious, comfortable and warm!
-      pad_sleeve_text_2: Bottom insulation is very important if you intend to sleep in a hammock. If you have ever spent a night in a hammock you will know that it can be very cold from underneath as soon as the temperature drops below 25 Degrees C (77 Degrees F) or so – a phenomenon known as the "cold butt syndrome" by hammock campers. This is due to the fact that your sleeping bag is com-pressed below your body and thus does not offer any insulation, as well as the fact that any body heat is instantly gone with the wind (wind chill).
-      pad_sleeve_title: Pad-Sleeve
-      removable_guy_lines_text: 2 removable guy lines with mini biners can be used to tie down the doors or the storm tie outs.
-      removable_guy_lines_title: Removable Guy Lines
-      ridgeline_with_bottle_holder_text: Adjustable ridgeline with bottle holder – drink or brush your teeth sitting inside the hammock.
-      ridgeline_with_bottle_holder_title: Ridgeline with Bottle Holder
-      storm_tie_outs_text: 2 additional storm tie outs in the central area.
-      storm_tie_outs_title: Storm Tie Outs
-      string_suspension_protection_sleeves_text: String suspension protection sleeves with snap closures prevent entanglements when the hammock is not in use.
-      string_suspension_protection_sleeves_title: String Suspension Protection Sleeves
-      string_suspension_system_text: Computer designed string suspension system unfolds a nearly flat and very comfortable hammock body, in a 90 degree angle to the suspension axis.
-      string_suspension_system_title: String Suspension System
       the_90_degree_hammock_comes_in_several_versions: The 90 Degree Hammock comes in several versions for many different purposes and preferences; and can be combined with our state of the art ultralight 90 Degree Tarp-Tent. This converts the hammock into an all around shelter system for camping pretty much everywhere, even without any trees!
       the_90_degree_hammock_is_unique: 'The 90 Degree Hammock is unique in that you lie in a right angle (90 degrees) to the suspension axis of the hammock. This makes for a super comfortable recline and sleeping with a flat lay, even on your side! It solves two age old hammock design issues that may be holding some people back from using hammocks altogether: The banana lay and the cold back, which can be a challenge in colder areas. And, it is guaranteed no tip!'
-      two_bug_net_suspenders_text: 2 Bug-net suspenders keep the bugnet taut at all times and are adjustable from inside the hammock.
-      two_bug_net_suspenders_title: Bug-net Suspenders
     shipping_info:
-      headline: Shipping Info
-      shipping_costs: Shipping Costs
       a_flat_rate_shipping_fee: A flat rate shipping fee of CHF 15.00 will be added to your order, regardless of your shipping address. All orders are sent by Swiss Post and delivered to you by your country's postal service. Tracking is not always possible; if so we'll email you a tracking number.
       delivery_time: Delivery Time
-      we_kindly_ask_for_your_patience: We kindly ask for your patience as it may take up to 4 weeks to receive your order. Please report back to us if you have not received it after 5 weeks, and we'll find it for you or send it again. This may take another 4 weeks or more.
+      headline: Shipping Info
       orders_from_outside_switzerland: Orders from outside Switzerland
       orders_from_outside_switzerland_may_be_subject: Orders from outside Switzerland may be subject to additional import charges (customs fees, VAT). Please check the regulations of your country / your postal service; and please be aware that in some EU countries VAT is very high (20% or more). Please also note that you may have to pay these in cash upon delivery, or that you might even have to go pick up the package yourself at the customs / post office.
+      shipping_costs: Shipping Costs
+      we_kindly_ask_for_your_patience: We kindly ask for your patience as it may take up to 4 weeks to receive your order. Please report back to us if you have not received it after 5 weeks, and we'll find it for you or send it again. This may take another 4 weeks or more.
     terms_and_conditions:
       after_the_deadline_of_30_days: After the deadline of 30 days the customer will be in default. The vendor will charge 5% default interest of the purchasing price, subject to additional claims. Default of the customer will take effect with the expiry of the deadline, without any reminders.
       all_prices_are_to_be_understood: All prices are to be understood in Swiss Francs (CHF) and are net prices quoted without VAT and shipping costs. Binding are the valid catalog prices of the vendor on the day of delivery.
@@ -399,7 +363,6 @@ en:
       a_ridgeline_limits_the_span_of_the_hammock: A ridgeline limits the span of the hammock to its safe and comfortable maximum. The bug-net featuring models have an adjustable ridgeline with integrated bottle holder.
       adjustable_ridge_line: Adjustable ridge-line with integrated bottle holder
       all_hammock_versions_are_basically_the_same_design: All hammock versions are basically the same design, but boast a different amount of features and different materials (ultralight models).
-      one_pair_of_hammock_suspension_ropes_included_html: One pair of %{hammock_suspension_ropes}, valued CHF 33.-, included with every hammock!
       basic: basic
       beach_park_and_verandah_goers: Beach-, park- and verandah goers
       bug_bivy: Bug bivy functio-nality
@@ -426,6 +389,7 @@ en:
       lids_at_the_head_and_foot_end_of_the_hammock: Lids at the head and foot end of the hammock make you and everything you have in the hammock stay inside.
       light_gray: light gray
       olive_green: olive green
+      one_pair_of_hammock_suspension_ropes_included_html: One pair of %{hammock_suspension_ropes}, valued CHF 33.-, included with every hammock!
       outdoor_hammock_sleepers: Outdoor hammock sleepers such as bikers, cyclists, yachties, road trippers and equestrians
       pad_sleeve_fits_most_common_single_person_camping_pads: Pad-sleeve fits most common single person camping pads (200 x 68 x 7 cm / 79'' x 27'' x 3''), has a large zippered opening at the foot end and a small zippered opening at the head end for easy accessibility and adjustment of the insulating material
       pad_sleeve_insulation: Pad-sleeve insulation
@@ -473,13 +437,13 @@ en:
       cuben_fiber_is_the_lightest_most_advanced: Cuben Fiber is the lightest, most advanced (and probably most expensive) high tech fabric on the market that has originally been developed for America's Cup racing sails. Because it is so incredibly lightweight it obviously needs a certain amount of care when handling it, but it is easily as strong and durable as comparable Nylon ultralight fabrics. Over the last decade or so it has become the material of choice for thru-hikers and ultralight backpackers.
       dimensions: 'Dimensions: hexagonal with doors; ridge 216 cm (7''), width 350 cm (11.5'')'
       especially_designed_to_fit: Especially designed to fit all 90 Degree Hammock models and made of ultralight Cuben Fiber fabric.
-      the_depicted_hammock_is_not_part_of_the_tarp_tent: 'Note: the depicted hammock is not part of the Tarp Tent and can be ordered separately.'
       features_4_doors_that_can_be_rolled_down: Features 4 doors that can be rolled down and overlapped if the hammock needs to be enclosed all around for storm protection. It can also be pitched as a spacious tent on the ground, using two hiking poles or sticks and a minimum of 10 stakes. This can be handy if you're going on a trip where you expect to not find trees or other hanging points every night.
       guy_lines: guy lines
       headline: 90 Degree Tarp-Tent
       reinforced_tie_out_loops_with_guy_lines: Reinforced tie out loops with guy lines
       specifications: Specifications
       stuff_bag: stuff bag
+      the_depicted_hammock_is_not_part_of_the_tarp_tent: 'Note: the depicted hammock is not part of the Tarp Tent and can be ordered separately.'
       ultralight_titanium_stakes_are_sold_separately_html: Ultralight titanium stakes are sold separately (%{accessories}) (%{accessories})'
       weight: Weight
   'true': 'Yes'
