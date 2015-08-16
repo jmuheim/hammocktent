@@ -5,6 +5,8 @@ section.headline
 
   p = t '.please_scroll_to_the_bottom_of_the_page_html', common_specifications_and_features: link_to(t('.common_specifications_and_features'), '#common_specifications_and_features'), comparison_chart: link_to(t('.comparison_chart'), '#comparison_chart')
 
+  p = t '.one_pair_of_hammock_suspension_ropes_included_html', hammock_suspension_ropes: link_to(t('products.accessories.hammock_suspension_ropes'), '#hammock_suspension_ropes')
+
 article
   .row
     .col-md-6
@@ -95,7 +97,7 @@ article
       .col-md-6
         ul.specs
           li = t '.pad_sleeve_that_fits_most_common_single_person_camping_pads'
-          li = t '.two_bug_net_storage_pouches_inside_the_hammock'
+          li = t '.two_bug_net_interior_pockets_inside_the_hammock'
           li = t '.spacious_bug_net_suspended_by_shock_cord'
 
       .col-md-6
@@ -131,7 +133,7 @@ article
           li = t '.ultra_strong_and_ultralight_dyneema'
           li = t '.high_quality_strong_lightweight_and_breathable_nylon'
           li = t '.pad_sleeve_that_fits_most_common_single_person_camping_pads'
-          li = t '.two_bug_net_storage_pouches_inside_the_hammock'
+          li = t '.two_bug_net_interior_pockets_inside_the_hammock'
           li = t '.spacious_ultralight_no_see_um_bug_net'
 
       .col-md-6
@@ -167,7 +169,7 @@ article
         ul.specs
           li = t '.ultra_strong_and_ultralight_dyneema'
           li = t '.high_quality_strong_lightweight_and_breathable_nylon'
-          li = t '.two_bug_net_storage_pouches_inside_the_hammock'
+          li = t '.two_bug_net_interior_pockets_inside_the_hammock'
           li = t '.spacious_ultralight_no_see_um_bug_net'
 
       .col-md-6
@@ -205,73 +207,74 @@ section#common_specifications_and_features
 section#comparison_chart
   h2 = t '.comparison_chart'
 
-  table.table.table-bordered
-    thead
-      tr
-        th
-        th = t '.pad_sleeve_insulation'
-        th = t '.bug_net'
-        th = t '.ultra_light_ul'
-        th = t '.bug_bivy'
-        th = t '.storage_pouches'
-        th = t '.feel'
-        th = t '.price_chf'
-        th = t '.weight_grams'
-        th = t '.typical_use_users'
+  .horizontal_scroll
+    table.table.table-bordered
+      thead
+        tr
+          th
+          th = t '.pad_sleeve_insulation'
+          th = t '.bug_net'
+          th = t '.ultra_light_ul'
+          th = t '.bug_bivy'
+          th = t '.interior_pockets'
+          th = t '.feel'
+          th = t '.price_chf'
+          th = t '.weight_grams'
+          th = t '.typical_use_users'
 
-    tbody
-      tr
-        th Alpha
-        td 
-        td 
-        td 
-        td 
-        td 0
-        td = t '.soft'
-        td 132.00
-        td 355
-        td = t '.beach_park_and_verandah_goers'
-      tr
-        th Beta
-        td: .fa.fa-check
-        td 
-        td 
-        td 
-        td 0
-        td = t '.soft'
-        td 154.00
-        td 517
-        td = t '.hammock_sleepers_and_nappers_in_colder_climates'
-      tr
-        th Gamma
-        td: .fa.fa-check
-        td: .fa.fa-check
-        td 
-        td 
-        td 2
-        td = t '.soft'
-        td 178.00
-        td 610
-        td = t '.outdoor_hammock_sleepers'
-      tr
-        th Gamma UL
-        td: .fa.fa-check
-        td: .fa.fa-check
-        td: .fa.fa-check
-        td: .fa.fa-check
-        td 2
-        td = t '.firm'
-        td 199.00
-        td 430
-        td = t '.hikers_backpackers_cyclists'
-      tr
-        th Delta UL
-        td 
-        td: .fa.fa-check
-        td: .fa.fa-check
-        td
-        td 2
-        td = t '.firm'
-        td 179.00
-        td 330
-        td = t '.hikers_backpackers_and_cyclists_in_hot_areas'
+      tbody
+        tr
+          th Alpha
+          td 
+          td 
+          td 
+          td 
+          td 0
+          td = t '.soft'
+          td 132.00
+          td 355
+          td = t '.beach_park_and_verandah_goers'
+        tr
+          th Beta
+          td: .fa.fa-check
+          td 
+          td 
+          td 
+          td 0
+          td = t '.soft'
+          td 154.00
+          td 517
+          td = t '.hammock_sleepers_and_nappers_in_colder_climates'
+        tr
+          th Gamma
+          td: .fa.fa-check
+          td: .fa.fa-check
+          td 
+          td 
+          td 2
+          td = t '.soft'
+          td 178.00
+          td 610
+          td = t '.outdoor_hammock_sleepers'
+        tr
+          th Gamma UL
+          td: .fa.fa-check
+          td: .fa.fa-check
+          td: .fa.fa-check
+          td: .fa.fa-check
+          td 2
+          td = t '.firm'
+          td 199.00
+          td 430
+          td = t '.hikers_backpackers_cyclists'
+        tr
+          th Delta UL
+          td 
+          td: .fa.fa-check
+          td: .fa.fa-check
+          td
+          td 2
+          td = t '.firm'
+          td 179.00
+          td 330
+          td = t '.hikers_backpackers_and_cyclists_in_hot_areas'

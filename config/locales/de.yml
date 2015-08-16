@@ -5,7 +5,10 @@ de:
   'false': Nein
   helpers:
     products:
+      excl_vat_and_shipping: exkl. %{vat} und Versand
+      for_swiss_customers_only: nur für Schweizer Kunden
       price: Preis
+      vat: MWST
     video:
       watch_the_video: Video anschauen
   layouts:
@@ -30,11 +33,16 @@ de:
       headline: "Über Hammock Tent"
     cancel_checkout:
       headline: Checkout abgebrochen
+      not_convinced_yet?: Noch nicht überzeugt?
+      please_drop_us_a_line_html: Bitte schreiben Sie uns ein paar Zeilen auf %{mail}, falls Sie Fragen oder Feedback haben. Wir freuen uns, mit Ihnen zu reden!
     contact:
-      any_questions_issues_or_feedback_html: 'TRANSLATE: TRANSLATE: '
+      any_questions_issues_or_feedback_html: 'Fragen, Schwierigkeiten, Feedback? Bitte studiere zuerst den Know-How und FAQ Teil der Webseite, und wenn du nichts finden kannst kontaktiere: %{email}.'
       headline: Kontakt
+      please_excuse_late_replies: Entschuldige späte Antworten, da wir wahrscheinlich draussen am Wandern sind...
     finish_checkout:
       headline: Besten Dank!
+      thank_you_for_buying_our_products: Herzlichen Dank für das Bestellen unserer Produkte. Ihre Transaktion wurde abgeschlossen und ein Beleg für Ihre Bestellung wurde Ihnen per Mail zugestellt (bitte überprüfen Sie Ihren Spam-Ordner, falls nötig).
+      you_may_log_into_your_account_at_paypal_html: Sie können sich einloggen in Ihr Konto bei %{paypal} um Ihre Transaktionen einzusehen.
     home:
       a_hammock_you_can_comfortably_sleep: Eine Hängematte, in der du komfortabel die ganze Nacht schlafen kannst, sogar auf deiner Seite!
       always_have_that_extra_bed_for_guests: Habe immer ein Gästebett im Haus, das nicht im Weg steht.
@@ -56,7 +64,7 @@ de:
       click_on_a_topic_to_expand_its_contents: Klicke auf ein Thema, um den Inhalt anzuseigen
       consider_that_insulation_from_underneath: Berücksichtige, dass die Isolation von unten genau so wichtig oder sogar noch wichtiger ist wie die Isolation von oben (Schlafsack oder Decke).
       expeds_hammock_suspension_kit: Das "Hammock Suspension Kit" mit den "Drip Clips" von Exped ist eine empfohlene Alternative.
-      go_with_the_90_degree_hammock_gamma_ul_html: Verwende das Gamma UL Modell und erwäge, keine Campingmatte mitzunehmen. Du kannst deinen geleerten Rucksack (oder das Rücken-polster des Rucksackes alleine, wenn es abnehmbar ist wie beim ULA Epic) zusammen mit deiner Daunenjacke und vielleicht weiteren Klei-dungsgegenständen als Isolationsmaterial im Mattenärmel verwenden. Dadurch musst du nichts Zusätzliches mitschleppen, das du nicht so oder so schon dabei hättest. Schaue dir mein %{pct_trail_journal} an für zusätzliche Informationen und teste, bevor du losziehst.
+      go_with_the_90_degree_hammock_gamma_ul_html: Verwende das Gamma UL Modell und erwäge, keine Campingmatte mitzunehmen. Du kannst deinen geleerten Rucksack (oder das Rückenpolster des Rucksackes alleine, wenn es abnehmbar ist wie beim ULA Epic) zusammen mit deiner Daunenjacke und vielleicht weiteren Kleidungsgegenständen als Isolationsmaterial im Mattenärmel verwenden. Dadurch musst du nichts Zusätzliches mitschleppen, das du nicht so oder so schon dabei hättest. Schaue dir mein %{pct_trail_journal} an für zusätzliche Informationen und teste, bevor du losziehst.
       hammock_and_tarp_design: Hängematte und Tarp-Zelt Design
       hanging_the_hammock_getting_in_and_out_of_the_hammock: Aufhängen der Hängematte, Ein- und Ausstieg
       headline: Häufig gestellte Fragen
@@ -66,7 +74,7 @@ de:
       how_cold_is_too_cold: Wie kalt ist zu kalt? Kann ich auch im Winter in der 90 Grad Hängematte campieren?
       how_long_is_the_warranty_period: Wie lange ist die Garantie auf HammockTent Produkte?
       i_bought_some_hammocktent_products: Ich habe HammockTent Produkte gekauft und bin nicht glücklich damit. Kann ich sie retournieren?
-      i_cant_get_the_bug_net_zipper: 'TRANSLATE: TRANSLATE: '
+      i_cant_get_the_bug_net_zipper: Ich bringe den Moskitonetz-Reissverschluss nicht um die Kurven
       i_dont_like_the_hammock_suspension: Ich mag die Hängematten-Aufhängung mit den Descender Ringen nicht. Gibt es hierfür andere Systeme?
       i_have_a_hard_time: Ich habe Schwierigkeiten, die Descender Ringe vom Seil zu lösen
       i_have_damaged_hammocktent_products: Ich habe beschädigte HammockTent Produkte. Macht ihr Reparaturen?
@@ -77,15 +85,15 @@ de:
       if_it_is_stormy: Wenn es stürmisch ist, verwende das 90 Grad Tarp-Zelt für rundum Schutz, und spanne es tief und nahe an der Hängematte auf, ohne dass die Hängematte es berührt. Regenwasser kann den Aufhängeseilen entlang herunterlaufen und in einigen Fällen nicht vollständig an den Descender Ringen abtropfen. In diesem Fall, montiere ein kleines Schnurstück als Abtropfleine unmittelbar nach den Descender Ringen. Eine Abtropfleine ist die effektivste Art, den Aufhängeseilen / -schnüren entlang herunterlaufendes Wasser davon abzuhalten, in die Hängematte zu laufen.
       im_only_1_9_m_tall: Ich bin nur 1.9 m gross, aber die 90 Grad Hängematte ist zu kurz, da ich mit den Füssen und dem Kopf anstosse
       in_the_outdoors_consider_that_a_hammock: Für Übernachtungen im Freien, bedenke dass eine Hängematte nicht einen geschlossenen Raum bildet (auch wenn du das 90 Grad Tarp-Zelt verwendest) und dass du dementsprechend etwas wärmere Ausrüstung benötigst.
-      in_the_tropics: In den Tropen (mit Nachttemperaturen von 28° C oder mehr) ist die Mückensicherheit eine grössere Herausforderung. Nicht nur könntest du dort Moskitos mit übertragbaren Krankheiten haben, sondern ein Hängemattenmodell mit Mattenärmel, ein Schlafsack oder langärmelige Klei-dung ist viel zu heiss. Deshalb empfehlen wir, falls du ein einfaches 90 Grad Hängemattenmodell in den Tropen verwenden willst, zusätzliche Massnahem zu erwägen, wie
+      in_the_tropics: In den Tropen (mit Nachttemperaturen von 28° C oder mehr) ist die Mückensicherheit eine grössere Herausforderung. Nicht nur könntest du dort Moskitos mit übertragbaren Krankheiten haben, sondern ein Hängemattenmodell mit Mattenärmel, ein Schlafsack oder langärmelige Kleidung ist viel zu heiss. Deshalb empfehlen wir, falls du ein einfaches 90 Grad Hängemattenmodell in den Tropen verwenden willst, zusätzliche Massnahem zu erwägen, wie
       in_the_tropics_a_hammock_with_a_pad_sleeve: In den Tropen ist eine Hängematte mit Mattenärmel oder anderer Isolation im Allgemeinen zu heiss. Dort wäre eine der einfachen 90 Grad Hängematten angenehmer; jedoch sind diese ohne zusätzliche Massnahmen nicht mückensicher (siehe unten).
       is_the_90_degree_hammock_mosquito_proof: Ist die 90 Grad Hängematte mückensicher?
-      it_can_be_a_little_bit_tricky: Es kann etwas knifflig sein, aber versuche die Ringe zuerst zu lockern indem du ein wenig am losen Ende des Seiles ziehst oder die Hänge-matte anhebst und das baumseitige Seil durch die Ringe stösst. Spreize die Ringe dann und nehme das lose Seilende ganz von zwischen den Ringen heraus.
-      it_is_normal_that_stitching: 'TRANSLATE: TRANSLATE: '
+      it_can_be_a_little_bit_tricky: Es kann etwas knifflig sein, aber versuche die Ringe zuerst zu lockern indem du ein wenig am losen Ende des Seiles ziehst oder die Hängematte anhebst und das baumseitige Seil durch die Ringe stösst. Spreize die Ringe dann und nehme das lose Seilende ganz von zwischen den Ringen heraus.
+      it_is_normal_that_stitching: Es ist normal, dass sich die Einstichslöcher der Naht unter Belastung etwas öffnen. Dies bedeutet jedoch nicht, dass der Stoff reissen wird. Er behält 100% seiner Reisskraft, da die Fasern lediglich innerhalb der Architektur des Gewebes etwas verschoben, jedoch nicht beschädigt wurden. Dies ist kein Schaden und die Naht wird nicht reissen oder auseinanderkommen. Es ist höchstens eine kleine ästhetische Beeinträchtigung, die als Kompromiss bei dünnem und leichtem Stoff toleriert werden muss.
       its_generally_better: Es ist im Allgemeinen besser, einen Abstand von mindestens 1 m zwischen Aufhängepunkten einzuhalten.
       its_much_more_comfortable_for_you: Es ist viel komfortabler, da eine Matte in der Hängematte die Tendenz hat, nicht in der gewünschten Position zu bleiben.
       no_but_you_can_carefully_clean_it: Nein, aber du kannst es vorsichtig mit kaltem Wasser und einem Tuch reinigen.
-      on_a_concluding_note: "Zusammenfassend: der empfohlene Abstand zwischen den Aufhängepunkten beträgt 2 bis 5.5m. Abstände von 0 bis 6 m sind möglich, wenn dafür etwas Komfort und Funktionalität geopfert wird."
+      on_a_concluding_note: 'Zusammenfassend: der empfohlene Abstand zwischen den Aufhängepunkten beträgt 2 bis 5.5m. Abstände von 0 bis 6 m sind möglich, wenn dafür etwas Komfort und Funktionalität geopfert wird.'
       please_write_us_an_email: Bitte sende uns eine Email und wir teilen dir die Versandadresse mit.
       quality_issues_troubles_care: Qualitätsfragen, Probleme, Pflege
       returns_warranty_refunds_repairs: Rücksendungen, Garantie, Zurückerstattungen, Reparaturen
@@ -95,22 +103,22 @@ de:
       the_descender_rings_seem: Die Descender Ringe scheinen das Aufhängeseil zu beschädigen
       the_fabric_is_fraying: Der Stoff franst bei einigen Orten aus und ich habe Fasern, die nun stören!
       the_hammocks_are_designed: Die Hängematten sind dafür konzipiert, eine durchschnittliche Person waagrecht zu halten. Abhängig von deinem Körperbau kann dein Gravitätszentrum jedoch etwas näher bei den Füssen sein, so dass dein Kopf etwas höher als deine Füsse liegt. Daraus ergibt sich eine leichte Tendenz, Richtung Füsse zu rutschen. Stosse dich sanft wieder zum Kopfende der Hängematte hoch.
-      the_models_with_bug_net: Die Modelle mit Moskitonetz haben zwei Aufbewahrungsbeutel in der Hängematte. Ausserdem können weitere Beutel an die Ridgeline oder die Aufhängeschnüre gehängt werden; dasselbe gilt für nasse Socken, Schuhe usw. Deinen Rucksack kannst du an die Aufhängeseile der Hängematte hängen, um ihn nicht am feuchten Boden und Ausserhalb der Reichweite von Ungeziefer zu haben.
+      the_models_with_bug_net: Die Modelle mit Moskitonetz haben zwei kleine Innentaschen in der Hängematte. Ausserdem können weitere Beutel an die Ridgeline oder die Aufhängeschnüre gehängt werden; dasselbe gilt für nasse Socken, Schuhe usw. Deinen Rucksack kannst du an die Aufhängeseile der Hängematte hängen, um ihn nicht am feuchten Boden und Ausserhalb der Reichweite von Ungeziefer zu haben.
       the_shape_of_the_hammock: Die Form der Hängematte mit leichter Krümmung ist durch zahlreiche Faktoren bedingt. Sei versichert, dass sie so flach und komfortabel wie nur möglich ist, auch um auf der Seite zu schlafen.
       the_sleeping_area_can_feel_more_confined: Die Liegefläche kann sich mehr einengend anfühlen. Dies kann etwas gemildert werden durch den Gebrauch einer Campingmatte im Mattenärmel (oder in der Hängematte). An einem Überkopf-Aufhängepunkt aufgehängt kann sie auch mit einer Stange etwas gespreizt werden.
       the_straps_work_with_trees: Die Gurten sind für Bäume mit einem Durchmesser von 34 cm oder weniger gedacht. Vermeide, dass bei dickeren Bäumen das Seil an die Baumrinde kommt, da dies zu Schäden an Seil und Baum führen kann. Wähle dünnere Bäume oder verwende stattdessen einen Ast. Alternativ können die Gurten mit den Verlängerungs- / Ersatzbaumgurten verlängert werden.
-      the_suspension_rope_is_not_jammed_tight: Das Aufhängeseil ist nicht richtig eingeklemmt in den Descender Ringen! Wenn ich mich hineinsetze rutscht es durch, und die Hän-gematte geht zu Boden.
+      the_suspension_rope_is_not_jammed_tight: Das Aufhängeseil ist nicht richtig eingeklemmt in den Descender Ringen! Wenn ich mich hineinsetze rutscht es durch, und die Hängematte geht zu Boden.
       the_suspension_strings: Die Aufhängeschnüre der Hängematte scheinen irgendwie nicht mehr korrekt zu sein
       the_tree_straps_are_too_long: Die Baumgurten sind zu lang.
       the_tree_straps_are_too_short: Die Baumgurten sind zu kurz.
-      there_are_two_ways_to_deal_with_that: "Auf zwei Arten kann dem abgeholfen werden: Bevorzugt, wickle die Bänder mehrmals um die Bäume, so dass sie nicht zu lang sind. Alternativ können die Descender Ringe auch an den Bändern befestigt werden. Gehe dazu durch beide Ringe und dann zwischen den beiden hindurch. Dies hält ebenso gut, jedoch ist der Umgang damit etwas schwieriger."
+      there_are_two_ways_to_deal_with_that: 'Auf zwei Arten kann dem abgeholfen werden: Bevorzugt, wickle die Bänder mehrmals um die Bäume, so dass sie nicht zu lang sind. Alternativ können die Descender Ringe auch an den Bändern befestigt werden. Gehe dazu durch beide Ringe und dann zwischen den beiden hindurch. Dies hält ebenso gut, jedoch ist der Umgang damit etwas schwieriger.'
       there_is_a_warranty_period: Die Garantie gegen Material- oder Verarbeitungsmängel beträgt 1 Jahr nach Erhalt der Produkte. Schreibe uns eine Email und wir werden die Produkte reparieren / ersetzen, jedoch geht der Versand zu dienen Lasten.
       there_is_no_warranty: Auf die Aufhängeseile (inkl. Baumgurten) gibt es keine Garantie, da sie abgenutzt werden können und ersetzt werden müssen.
       they_may_be_twisted: Sie könnten verdreht sein, was passieren kann wenn die Verbindungsschlaufen zwischen der Ridgeline und der Hängematte durchfällt. Entdrehe sie einfach wieder, indem du die betroffene Hängemattenseite vom Seil nimmst und am selben Ort in umgekehrter Richtung hindurch gehst (schaue dir hierfür unser tips and tricks Video an). Wenn die Aufhängeschnüre in einer geraden Linie aus der Verbindungsschlaufe / dem Schutzärmel herauskommen sind die Schnüre nicht mehr verdreht.
       they_may_cause_the_fibers: Sie können die Fasern innerhalb der Seilarchitektur etwas verschieben, dies ist jedoch kein Schaden. Die Fasern sind nicht beschädigt / gerissen.
       this_can_happen_if_the_ropes: Dies kann passieren, wenn die Seile nicht korrekt durch die Descender Ringe geführt sind. Führe dies korrekt durch, oder mache eine Schlaufe in das Seil unterhalb der Descender Ringe als schnelle Behelfslösung.
       this_is_due_to_the_90_degree_design: Dies ist bedingt durch das 90 Grad Design, die Hängematte ist nicht zu kurz. Es ist normal, dass du die Hängemattendeckel mit dem Kopf und den Füssen leicht berührst, da sie sich normalerweise auf deine Körperlänge zusammenzieht.
-      this_issue_is_a_trade_off: 'TRANSLATE: TRANSLATE: '
+      this_issue_is_a_trade_off: Wende keine Kraft an und brauche stattdessen beide Hände; und nehme Körpergewicht von diesem Bereich weg, dann wird es kein Problem sein.
       this_you_really_have_to_test_for_yourself: Das musst du für dich selbst herausfinden, da dies sehr stark von deinem Schlafsack und deiner Bodenisolation, sowie deiner eigenen Kälte-empfindlichkeit abhängt. Ich persönlich habe problemlos schon bei -10° C Nächten draussen campiert, mit einem guten Daunenschlafsack und einer halblängen Exped Down Mat zusammen mit meiner Daunenjacke im Mattenärmel. Andere Winter-Hängemattencampierer können mit viel kälteren Temperaturen umgehen, jedoch braucht dies fortgeschrittene Ausrüstung und Erfahrung.
       treat_the_fabric_with_repellant: den Stoff mit Insektenschutzmittel zu behandeln (zuerst an einem unauffälligen Ort testen),
       try_to_find_a_separate_mosquito_net_product: oder ein separates Moskitonetz zu kaufen, welches die gesamte Hängematte einhüllt.
@@ -121,8 +129,8 @@ de:
       whats_the_advantage_of_inserting_a_pad: Was ist der Vorteil, die Campingmatte im Mattenärmel zu haben, anstatt diese einfach in die Hängematte zu legen?
       why_is_the_90_degree_hammock: Wieso ist die 90 Grad Hängematte nicht ganz flach / gerade?
       yes_you_could_even_hang_it: Ja, es wäre sogar möglich, einen einzigen Überkopf-Aufhängepunkt zu verwenden (gebrauche aber immer noch beide Aufhängeseile). Erwäge jedoch die folgenden Punkte
-      you_can_also_consider: Du kannst auch erwägen, kleinere Reparaturen selber durchzuführen oder Freunde mit einer Nähmaschine zu fragen. Dies kann einfacher und billiger sein.
-      you_can_easily_replace: Du kannst ebenso gut ein anderes System verwenden (wie Schlitzseile, Daisy Chains, Whoopie Slingst etc. kombiniert mit einem Kletterkarabiner), oder die Descender Ringe entfernen und einen geeigneten Knoten verwenden.
+      you_can_also_consider: Du kannst auch erwägen, kleinere Reparaturen selber durchzuführen oder Freunde mit einer Nähmaschine zu fragen. Dies kann einfacher und günstiger sein.
+      you_can_easily_replace: Du kannst ebenso gut ein anderes System verwenden (wie Schlitzseile, Daisy Chains, Whoopie Slings etc. kombiniert mit einem Kletterkarabiner), oder die Descender Ringe entfernen und einen geeigneten Knoten verwenden.
       you_can_hand_wash_your_hammock: Du kannst sie von Hand in lauwarmem Wasser mit milder Seife waschen. Du kannst auch eine Maschinenwäsche erwägen im Schongang bei 30° oder weniger, und mit milder Seife. Die Handwäsche ist jedoch schonender. Bei der Maschinenwäsche, stelle sicher dass du verhinderst, dass ein Schnurgewirre entsteht. Es wird empfohlen, die zwei Seiten zusammenzubinden. Eine ausgiebige Lufttrocknung ist wichtig vor dem Lagern.
       you_could_also_consider: Du kannst auch eine Campingmatte mit halber Körperlänge erwägen, da der Schulter- und Gesässbereich abgedeckt zu haben alles ist, was du wirklich brauchst. Eine Campingmatte dabeizuhaben macht es auch bequemer, falls du einmal am Boden schlafen musst.
       you_may_return_them: Du kannst sie retournieren innerhalb eines Monates nach dem Kauf, wenn sie keine Gebrauchsspuren und Verschmutzungen aufweisen.
@@ -145,7 +153,7 @@ de:
       as_a_ground_sheet: Als Zeltunterlage kannst du ein Stück Plastikfolie, ein in Outdoorläden erhältliches "footprint", dein Regenponcho oder etwas Ähnliches verwenden.
       attach_one_side_of_the_hammock: Befestige die eine Seite der Hängematte zuerst am Aufhängeseil, indem du zweimal um beide Descender Ringe gehst und dann nur um den ersten alleine einmal (so dass das Seilende zwischen den zwei Descender Ringen durchgeht). Ziehe die Hängematte hoch, löse die zweite Hängemattenseite vom Druckknopf ab und wiederhole.
       attach_the_released_side: Befestige die weggenommene Seite mit dem Druckknopf an der anderen Seite, ohne sie zu verdrehen.
-      avoid_overstraining_the_suspension_system: Überlaste das Aufhängesystem nicht. Die Aufhängeseile sollten immer einen Winkel von 30 Grad oder mehr zur Horizontalen aufweisen. Bei flacheren Winkeln steigt die Belastung exponentiell, und du wirst Schwierigkeiten haben die Descender Ringe zu lösen.
+      avoid_overstraining_the_suspension_system: "Überlaste das Aufhängesystem nicht. Die Aufhängeseile sollten immer einen Winkel von 30 Grad oder mehr zur Horizontalen aufweisen. Bei flacheren Winkeln steigt die Belastung exponentiell, und du wirst Schwierigkeiten haben die Descender Ringe zu lösen."
       be_aware_that_certain_tree_species: Sei dir bewusst, dass gewisse Baumarten, sowie alte und grosse Bäume, jederzeit und plötzlich Äste fallen lassen können, sogar ohne Wind und Regen. Wähle sorgfältig sichere Bäume zum Hängen.
       before_each_use_check_all_product_components: Untersuche vor jedem Gebrauch alle Produktkomponenten auf Abnutzung, Schäden und Alterung. Ersetze oder repariere Komponenten wenn nötig.
       before_you_take_down_the_hammock: Bevor du die Hängematte von den Seilen nimmst, ziehst du beide Aufhängescheschnur-Schutzärmel herunter und befestigst sie mit den Druckknöpfen an der Hängematte.
@@ -161,7 +169,7 @@ de:
       hanging_in_a_hammock_can_be_dangerous: In einer Hängematte zu hängen kann ohne gewisse Vorsichtsmassnahmen gefährlich sein.
       hanging_the_90_degree_hammock: Aufhängen der 90 Grad Hängematte
       headline: 90° Hängematten Anleitung
-      if_there_are_bugs: Wenn es Ungeziefer, aber keinen Regen oder Tau hat, stelle deine Hängematte am Boden als Moskitobiwak auf (mit deinen Trekkingstö-cken oder zwei Stecken, total 6 Heringen und den abnehmbaren Abspannleinen des 90 Grad Tarp-Zelt's). Das Moskitobiwak ist nicht wirk-lich geräumig, kann aber viel Wert sein wenn die Mücken unterwegs sind (nur Gamma UL Version mit Moskitobiwak -Funktionalität).
+      if_there_are_bugs: Wenn es Ungeziefer, aber keinen Regen oder Tau hat, stelle deine Hängematte am Boden als Moskitobiwak auf (mit deinen Trekkingstöcken oder zwei Stecken, total 6 Heringen und den abnehmbaren Abspannleinen des 90 Grad Tarp-Zelt's). Das Moskitobiwak ist nicht wirklich geräumig, kann aber viel Wert sein wenn die Mücken unterwegs sind (nur Gamma UL Version mit Moskitobiwak-Funktionalität).
       if_there_is_no_rain: Wenn es nicht regnet, keinen Tau hat und kein Ungeziefer, "cowboy camp" mit deinem Schlafsack.
       if_there_is_rain_or_dew: Wenn es regnet oder Tau hat, stelle dein 90 Grad Tarp-Zelt als Zelt auf mit 2 Trekkingstöcken oder Stecken und "cowboy camp" darin.
       if_there_is_rain_or_dew_as_well_as_bugs: Wenn es regnet oder Tau hat sowie Mücken, stelle das Tarp-Zelt als Zelt auf und die Hängematte darin als Moskitobiwak (nur Gamma UL Version), mit Hilfe des Aufhängehakens und den Heringen des Tarp-Zelts.
@@ -170,7 +178,7 @@ de:
       it_is_normal_that_stitching_holes: Es ist normal, dass sich Nahtlöcher unter Belastung etwas öffnen. Dies bedeutet keine Gefahr, dass die Naht reisst. Sie behält 100% ihrer Reisskraft, da die Fasern lediglich in der Gewebearchitektur des Stoffes etwas verschoben wurden, jedoch nicht gerissen sind.
       lie_in_a_90_degree_angle: Lege dich in einem 90 Grad Winkel zur Aufhängeachse der Hängematte hinein; nicht wie in eine normale Hängematte.
       look_out_for_other_hanging_opportunities: Schaue dich nach anderen Aufhänge-Möglichkeiten um. Häufig können alternative Strukturen gefunden werden, wie Pfosten, Autos, Zäune, Felsblöcke, Balken oder was auch immer.
-      make_sure_the_hammock_and_tarp: Stelle sicher, dass die Hängematte und das Tarp immer vollständig trocken sind bevor du sie lagerst. Wenn du sie feucht einpacken muss-test nutze die erste Gelegenheit, um sie zu trocknen. Lagere sie an einem dunklen und trockenen Ort.
+      make_sure_the_hammock_and_tarp: Stelle sicher, dass die Hängematte und das Tarp immer vollständig trocken sind bevor du sie lagerst. Wenn du sie feucht einpacken musstest nutze die erste Gelegenheit, um sie zu trocknen. Lagere sie an einem dunklen und trockenen Ort.
       not_before_the_hammock_is_hanged: Nicht bevor die Hängematte an beiden Seiten aufgehängt ist ziehst du die Schnuraufhängungs-Schutzärmel hoch, um die Aufhängeschnüre zu exponieren. Befestige die hochgezogenen Schutzärmel mit den Druckknöpfen.
       packing_up_the_90_degree_hammock: Einpacken der 90 Grad Hängematte
       place_the_hammock: Stopfe die Hängematte in den Aufbewahrungsbeutel oder deinen Rucksack. Es wird empfohlen, die Ridgeline und Aufhängeschnur-Ärmel sauber zu arrangieren, z.B. indem du sie um die Hängematte wickelst.
@@ -182,7 +190,7 @@ de:
       the_90_degree_hammock_is_not_designed: Die 90 Grad Hängematte ist nicht für groben Umgang oder hineinspringen konzipiert. Bitte behandle sie sachte.
       the_hammock_has_a_distinct_head_and_foot_end: Die Hängematte hat ein definiertes Kopf- und Fussende und kann daher nur in einer Richtung gebraucht werden. Die Einstiegsseite am Fussende ist durch unser Firmenlogo markiert.
       the_hammock_must_be_suspended_exactly_level: Die Hängematte muss genau waagrecht aufgehängt werden; andernfalls liegst du nicht genau in der zentralen Achse. Teste dies zuerst (indem du dich hineinsetzt / hineinlegst) und justiere sie gegebenenfalls (indem du eine Seite höher oder tiefer stellst).
-      to_enter_the_hammock: "Um in die Hängematte einzusteigen, befolge diese 3 Schritte: 1.) sitze in die Mitte, 2.) nehme deine Beine hinein und 3.) lege deinen Ober-körper hin. Wenn du keine lange Campingmatte drin hast, musst du vor Schritt 3. den Hängemattenstoff zuerst ausstrecken; tue dies am Stoff und nicht am Moskitonetz. Rücke in die bequemste Lage, ganz hoch zur Kopfseite der Hängematte."
+      to_enter_the_hammock: 'Um in die Hängematte einzusteigen, befolge diese 3 Schritte: 1.) sitze in die Mitte, 2.) nehme deine Beine hinein und 3.) lege deinen Oberkörper hin. Wenn du keine lange Campingmatte drin hast, musst du vor Schritt 3. den Hängemattenstoff zuerst ausstrecken; tue dies am Stoff und nicht am Moskitonetz. Rücke in die bequemste Lage, ganz hoch zur Kopfseite der Hängematte.'
       to_exit_the_hammock: Um aus der Hängematte auszusteigen, öffne die Moskitonetztüre, rolle sie auf und fixiere sie zwischen zwei Aufhängeschnüren, so dass sie offen bleibt und dir nicht in den Weg kommt.
       unpack_the_hammock: Packe die Hängematte aus und stelle sicher, dass die Ridgeline und die zwei Ärmel mit den Aufhängeschnüren nicht verdreht oder verheddert sind. Bestimme die Fussseite / Einstiegsseite der Hängematte und wo du diese haben willst.
       using_a_long_pad_inside_the_pad_sleeve: Die Verwendung einer langen Campingmatte im Mattenärmel gibt dir den grössten Liegekomfort (was auf Trekkingtouren jedoch nicht unbedingt die leichteste Option ist). Um dich mit Campingmatten warm zu halten, die dünner als 5 cm sind, empfiehlt es sich, zusätzlich deine Jacke oder so unter deinen Gesässbereich zu legen.
@@ -194,7 +202,7 @@ de:
       headline: 90° Tarp-Zelt Videos und Anleitung
       how_to_pitch_the_90_degree_tarp_tent_above_the_hammock: Aufspannen des 90° Tarp-Zelts über der Hängematte
       how_to_pitch_the_90_degree_tarp_tent_on_the_ground: Aufstellen des 90° Tarp-Zelts am Boden
-      tipps_and_tricks_how_to_keep_the_guy_lines_tidy: "Tipps und Tricks: Abspannleinen geordnet halten"
+      tipps_and_tricks_how_to_keep_the_guy_lines_tidy: 'Tipps und Tricks: Abspannleinen geordnet halten'
     know_how_tarps_manual:
       adjust_all_line_locs: Justiere alle LineLocs, um das Tarp zu straffen und eine möglichst gute und dem Wetter angepasste Ventilation zu erreichen.
       adjust_the_line_locs_to_get_it_taut: Justiere alle LineLocs, um das Tarp zu straffen und höher oder tiefer zu stellen.
@@ -204,7 +212,7 @@ de:
       loosen_all_line_locs: Löse alle LineLocs und entferne die Heringe.
       make_sure_all_doors_are_rolled_down: Stelle sicher, dass alle Türen heruntergerollt sind, und dass alle Abspannleinen ihre Endschlaufen / Endhaken unmittelbar bei den LineLocs haben.
       make_sure_the_tarp_is_completely_dry: Stelle sicher, dass das Tarp vollständig trocken ist vor dem Einpacken. Wenn nicht, nutze die erste Gelegenheit, um es zu trocknen.
-      overlap_the_doors: Überlappe die Türen und befestige die beiden Seiten separat mit Heringen, falls du sie komplett geschlossen haben möchtest.
+      overlap_the_doors: "Überlappe die Türen und befestige die beiden Seiten separat mit Heringen, falls du sie komplett geschlossen haben möchtest."
       pitch_the_tarp_tent_before_you_hang_the_hammock: Spanne das Tarp-Zelt vor der Hängematte auf wenn es regnet, ansonsten danach.
       pitching_the_90_degree_tarp_tent_between_trees_structures: Aufspannen des 90 Grad Tarp-Zelt's zwischen Bäumen / Strukturen
       remove_the_two_ridge_tie_outs: Löse die 2 Giebelabspannpunkte von den Heringen (die Türabspannpunkte bleiben befestigt), nimm deine Trekkingstöcke oder Stecken, befestige sie an die Giebel-Abspannleinen und befestige diese mit Heringen.
@@ -212,42 +220,87 @@ de:
       stake_down_the_four_other_tie_outs: Befestige die 4 anderen Abspannpunkte mit Heringen am Boden, so dass das Tarp symmetrisch und straff am Boden liegt.
       stake_down_the_ridge_tie_outs: Befestige die Giebelabspannpunkte zusammen mit den 2 Türabspannpunkten mit einem Hering am Boden, auf beiden Seiten. Straffe den Giebel, aber gehe dann 10 cm oder so nach innen auf der zweiten Seite.
       tie_down_the_other_four_guy_lines: Spanne die anderen 4 Leinen ab.
-      to_prevent_guy_line_entanglements: "Um ein Durcheinander mit den Abspannleinen zu verhindern wird empfohlen, eine Seite der Abspannleinen fast ganz durch die LineLocs zu ziehen und sie dann aufzuwickeln (Vorschlag: mit der 8er-Figur Methode und mit den Endschlaufen / -Haken nahe der LineLocs)."
-      you_may_install_the_hammock: "Die Hängematte (nur Gamma UL Version) kann im Tarp-Zelt als improvisiertes Moskitobiwak aufgestellt werden: Hänge die Moskitonetz-kordel in den Aufhängehaken am Giebel, und befestige die Elastikabspannleinen der Hängematte an den Heringen des Tarp-Zelt's. Die Aufhängeschnur-Ärmel liegen dabei am Boden, mit dem unteren Teil der Schnüre aus den Ärmeln entblösst – sei vorsichtig, damit kein Durcheinander entsteht."
+      to_prevent_guy_line_entanglements: 'Um ein Durcheinander mit den Abspannleinen zu verhindern wird empfohlen, eine Seite der Abspannleinen fast ganz durch die LineLocs zu ziehen und sie dann aufzuwickeln (Vorschlag: mit der 8er-Figur Methode und mit den Endschlaufen / -Haken nahe der LineLocs).'
+      you_may_install_the_hammock: 'Die Hängematte (nur Gamma UL Version) kann im Tarp-Zelt als improvisiertes Moskitobiwak aufgestellt werden: Hänge die Moskitonetzkordel in den Aufhängehaken am Giebel, und befestige die Elastikabspannleinen der Hängematte an den Heringen des Tarp-Zelts. Die Aufhängeschnur-Ärmel liegen dabei am Boden, mit dem unteren Teil der Schnüre aus den Ärmeln entblösst – sei vorsichtig, damit kein Durcheinander entsteht.'
     our_story:
-      after_one_of_those_midnight_splashes: ...nach einer der nächtlichen kalten Duschen.
-      all_our_products: "Alle unsere Produkte und Komponenten davon werden in einem oder mehreren dieser Länder hergestellt: Indonesien, USA, China, Europa und Schweiz."
+      after_one_of_those_midnight_splashes: "...nach einer der nächtlichen kalten Duschen."
+      all_our_products: 'Alle unsere Produkte und Komponenten davon werden in einem oder mehreren dieser Länder hergestellt: Indonesien, USA, China, Europa und Schweiz.'
       also_in_2012: 'Ebenfalls im 2012 kündete ich meinen Job als Geologe und brach auf zu einem epischen Abenteuer: Ein 4.5 monatiger "thru hike" des 4000 km langen Pacific Crest Trail im Westen der USA. Und natürlich habe ich während den ganzen 4.5 Monaten jede Nacht ausser zweien in der Ergo Hammock campiert. Ich schlief auf dem ganzen Trip unglaublich gut und fühlte mich alles andere als Eifersüchtig auf die anderen Wanderer mit Zelten; aber natürlich konnte ich es nicht lassen, über weitere möglich erscheinende Verbesserungen nachzudenken...'
       but_we_still_had_tasted: Nichtsdestotrotz, wir hatten von den Vorzügen des Hängemattencampierens gekostet und ich konnte das Konzept nicht mehr aus meinem Kopf bringen. Ich begann an möglichen Verbesserungen zu hirnen und legte mir bald danach eine Occasions-Nähmaschine und einige eingemottete Armee-Fallschirme zu; und entwickelte jeweils ein neues Hängemattenmodell für unsere sommerlichen Velo- und Wandertouren durch Europa.
       good_morning: Guten Morgen und...
-      good_night: ...gute Nacht in der Ergo Hammock, irgendwo auf dem Pacific Crest Trail im 2012
+      good_night: "...gute Nacht in der Ergo Hammock, irgendwo auf dem Pacific Crest Trail im 2012"
       hammocktent_gmbh_was_founded: HammockTent GmbH wurde im Jahr 2014 durch Luke in seinem Heimatland Schweiz gegründet. Jedoch begann die Geschichte schon 2005, als mein Abenteuer-Kollege meinte, dass wir zwei billige Hängematten anstatt unser schimmliges Zelt auf eine Velotour nach Kroatien mitnehmen sollten.
       headline: Unsere Geschichte
       i_got_to_know_him: Ich lernte ihn über wenig wahrscheinliche Wege kennen und konnte ihn als Businesspartner und Freund gewinnen. Daher könnte die 90 Grad Hängematte tatsächlich eine Kombination aus Schweizer Technologie, Italienischem Design und Indonesischem Handwerk darstellen. Auf der anderen Seite stellten kulturelle Unterschiede zwischen diesen drei sicher auch eine gewisse Herausforderung dar.
       late_in_2013: Ende 2013, mit dem Einverständnis von Exped, entschied ich mich es zu versuchen. Ende 2014, nachdem meine gesamten Ersparnisse investiert, tausende Emails geschrieben, 3 Monate in Indonesien verbracht und Freunde und Familie bei zahlreichen Dingen mitgeholfen hatten, ist die 90 Grad Hängematte hier und HammockTent.com in Betrieb!
       on_the_way_to_croatia: Auf dem Weg nach Kroatien im 2005...
       our_cuben_fiber_tarps: Die Cuben Fiber Tarps werden in den USA durch einen herausragenden Kleinhersteller mit vielen Jahren Erfahrung in der Produktion von Cuben Fiber Outdoor Ausrüstung gefertigt.
-      rest_assured: Sei versichert, dass es bei der Produktion weder Kinderarbeit noch men-schenunwürdige Arbeitsverhältnisse gibt, und dass die Hängematten von einigen versierten Indonesischen Schneidern hergestellt werden, die damit gutes Geld verdienen.
+      rest_assured: Sei versichert, dass es bei der Produktion weder Kinderarbeit noch menschenunwürdige Arbeitsverhältnisse gibt, und dass die Hängematten von einigen versierten Indonesischen Schneidern hergestellt werden, die damit gutes Geld verdienen.
       somewhat_advanced_models: Etwas weiter entwickelte Modelle, in Aktion...
-      switzerland_and_norway: ...in der Schweiz und Norwegen, 2008.
-      the_whole_project: Das Projekt konnte vom grossen Italienischen Künstler, Philosophen, Desig-ner und Spezialhängemattenproduzenten Alberto profitieren, der – bereits in seinen 70ern – viel dazu beigetragen hat und die fast unmögliche Produktion auf seiner Indonesischen Heimatinsel durchführt. Er hat bereits seit 20 Jahren mit diesem Design experimentiert und es in Yucatan, Mexico, mit Eingeborenen entwickelt. Indem ein Teil des Stoffes durch Schnüre ersetzt wurden konnte die Sicht aus der Hängematte verbessert werden; und das Aufhängen hoch in einem Baum an einem Ast ermöglicht.
+      switzerland_and_norway: "...in der Schweiz und Norwegen, 2008."
+      the_whole_project: Das Projekt konnte vom grossen Italienischen Künstler, Philosophen, Designer und Spezialhängemattenproduzenten Alberto profitieren, der – bereits in seinen 70ern – viel dazu beigetragen hat und die fast unmögliche Produktion auf seiner Indonesischen Heimatinsel durchführt. Er hat bereits seit 20 Jahren mit diesem Design experimentiert und es in Yucatan, Mexico, mit Eingeborenen entwickelt. Indem ein Teil des Stoffes durch Schnüre ersetzt wurden konnte die Sicht aus der Hängematte verbessert werden; und das Aufhängen hoch in einem Baum an einem Ast ermöglicht.
       though_we_could_faintly_imagine: Obwohl wir uns das Potential des Campierens mit Hängematten ansatzweise vorstellen konnten war die Tour ein ziemliches Desaster. Entweder froren wir uns einen ab, oder Regenwasser lief uns mitten in der Nacht den Rücken herunter, oder beides.
       upon_my_return_to_switzerland: Nach meiner Rückkehr in die Schweiz heizte ich die Nähmaschine noch einmal ein, nur um zu sehen, dass viele meiner Ideen in der Realität nicht funktionierten, oder viel komplizierter als angenommen waren. Wie auch immer, ich tüftelte weiter und gelangte schliesslich zum "90 Grad Hängematte" genannten Design. Dieses war bequemer und vielseitiger als alles zuvor und ich dachte, dass es produziert werden könnte, wenn auch mit grossem Aufwand.
-      years_later_in_2010: Jahre später, im 2010, dachte ich, dass meine neuste Entwicklung eigentlich gar nicht so schlecht war, und stellte es der Schweizer Outdoor Firma Exped vor. Nach viel Arbeit re-sultierte daraus Exped's Ergo Hammock, die 2011 einen Design-Award an der Outdoor-Messe Friedrichshafen erhielt und 2012 herausgegeben wurde.
+      years_later_in_2010: Jahre später, im 2010, dachte ich, dass meine neuste Entwicklung eigentlich gar nicht so schlecht war, und stellte es der Schweizer Outdoor Firma Exped vor. Nach viel Arbeit resultierte daraus Exped's Ergo Hammock, die 2011 einen Design-Award an der Outdoor-Messe Friedrichshafen erhielt und 2012 herausgegeben wurde.
     out_of_stock:
       headline: Produkt nicht an Lager
+      please_drop_us_a_line_html: Bitte schreiben Sie uns ein paar Zeilen auf %{mail}, falls Sie Fragen oder Feedback haben. Wir freuen uns, mit Ihnen zu reden!
+      the_selected_item_is_out_of_stock: Es tut uns leid, aber das gewählte Produkt ist zur Zeit nicht an Lager.
     product_info:
-      90_degree_hammock_features_and_naming: 90 Grad Hängematte Eigenschaften und Namensgebung
-      90_degree_tarp_tent_features_and_naming: 90 Grad Tarp-Zelt Eigenschaften und Namensgebung
+      90_degree_hammock: 90 Grad Hängematte
+      90_degree_tarp_tent: 90 Grad Tarp-Zelt
       click_on_the_image_to_enlarge_it: Klicke auf das Bild, um es zu vergrössern.
+      features_and_naming: Eigenschaften und Namensgebung
       headline: Produkt Info
-      if_you_intend_to_camp_in_the_outdoors: Wenn du mit der 90 Grad Hängematte draussen campieren willst empfiehlt sich die Kombination unserem high-tech ultraleicht cuben fiber 90 Grad Tarp-Zelt. Dieses bietet dir Schutz vor Regen und einen trockenen Raum um zu kochen und deine Ausrüstung auszupacken. Das 90 Grad Tarp-Zelt hat 4 Türen die heruntergerollt werden können für Rundumschutz bei stürmischem Wetter und um es mit zwei Trekkingstöcken oder Stecken am Boden als Zelt aufstellen zu können.
+      note_not_all_models: 'Beachte: nicht alle Modelle sind mit all diesen Features ausgerüstet. Bitte vergleiche die Prudukte-Seite.'
       the_90_degree_hammock_comes_in_several_versions: Die 90 Grad Hängematte gibt's in mehreren Versionen für unterschiedlichste Anwendungen, und sie kann mit unserem state-of-the-art ultraleicht 90 Grad Tarp-Zelt kombiniert werden. Dies verwandelt sie in eine rundum Camping-Ausrüstung, die es dir so ziemlich überall ermöglicht zu Campieren, sogar ohne Bäume!
       the_90_degree_hammock_is_unique: 'Die 90 Grad Hängematte ist einzigartig weil du in einem rechten Winkel (90 Grad) zur Aufhängachse der Hängematte liegst. Das macht sie super bequem zum Liegen und Schlafen mit geradem Rücken, sogar auf deiner Seite! Sie löst zwei altbekannte Hängematten-Designfragen, die vielleicht manche Leute ganz vom Hängemattengebrauch abhalten: Die gekrümmte "Bananen"-Liegeposition und den kalten Rücken, der in kühleren Gegenden ein Thema sein kann. Und sie kippt garantiert nicht!'
     shipping_info:
+      a_flat_rate_shipping_fee: Eine Versandkosten-Pauschale von CHF 15.00 wird zu deiner Bestellung hinzugefügt. Alle Bestellungen werden mit der Schweizer Post versendet und durch den Postservice deines Landes geliefert. Tracking ist nicht überall möglich; wenn ja werden wir dir die Tracking Number mailen.
+      delivery_time: Versand-Dauer
       headline: Versand Info
+      orders_from_outside_switzerland: Bestellungen von ausserhalb der Schweiz
+      orders_from_outside_switzerland_may_be_subject: Bestellungen von ausserhalb der Schweiz können weitere Importkosten (Zoll, MWST) nach sich ziehen. Bitte prüfe die Bestimmungen deines Landes / deines Postservices, und beachte, dass in gewissen E.U.-Ländern die MWST sehr hoch ist (20% oder mehr). Bitte beachte ebenfalls, dass du dies eventuell bar be-zahlen musst bei der Lieferung, oder dass du sogar die Lieferung selber auf der Post / dem Zollamt abholen musst.
+      shipping_costs: Versandkosten
+      we_kindly_ask_for_your_patience: Wir bitten um Geduld, da es bis 4 Wochen dauern kann bis du deine Bestellung erhältst. Melde dich, wenn du nach 5 Wochen noch nichts erhalten hast, und wir werden sie für dich finden oder neu senden. Dies kann weitere Zeit in Anspruch nehmen.
     terms_and_conditions:
+      after_the_deadline_of_30_days: Nach der Frist von 30 Tagen fällt der Käufer in Verzug. Die Anbieterin stellt dem Käufer, vorbehaltlich der Anmeldung weiterer Rechte, Verzugszinsen in Höhe von 5% des Kaufpreises in Rechnung. Der Verzug des Käufers tritt mit Zeitüberschreitung ein, ohne dass es einer Mahnung bedarf.
+      all_prices_are_to_be_understood: Preise verstehen sich in Schweizer Franken (CHF) und sind netto ohne Mehrwertsteuer und Versandkosten angegeben. Massgebend sind die am Tage der Lieferung gültigen Listenpreise der Anbieterin.
+      any_special_or_general_terms: Diesen AGB widersprechende spezielle oder allgemeine Vertragsbedingungen werden von der Anbieterin nicht akzeptiert und haben im Verhältnis zwischen der Anbieterin und dem Kunden keine Gültigkeit. Individuelle Vereinbarungen gehen diesen AGB vor.
+      applicable_law_place_of_jurisdiction: 11. Anwendbares Recht, Gerichtsstand
+      billing_amounts_are_to_be_paid: Rechnungsbeträge sind - soweit nichts anderes schriftlich vereinbart wird - innerhalb von spätestens 30 Tagen nach Rechnungsdatum, netto Kasse, porto- und spesenfrei zahlbar. Die Verrechnung von Zahlungen wegen etwaiger Gegenansprüche des Käufers ist diesem nicht gestattet.
+      contract_formation: 2. Vertragsabschluss
+      data_privacy: 10. Datenschutz
+      dates_of_delivery: 6. Liefertermine
+      deferring_arrangements: Abweichende Regelungen haben nur dann Geltung, wenn sie ausdrücklich und schriftlich zwischen der Anbieterin und dem Kunden vereinbart wurden. Mit Bezahlung und / oder Versenden der Bestellung der entsprechenden Produkte auf der Website der Anbieterin akzeptiert der Kunde die vorliegenden Bedingungen vollständig.
+      deliveries: 5. Lieferungen
+      general: 1. Allgemeines
       headline: Allgemeine Geschäftsbedingungen
+      if_the_customer_makes_justified_warranty_claims: Macht der Käufer berechtigte Gewährleistungsansprüche geltend, so kann die Anbieterin nach ihrer Wahl entweder den Kaufpreis zurückerstatten oder Ersatzware liefern. Weitergehende Ansprüche wegen mangelhafter Lieferung, insbesondere Schadenersatzansprüche einschliesslich entgangenen Gewinns oder wegen sonstigen Vermögensschadens des Käufers, sind vollständig ausgeschlossen; es sei denn, die Schadensursache beruht auf Vorsatz oder grober Fahrlässigkeit der Anbieterin.
+      if_the_vendor_can_not_comply: Kann die Anbieterin ihre Lieferpflichten durch Betriebsstörungen, Arbeitskräftemangel, Streik, unterbliebene Eigenbelieferung, Feuerschaden, kriegerische Auseinandersetzungen, behördliche Verfügung, wesentliche Veränderungen in den Währungsverhältnissen oder infolge höherer Gewalt nicht erfüllen, so wird sie von der Leistungspflicht frei.
+      offers: Angebote sind, soweit nicht befristet, bis zum Vertragsabschluss stets freibleibend, insbesondere hinsichtlich der Preise, Lieferungsverpflichtungen, -mengen und -zeiten.
+      oral_agreement: Der Vertrag zwischen dem Kunden und der Anbieterin kommt durch die Bezahlung der Produkte und Dienstleistungen, durch Abrede oder formlos durch die Lieferung der Produkte zustande. Leistungsinhalt und Umfang ergeben sich aus den vorliegenden AGB, bzw. aus allfälligen dokumentierten Individualvereinbarungen.
+      payments: 7. Zahlung
+      place_of_delivery: Erfüllungsort für die Lieferungen ist der Sitz der Anbieterin. Mit der Übergabe der Ware an die Post bzw. den Paketdienst, an den Spediteur oder Frachtführer, spätestens jedoch mit dem Verlassen des Firmengebäudes, geht die Transportgefahr auf den Käufer über. Die Verpackungs- und Portokosten werden dem Käufer in Rechnung gestellt.
+      possible_defects_must_be_reported: Allfällige Mängel müssen sofort, spätestens innert 3 Tagen, schriftlich oder per email der Anbieterin gegenüber gerügt werden.
+      prices: 4. Preise
+      products_can_be_subject_to_change: Produkte, inklusive deren Farbe, Form und Gewicht, können jederzeit und ohne Ankündigung geändert werden und von den Angaben auf der Webseite abweichen.
+      safety: 9. Sicherheit
+      specific_dates_of_delivery: Bestimmte Liefertermine sind grundsätzlich nicht vereinbart. Angegebene Lieferzeiten dienen einzig der Orientierung. Der Kunde ist verpflichtet, die gelieferte Ware entgegenzunehmen.
+      the_customer_agrees: Der Kunde erklärt sich mit der Speicherung und Verwertung seiner Daten durch die Anbieterin vollumfänglich einverstanden.
+      the_customer_can_only_deduce_compensation: Aus verspäteter oder verzögerter Lieferung kann der Käufer Schadenersatzanspruch nur herleiten, wenn der Anbieterin Vorsatz oder grobe Fahrlässigkeit zur Last gelegt werden kann. Sofern die Anbieterin zum Schadenersatz verpflichtet sein sollte, ist die Höhe der Haftung auf den Nettorechnungswert begrenzt. Entgangener Gewinn, Mangelfolgeschaden und Schäden bei Drittpersonen werden nicht ersetzt.
+      the_customer_can_withdraw_from_the_contract: indem er dies der Anbieterin per Email mitteilt und danach gemäss Anweisung die ungebrauchten und originalverpackten Produkte auf eigenes Risiko und eigene Kosten innerhalb von 20 Tagen nach Bezahlung / Bestellung der Anbieterin zurücksendet. Die Anbieterin wird den bezahlten Betrag voll oder teilweise rückerstatten, je nach Zustand der zurückgesendeten Produkte gemäss Einschätzung der Anbieterin.
+      the_terms_and_conditions: Die AGB und das Rechtsverhältnis zwischen Anbieterin und Kunden unterstehen schweizerischem Recht. Ausschliesslicher Gerichtsstand ist am Sitz der Anbieterin.
+      the_use_of_hammocks: Das Benützen von Hängematten ist grundsätzlich mit Gefahren verbunden. Der Käufer ist damit einverstanden, dass er die Hängematten der Anbieterin auf eigene Gefahr benutzt und ist verpflichtet, immer gesunden Menschenverstand anzuwenden und seine Sicherheit zu gewährleisten. Dies beinhaltet die Prüfung aller Produktbestandteile auf Abnützung und Alterung vor jedem Gebrauch und nötigenfalls die Ersetzung / Reparatur der entsprechenden Bestandteile. Hängematten sollen nicht höher als 50 cm über dem Boden (der flach und weich sein soll) und nicht über oder unter gefährlichen Gegenständen aufgehängt werden. Bäume, von denen Äste oder Teile davon herunterfallen könnten, sind als Hängematten-Aufhängepunkte zu meiden. Die Festigkeit und Sicherheit der aufgehängten Hängematte muss vor jedem Sich Hinlegen zuerst sitzend ausgiebig überprüft werden. Minderjährige, welche die Hängematten der Anbieterin benützen, müssen jederzeit beaufsichtigt sein.
+      the_vendor_adopts_all_reasonable_measures: Die Anbieterin ergreift alle zumutbaren Massnahmen, um die bei ihr gespeicherten Daten zu schützen. Zugriffe von Dritten bei der Anbieterin oder einem Vertragspartner der Anbieterin auf gespeicherte Daten führen nicht zur Haftung der Anbieterin und deren Vertragspartner.
+      the_vendor_is_entitled_to_withdraw: Die Anbieterin kann jederzeit vom Vertrag zurücktreten im Fall von Fehlern oder Ungenauigkeiten auf der Website. In diesem Fall wird die Anbieterin dem Kunden die Änderungen mitteilen und ihn fragen, ob trotz der Änderungen die Bestellung weiter verfolgt werden oder ob diese storniert werden soll.
+      the_vendor_must_receive_payment: Die Anbieterin muss die Zahlung des vollen Betrages für die Produkte und Dienstleistungen erhalten bevor die Bestellung akzeptiert werden kann und der Vertrag zustande kommt.
+      the_vendor_uses_customer_data: Die Anbieterin verwendet Kundendaten zur vertrags- und gesetzeskonformen Erfüllung der angebotenen Dienstleistungen.
+      the_vendor_warrants_the_delivery: Die Anbieterin gewährleistet, dass die Verkaufsprodukte frei von Sach- und Rechtsmängeln übergeben werden.
+      the_warranty_period: Die Gewährleistungsfrist beträgt 1 Jahr seit der Lieferung. Die Gewährleistungsfrist beginnt mit der Auslieferung an den Käufer. Die Anbieterin haftet nicht für Schäden, die nach der Auslieferung entstehen durch Nichtbeachtung der Benützungs- oder Pflegeanleitungen und des zulässigen Maximalgewichtes der Hängematten. Insbesondere haftet die Anbieterin nicht für Schäden, welche durch unsachgemässen Gebrauch oder durch Abnützung der Produkte entstehen. Dem Käufer obliegt der Nachweis darüber, dass die Ware zum Zeitpunkt der Auslieferung mit einem Mangel behaftet war.
+      these_terms_and_conditions: Die AGB gelten für sämtliche Leistungen und Produkte, die von HammockTent GmbH (nachfolgend „Anbieterin“ genannt) für den Kunden bzw. Käufer erbracht, ihm geliefert und verkauft werden.
+      warranty: 8. Gewährleistung
+      withdrawal_from_the_contract: 3. Rücktritt vom Vertrag
   products:
     accessories:
       and: und
@@ -270,6 +323,7 @@ de:
       manufacturer_details: Herstellerangaben
       material: Material
       per_meter: pro Meter
+      per_pair: pro Paar
       polyester_tree_straps: 3 x 115 cm Polyester Baumgurten schützen die Baumrinde und das Seil
       polypropylene: Polypropylen
       polypropylene_slit_line: 2 x 5 m 8 mm Polypropylen-Schlitzseil, mit Schlitzen für die Einhängung der Karabiner alle 9 cm
@@ -317,7 +371,7 @@ de:
       all_hammock_versions_are_basically_the_same_design: Alle Hängemattenversionen haben dasselbe Grunddesign, aber weisen eine unterschiedliche Anzahl Ausstattungen und unterschiedliche Materialien auf (Ultraleicht-Modelle).
       basic: basic
       beach_park_and_verandah_goers: Strand-, Park- und Veranda-Hänger
-      bug_bivy: Moskitobywak
+      bug_bivy: Moskitobywak Funktionalität
       bug_net: Moskitonetz
       color: Farbe
       common_specifications_and_features: Gemeinsame Spezifikationen und Ausstattungen
@@ -334,12 +388,14 @@ de:
       high_quality_strong_lightweight_and_breathable_nylon: Aus hochwertigem, robustem, leichtem und atmungsfähigem Nylon 6-6 Ripstopp-Stoff, Oeko-Tex zertifiziert.
       hikers_backpackers_and_cyclists_in_hot_areas: Wanderer, Trekker und Velotourenfahrer in warmen Gegenden oder mit anderen Isolationsmethoden
       hikers_backpackers_cyclists: Wanderer, Trekker, Velotourenfahrer, alle für die Packmass und Gewicht wichtig sind
-      in_addition_to_all_other_features: Zusätzlich kommt diese Version mit einem nicht abnehmbaren Moskitonetz mit einer Reissver-schlussöffnung am Fussende. Der Mattenärmel bleibt erreichbar vom Hängematteninneren am Kopfende.
+      in_addition_to_all_other_features: Zusätzlich kommt diese Version mit einem nicht abnehmbaren Moskitonetz mit einer Reissverschlussöffnung am Fussende. Der Mattenärmel bleibt erreichbar vom Hängematteninneren am Kopfende.
+      interior_pockets: Innentaschen
       know_how_section: Know-How Teil
       learn_more_about_how_to_use_our_hammocks_html: Lerne mehr über die Anwendung unserer Hängematten im Know-How Teil dieser Webseite.
       lids_at_the_head_and_foot_end_of_the_hammock: Deckel am Kopf- und Fussende der Hängematte behalten dich und alles was du in der Hängematte hast drinnen.
       light_gray: Hellgrau
       olive_green: Olivgrün
+      one_pair_of_hammock_suspension_ropes_included_html: Ein paar %{hammock_suspension_ropes} im Wert von CHF 33.- beim Kauf jeder Hängematte inklusive!
       outdoor_hammock_sleepers: Outdoor-Übernachter wie Töff- / Velofahrer, Yachtkapitäne, Reiter usw.
       pad_sleeve_fits_most_common_single_person_camping_pads: In den Mattenärmel passen die meisten üblichen Single-Campingmatten (200 x 68 x 7 cm). Er hat eine lange Reissverschlussöffnung am Fussende und eine kleine Reissverschlussöffnung am Kopfende für einen einfachen Zugang zum Isoliermaterial
       pad_sleeve_insulation: Mattenärmel-Isolation
@@ -348,10 +404,9 @@ de:
       please_scroll_to_the_bottom_of_the_page_html: Bitte scrolle an das Ende der Seite für die %{common_specifications_and_features}, welche alle Modelle gemein haben, und eine %{comparison_chart}.
       price_chf: Preis
       soft: weich
-      spacious_bug_net_suspended_by_shock_cord: Geräumiges Moskitonetz aufgehängt durch zwei Elastikkordeln und justierbar mit Cord-stoppern, nicht abnehmbar, mit Reissverschlussöffnung
+      spacious_bug_net_suspended_by_shock_cord: Geräumiges Moskitonetz aufgehängt durch zwei Elastikkordeln und justierbar mit Cordstoppern, nicht abnehmbar, mit Reissverschlussöffnung
       spacious_ultralight_no_see_um_bug_net: Geräumiges ultraleicht No-See-Um Moskitonetz mit 155 Löchern pro Quadratzentimeter, aufgehängt durch 2 Elastikkordeln, justierbar mit Cordstoppern, nicht abnehmbar, mit Reissverschlusseingang
       specifications: Spezifikationen
-      storage_pouches: Aufbewahrungsbeutel
       string_suspension_protection_sleeves_with_snap_closures: Schnuraufhängesystem-Schutzärmel mit Druckknöpfen verhindern ein Schnurgewirr während des Transports, der Aufbewahrung und Aufhängung.
       stuff_bag: Aufbewahrungssack
       the_hammock_suspension_strings_of_the_standard_models: Die Aufhängeschnüre der Standard-Modelle sind aus Nylon und haben eine gewisse Elastizität. Dies macht die Hängematte sehr weich und anpassungsfähig.
@@ -360,11 +415,11 @@ de:
       they_come_in_a_stuff_bag: Mit Aufbewahrungssack ca. 17 x 32 cm.
       this_is_your_hammock_if_you_intend_to_go_backpacking_or_cycling: Dies ist deine Hängematte wenn du auf Trekking- oder Velotouren gehen willst. Sie kommt mit allen Ausstattungen, aber ist aus leichteren Materialien gefertigt. Weil jedes Gramm, das du nicht tragen musst, weniger Schmerz und mehr Spass bedeutet!
       this_is_your_light_small_no_frills_and_affordable_90_degree_hammock: Dies ist deine leichte, geringvolumige, schlichte und günstige 90 Grad Hängematte, um auf der Veranda, am Strand oder im Park zu chillen.
-      this_model_comes_with_a_pad_sleeve_underneath_the_lying_surface: Diese Model weist einen Mattenärmel unterhalb der Liegefläche auf. Dieser erlaubt das Ein-schieben einer Campingmatte oder von anderem geeigneten Isolationsmaterial, wie Kleidern oder Decken. Beste Resultate werden mit Campingmatten die so lang oder länger wie du selber sind erziehlt, da diese dich nicht nur warm halten, sondern die Hängematte auch in ein sehr komfortables und geräumiges Bett zum Schlafen verwandeln.
-      together_with_our_special_lightweight_html: Zusammen mit unseren leichten %{hammock_suspension_ropes_and_descender_rings} (separat erhältlich – vgl. Zubehör) kann die 90 Grad Hängematte sehr einfach und ohne Knoten zwischen Bäumen und anderen Ankerpunkten aufgehängt werden.
-      two_bug_net_storage_pouches_inside_the_hammock: Zwei Aufbewahrungsbeutel innerhalb der Hängematte
+      this_model_comes_with_a_pad_sleeve_underneath_the_lying_surface: Dieses Modell weist einen Mattenärmel unterhalb der Liegefläche auf. Dieser erlaubt das Einschieben einer Campingmatte oder von anderem geeigneten Isolationsmaterial, wie Kleidern oder Decken. Beste Resultate werden mit Campingmatten die so lang oder länger wie du selber sind erziehlt, da diese dich nicht nur warm halten, sondern die Hängematte auch in ein sehr komfortables und geräumiges Bett zum Schlafen verwandeln.
+      together_with_our_special_lightweight_html: Zusammen mit unseren leichten %{hammock_suspension_ropes_and_descender_rings} kann die 90 Grad Hängematte sehr einfach und ohne Knoten zwischen Bäumen und anderen Ankerpunkten aufgehängt werden.
+      two_bug_net_interior_pockets_inside_the_hammock: Zwei Innentaschen innerhalb der Hängematte
       typical_use_users: Typische Anwendung / Anwender
-      ultra_light_ul: Ultraleicht (UL)
+      ultra_light_ul: Ultra-leicht (UL)
       ultra_strong_and_ultralight_dyneema: Ultrastarkes und ultraleichtes Dyneema SK75 Schnur-Aufhängesystem
       weight: Gewicht
       weight_grams: Gewicht (Gramm)
@@ -394,6 +449,7 @@ de:
       reinforced_tie_out_loops_with_guy_lines: Verstärkte Abspannschlaufen mit Abspannleinen
       specifications: Spezifikationen
       stuff_bag: Aufbewahrungsbeutel
+      the_depicted_hammock_is_not_part_of_the_tarp_tent: 'Hinweis: die abgebildete Hängematte ist nicht Bestandteil des Tarp-Zelts und kann separat bestellt werden.'
       ultralight_titanium_stakes_are_sold_separately_html: Ultraleicht Titan-Heringe sind separat erhältlich (%{accessories}) (%{accessories})
       weight: Gewicht
   'true': Ja

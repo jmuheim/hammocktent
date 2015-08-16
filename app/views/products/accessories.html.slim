@@ -59,7 +59,7 @@ article
 
       .col-md-6
         ul.specs
-          li = price 9, 'per pair'
+          li = price 9, t('.per_pair')
 
         = add_to_cart_button('5FHH25GXY4YFG')
 
@@ -96,8 +96,8 @@ article#drip_clips_and_slit_line
 
       .col-md-6
         ul.specs
-          li #{t '.weight'}: 2 #{t '.drip_clips'} 50 g #{t '.and'} 2 #{t '.slit_lines'} 200 g = 250g / #{'.pair'}
-          li = price 36, 'per pair'
+          li #{t '.weight'}: 2 #{t '.drip_clips'} 50 g #{t '.and'} 2 #{t '.slit_lines'} 200 g = 250g / #{t('.per_pair')}
+          li = price 36, t('.per_pair')
 
         = add_to_cart_button('M49FAC7E6W4VW')
 

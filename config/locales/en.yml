@@ -5,7 +5,10 @@ en:
   'false': 'No'
   helpers:
     products:
+      excl_vat_and_shipping: excl. %{vat} and shipping
+      for_swiss_customers_only: for Swiss customers only
       price: Price
+      vat: VAT
     video:
       watch_the_video: Watch the video
   layouts:
@@ -30,12 +33,16 @@ en:
       headline: About HammockTent
     cancel_checkout:
       headline: Checkout cancelled
+      not_convinced_yet?: Not convinced yet?
+      please_drop_us_a_line_html: Please drop us a line to %{mail} if you have any questions or feedback. We are happy to talk to you!
     contact:
       any_questions_issues_or_feedback_html: 'Any questions, issues, or feedback? Please check our know-how and FAQ section and if you can''t find the answer contact: %{email}.'
       headline: Contact
       please_excuse_late_replies: Please excuse late replies as we might happen to be out hiking...
     finish_checkout:
       headline: Thank you!
+      thank_you_for_buying_our_products: Thank you for buying our products. Your transaction has been completed, and a receipt for your purchase has been emailed to you (please also check your spam folder if necessary).
+      you_may_log_into_your_account_at_paypal_html: You may log into your account at %{paypal} to view details of this transaction.
     home:
       a_hammock_you_can_comfortably_sleep: A hammock you can comfortably sleep a whole night in, even on your side!
       always_have_that_extra_bed_for_guests: Always have that extra bed for guests in the house that is not in your way.
@@ -95,8 +102,8 @@ en:
       the_90_degree_hammocks_with_pad_sleeve: The 90 Degree Hammocks with pad-sleeve are designed for use outside of the tropics, where you usually get somewhat cooler nighttime temperatures requiring a sleeping bag and most likely some sort of insulation underneath.
       the_descender_rings_seem: The descender rings seem to damage the suspension ropes
       the_fabric_is_fraying: The fabric is fraying in some places and now I have annoying fibers getting in the way!
-      the_hammocks_are_designed: The hammocks are designed to keep an average person horizontally. Depending on your build, however, you might have a center of gravity slightly closer to your feet. In this case your head will be a little bit higher than your feet and there will be a tendency for sliding downslope to-wards your feet. Just gently straighten your legs and push yourself up to the head-end of the hammock.
-      the_models_with_bug_net: The models with bug-net come with two storage pouches. Besides, more storage pouches / stuff bags could easily be attached on the ridgeline or the suspension strings, as goes for your shoes, wet socks and the like. Also, you could hang your backpack onto one of the suspension cords to get it off the wet ground and out of reach from critters.
+      the_hammocks_are_designed: The hammocks are designed to keep an average person horizontally. Depending on your build, however, you might have a center of gravity slightly closer to your feet. In this case your head will be a little bit higher than your feet and there will be a tendency for sliding downslope towards your feet. Just gently straighten your legs and push yourself up to the head-end of the hammock.
+      the_models_with_bug_net: The models with bug-net come with two interior pockets. Besides, more pockets / stuff bags could easily be attached on the ridgeline or the suspension strings, as goes for your shoes, wet socks and the like. Also, you could hang your backpack onto one of the suspension cords to get it off the wet ground and out of reach from critters.
       the_shape_of_the_hammock: The shape of the hammock and its slight curve are determined by various factors. Rest assured that it is as flat as you want it, also for sleeping on your side, and as comfortable as it possibly gets the way it is designed.
       the_sleeping_area_can_feel_more_confined: The sleeping area can feel more confined. This can be alleviated to some degree by using a pad inside the pad-sleeve (or in the hammock). If hanged on one overhead point it may also be spread by a bar.
       the_straps_work_with_trees: The straps work with trees of 34 cm (13'') diameter or less. With thicker trees, avoid having the rope next to tree bark, as it may do damage to your rope and possibly the tree. Choose smaller trees or use tree branches to attach your hammock instead. Alternatively, you may purchase a pair of Extension Tree Straps, and attach these onto your first straps.
@@ -214,7 +221,7 @@ en:
       stake_down_the_ridge_tie_outs: Stake down the ridge tie outs together with the 2 door tie outs on both ends, using 1 stake on each side. Make sure it lies taut on the ground, but then move inward with the second stake / the second side 10 cm (4'') or so.
       tie_down_the_other_four_guy_lines: Tie down the other four guy lines.
       to_prevent_guy_line_entanglements: 'To prevent guy line entanglements we recommend pulling one side of the guy lines through the Line Locs almost entirely and then winding them up (suggestion: with the figure 8 method and with the loop / hook end close to the Line Loc).'
-      you_may_install_the_hammock: You may install the hammock (Gamma UL version only) inside the Tarp-Tent as an improvised bug bivy. Hang the bug-net shock cord onto the mitten hook lo-cated in the center of the tarp ridge, and attach the four hammock tie out shock cords to the 4 main wing stakes of the tarp. The suspension sleeves will lie loosely on the ground exposing the lower portion of the strings – take care not to tangle them.
+      you_may_install_the_hammock: You may install the hammock (Gamma UL version only) inside the Tarp-Tent as an improvised bug bivy. Hang the bug-net shock cord onto the mitten hook located in the center of the tarp ridge, and attach the four hammock tie out shock cords to the 4 main wing stakes of the tarp. The suspension sleeves will lie loosely on the ground exposing the lower portion of the strings – take care not to tangle them.
     our_story:
       after_one_of_those_midnight_splashes: "...after one of those midnight splashes of cold rain water down our backs."
       all_our_products: 'All our products and components thereof are made in one or several of these countries: Indonesia, USA, China, European Union and Switzerland.'
@@ -230,25 +237,70 @@ en:
       our_cuben_fiber_tarps: Our Cuben Fiber tarps are produced in the USA by an excellent cottage manufacturing contractor that has many years of experience in the production of Cuben Fiber outdoor gear.
       rest_assured: Rest assured that there is no child labor or inhuman working conditions whatsoever and that the hammocks are being manufactured by a few skilled and distinguished Indonesian tailors earning good money with it.
       somewhat_advanced_models: Somewhat advanced models, in action in...
-      switzerland_and_norway: Switzerland and Norway, 2008.
+      switzerland_and_norway: "...Switzerland and Norway, 2008."
       the_whole_project: The whole project could benefit from the great Italian artist, philosopher, designer and specialty hammock manufacturer Alberto, who – already in his 70ies – contributed a great deal and is carrying out the near impossible production of the 90 Degree Hammock on his Indonesian home island. He had in fact been tinkering with this kind of hammock design for 20 years and first developed it with Yucatan Indians in Mexico he spent some time with. By replacing some fabric of their traditional hammocks with strings he could improve the visibility from inside the hammock, and make it possible to hang them well hidden high up on some single branch of a tree.
       though_we_could_faintly_imagine: Though we could faintly imagine the potential of camping in hammocks, the trip was mainly a disaster, with us either freezing to near death or having rainwater running down our backs in the middle of the night, or both.
       upon_my_return_to_switzerland: Upon my return to Switzerland I fired up the sewing machine again, just to see that a lot of my ideas that seemed to be so perfect in my head in fact did not work out in reality, or were much more complicated than originally thought. However, I kept on tinkering and trying out ever new solutions, and ended up with what I called a 90 Degree Hammock. A design that was undoubtedly more comfortable and more versatile than anything I'd come up with before, and I reckoned it might be feasible to get it produced, if at great pains.
       years_later_in_2010: Years later in 2010 I thought that my latest model was actually not too bad, and I approached Swiss outdoor company Exped with it. After a lot of work this resulted in Exped's Ergo Hammock that won a design award at the Outdoor Trade Show in Friedrichshafen Germany in 2011, and was released in 2012.
     out_of_stock:
       headline: Product out of Stock
+      please_drop_us_a_line_html: Please drop us a line to %{mail} if you have any questions or feedback. We are happy to talk to you!
+      the_selected_item_is_out_of_stock: We are sorry, but the selected item is out of stock.
     product_info:
-      90_degree_hammock_features_and_naming: 90 Degree Hammock Features and Naming
-      90_degree_tarp_tent_features_and_naming: 90 Degree Tarp-Tent Features and Naming
+      90_degree_hammock: 90 Degree Hammock
+      90_degree_tarp_tent: 90 Degree Tarp-Tent
       click_on_the_image_to_enlarge_it: Click on the image to enlarge it.
+      features_and_naming: Features and Naming
       headline: Product info
-      if_you_intend_to_camp_in_the_outdoors: If you intend to camp in the outdoors with the 90 Degree Hammock you may want to combine it with our high tech ultralight cuben fiber 90 Degree Tarp-Tent. It gives you protection from the rain and an area of shelter for cooking and arranging your gear. The 90 Degree Tarp-Tent features doors that can be rolled down for all around protection in the event of stormy weather and for pitching it as a tent on the ground with two hiking poles or sticks.
+      note_not_all_models: 'Note: not all models are equipped with all of these features. Please see the "products" section.'
       the_90_degree_hammock_comes_in_several_versions: The 90 Degree Hammock comes in several versions for many different purposes and preferences; and can be combined with our state of the art ultralight 90 Degree Tarp-Tent. This converts the hammock into an all around shelter system for camping pretty much everywhere, even without any trees!
       the_90_degree_hammock_is_unique: 'The 90 Degree Hammock is unique in that you lie in a right angle (90 degrees) to the suspension axis of the hammock. This makes for a super comfortable recline and sleeping with a flat lay, even on your side! It solves two age old hammock design issues that may be holding some people back from using hammocks altogether: The banana lay and the cold back, which can be a challenge in colder areas. And, it is guaranteed no tip!'
     shipping_info:
+      a_flat_rate_shipping_fee: A flat rate shipping fee of CHF 15.00 will be added to your order, regardless of your shipping address. All orders are sent by Swiss Post and delivered to you by your country's postal service. Tracking is not always possible; if so we'll email you a tracking number.
+      delivery_time: Delivery Time
       headline: Shipping Info
+      orders_from_outside_switzerland: Orders from outside Switzerland
+      orders_from_outside_switzerland_may_be_subject: Orders from outside Switzerland may be subject to additional import charges (customs fees, VAT). Please check the regulations of your country / your postal service; and please be aware that in some EU countries VAT is very high (20% or more). Please also note that you may have to pay these in cash upon delivery, or that you might even have to go pick up the package yourself at the customs / post office.
+      shipping_costs: Shipping Costs
+      we_kindly_ask_for_your_patience: We kindly ask for your patience as it may take up to 4 weeks to receive your order. Please report back to us if you have not received it after 5 weeks, and we'll find it for you or send it again. This may take another 4 weeks or more.
     terms_and_conditions:
+      after_the_deadline_of_30_days: After the deadline of 30 days the customer will be in default. The vendor will charge 5% default interest of the purchasing price, subject to additional claims. Default of the customer will take effect with the expiry of the deadline, without any reminders.
+      all_prices_are_to_be_understood: All prices are to be understood in Swiss Francs (CHF) and are net prices quoted without VAT and shipping costs. Binding are the valid catalog prices of the vendor on the day of delivery.
+      any_special_or_general_terms: Any special or general terms contradicting these terms and conditions will not be accepted by the vendor and have no validity in the contract between the vendor and the customer. Individual arrangements will be considered prior to these terms and conditions.
+      applicable_law_place_of_jurisdiction: 11. Applicable law, place of jurisdiction
+      billing_amounts_are_to_be_paid: Billing amounts are to be paid net cash within 30 days after date of invoice free of postage and expense, unless other arrangements have been agreed upon in writing. The customer is not authorized to bill any counterclaims.
+      contract_formation: 2. Contract formation
+      data_privacy: 10. Data privacy
+      dates_of_delivery: 6. Dates of delivery
+      deferring_arrangements: Deferring arrangements are accepted only if agreed upon explicitly in writing by both the vendor and the customer. By ordering and / or paying for products on the website of the vendor the customer fully accepts these terms and conditions.
+      deliveries: 5. Deliveries
+      general: 1. General
       headline: Terms and Conditions
+      if_the_customer_makes_justified_warranty_claims: If the customer makes justified warranty claims the vendor can, at his option, refund the purchasing price or deliver a replacement. Further claims, particularly damage claims including lost profits and pecuniary damages, are completely disqualified, unless the cause of the damage can be traced to criminal intent or gross negligence of the vendor.
+      if_the_vendor_can_not_comply: If the vendor can not comply with his delivery obligations due to operating troubles, a lack of workforce, strike, supplies interruption, fire damage, warfare, regulatory disposal, significant changes in currency conversions, acts of nature and other factors beyond the vendor's control the vendor will be exempt from delivery obligations.
+      offers: Offers are, unless limited in time, always non binding until contract formation, particularly in regards to prices, delivery obligations, quantities and times.
+      oral_agreement: Oral agreement, payment for, or delivery of goods and services brings into existence a legally binding contract between the customer and the vendor on these terms at hand or documented individual arrangements.
+      payments: 7. Payments
+      place_of_delivery: Place of delivery is the place of business of the vendor. Transporting risks are transferred to the customer with the handover of the goods to the postal or parcel service, carrier or freight forwarder; or with the goods leaving the vendors premises. Costs for packaging and shipping of goods will be billed to the customer.
+      possible_defects_must_be_reported: Possible defects must be reported to the vendor immediately, within 3 days of receipt, in writing or by email.
+      prices: 4. Prices
+      products_can_be_subject_to_change: Products can be subject to change without notice, which includes their color, shape or weight. Product specifications can slightly defer from the information given on the website.
+      safety: 9. Safety
+      specific_dates_of_delivery: Specific dates of delivery are not stipulated. Any stated delivery times are meant to provide guidance only. The customer is required to accept delivered goods.
+      the_customer_agrees: The customer agrees with data storage and use by the vendor.
+      the_customer_can_only_deduce_compensation: The customer can only deduce compensation for delayed or deferred deliveries if the vendor can be blamed with criminal intent or gross negligence. In case the vendor should be obliged to pay compensation the amount will be limited to the net invoice value. Lost profits, damages due to supply shortage or damages to third parties will not be compensated.
+      the_customer_can_withdraw_from_the_contract: by contacting the vendor via email and then returning the unused products according to the instructions of the vendor in their original state and packaging at his own cost and risk within 20 days after payment or order submission. The vendor will fully or partially refund the customer, depending on the conditions of the returned products as determined by the vendor.
+      the_terms_and_conditions: The terms and conditions and the legal relationship between the vendor and the customer are amenable to Swiss law. Exclusive place of jurisdiction is the place of business of the vendor.
+      the_use_of_hammocks: The use of hammocks is inherently associated with dangers. The customer agrees that he is using the hammocks of the vendor at his own risk and is obliged to always use common sense and good judgement to ensure his safety. This includes checking all product components for wear and aging before every use, and replacing / repairing these components if needed. Hammocks should not be hanged more than 50 cm above the ground, which has to be flat and soft; and not above or under dangerous objects. Trees that could drop limbs or parts thereof are to be avoided as anchor / hanging points for hammocks. The safety and strength of a hanged hammock has to be tested thoroughly in a seated position each time before lying down. Minors using the hammocks of the vendor are to be supervised at all times.
+      the_vendor_adopts_all_reasonable_measures: The vendor adopts all reasonable measures to protect stored data. However, third party access to data stored by the vendor or his contractors does not imply liability of the vendor or his contractors.
+      the_vendor_is_entitled_to_withdraw: The vendor is entitled to withdraw from any contract at any time in case of mistakes or inaccuracies on the website. In this case the vendor may inform the customer about any changes and may ask if the customer wishes to continue with the order, or to cancel the order.
+      the_vendor_must_receive_payment: The vendor must receive payment in full for ordered products and services before the order can be accepted and the contract formed.
+      the_vendor_uses_customer_data: The vendor uses customer data solely for the fulfillment of offered services in accordance with the contract and applicable laws.
+      the_vendor_warrants_the_delivery: The vendor warrants the delivery of products free of material defects and defects of title.
+      the_warranty_period: The warranty period is 1 year from delivery. The warranty period starts with the delivery to the customer. The vendor is not liable for damages that happen after delivery because of non compliance with instructions for use and care of the products or because of exceeding recommended maximum loads for hammocks. The vendor is not liable for damages caused by inappropriate use and wear of the products. The customer is obliged to demonstrate that the product was deficient at the time of delivery.
+      these_terms_and_conditions: These terms and conditions apply for all services and products rendered, delivered or sold by HammockTent GmbH (hereinafter referred to as "vendor") to the customer or vendee.
+      warranty: 8. Warranty
+      withdrawal_from_the_contract: 3. Withdrawal from the contract
   products:
     accessories:
       and: und
@@ -271,6 +323,7 @@ en:
       manufacturer_details: Manufacturer's details
       material: Material
       per_meter: per meter
+      per_pair: per pair
       polyester_tree_straps: 3 x 115 cm (1.2'' x 45'') polyester tree straps protect the bark of the tree from getting incised and the rope from wear
       polypropylene: polypropylene
       polypropylene_slit_line: 2 x 5 m 8 mm polypropylene Slit Line, with slits for hooking carabiners every 9 cm
@@ -318,7 +371,7 @@ en:
       all_hammock_versions_are_basically_the_same_design: All hammock versions are basically the same design, but boast a different amount of features and different materials (ultralight models).
       basic: basic
       beach_park_and_verandah_goers: Beach-, park- and verandah goers
-      bug_bivy: Bug bivy
+      bug_bivy: Bug bivy functio-nality
       bug_net: Bug net
       color: Color
       common_specifications_and_features: Common Specifications and Features
@@ -336,11 +389,13 @@ en:
       hikers_backpackers_and_cyclists_in_hot_areas: Hikers, backpackers and cyclists in hot areas or with different insulation preferences
       hikers_backpackers_cyclists: Hikers, backpackers, cyclists, any- one concerned with pack size and weight
       in_addition_to_all_other_features: In addition to all other features this version comes with a non removable bug-net with a zippered entrance at the foot end. The pad-sleeve remains accessible from the inside of the hammock at the head end.
+      interior_pockets: Interor pockets
       know_how_section: know-how section
       learn_more_about_how_to_use_our_hammocks_html: Learn more about how to use our hammocks in the %{know_how_section} of this webpage.
       lids_at_the_head_and_foot_end_of_the_hammock: Lids at the head and foot end of the hammock make you and everything you have in the hammock stay inside.
       light_gray: light gray
       olive_green: olive green
+      one_pair_of_hammock_suspension_ropes_included_html: One pair of %{hammock_suspension_ropes}, valued CHF 33.-, included with every hammock!
       outdoor_hammock_sleepers: Outdoor hammock sleepers such as bikers, cyclists, yachties, road trippers and equestrians
       pad_sleeve_fits_most_common_single_person_camping_pads: Pad-sleeve fits most common single person camping pads (200 x 68 x 7 cm / 79'' x 27'' x 3''), has a large zippered opening at the foot end and a small zippered opening at the head end for easy accessibility and adjustment of the insulating material
       pad_sleeve_insulation: Pad-sleeve insulation
@@ -352,7 +407,6 @@ en:
       spacious_bug_net_suspended_by_shock_cord: Spacious bug-net suspended by shock cord, adjustable with cord stoppers, non removable, with zippered entrance
       spacious_ultralight_no_see_um_bug_net: Spacious ultralight No-See-Um bug-net with 155 holes per square Centimeter, suspended by shock cord, adjustable with cord stoppers, non removable, with zippered entrance
       specifications: Specifications
-      storage_pouches: Storage pouches
       string_suspension_protection_sleeves_with_snap_closures: String suspension protection sleeves with snap closures prevent entanglements while transporting, storing and hanging the hammock.
       stuff_bag: stuff bag
       the_hammock_suspension_strings_of_the_standard_models: The hammock suspension strings of the standard models are made of Nylon and have a certain stretchiness. This makes the hammock very soft and adjusting to individual body proportions.
@@ -362,8 +416,8 @@ en:
       this_is_your_hammock_if_you_intend_to_go_backpacking_or_cycling: This is your hammock if you intend to go backpacking or cycling. It boasts each and every feature, but it is made of much lighter materials. Because every gram you do not have to carry means less pain and more fun!
       this_is_your_light_small_no_frills_and_affordable_90_degree_hammock: This is your light, small, no frills and affordable 90 Degree Hammock for chilling out and resting on the verandah, at the beach or in the park.
       this_model_comes_with_a_pad_sleeve_underneath_the_lying_surface: This model comes with a pad-sleeve underneath the lying surface. This enables you to insert a camping pad or any other suitable insulating material, such as clothes or a quilt. Best results are achieved with camping pads as long or longer as yourself, since they will not only keep you warm but will also transform the hammock into a very comfortable and spacious bed for sleeping.
-      together_with_our_special_lightweight_html: Together with our special lightweight %{hammock_suspension_ropes_and_descender_rings} (sold separately – see accessories) the 90 Degree Hammock can very easily be hanged between trees or other anchor points without any knots.
-      two_bug_net_storage_pouches_inside_the_hammock: Two bug-net storage pouches inside the hammock
+      together_with_our_special_lightweight_html: Together with our special lightweight %{hammock_suspension_ropes_and_descender_rings} the 90 Degree Hammock can very easily be hanged between trees or other anchor points without any knots.
+      two_bug_net_interior_pockets_inside_the_hammock: Two bug-net interior pockets inside the hammock
       typical_use_users: Typical use / users
       ultra_light_ul: Ultra light (UL)
       ultra_strong_and_ultralight_dyneema: Ultra strong and ultralight Dyneema SK75 string suspension system
@@ -395,6 +449,7 @@ en:
       reinforced_tie_out_loops_with_guy_lines: Reinforced tie out loops with guy lines
       specifications: Specifications
       stuff_bag: stuff bag
+      the_depicted_hammock_is_not_part_of_the_tarp_tent: 'Note: the depicted hammock is not part of the Tarp Tent and can be ordered separately.'
       ultralight_titanium_stakes_are_sold_separately_html: Ultralight titanium stakes are sold separately (%{accessories})
       weight: Weight
   'true': 'Yes'

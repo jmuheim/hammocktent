@@ -4,6 +4,6 @@ section.headline
 section
   .row
     .col-md-12
-      p Not convinced yet?
+      p = t '.not_convinced_yet?'
 
-      p Please drop us a line to #{mail_to('info@hammocktent.com', nil, encode: 'javascript')} if you have any questions or feedback. We are happy to talk to you!
+      p = t '.please_drop_us_a_line_html', mail: mail_to('info@hammocktent.com', nil, encode: 'javascript')

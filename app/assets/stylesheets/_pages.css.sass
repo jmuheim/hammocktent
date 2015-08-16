@@ -1,92 +1,112 @@
-body.pages.home
-  background-color: #000 // Don't yet show the normal background (the map), as the carousel items may load slower than the map which results in flickering
-  height: 100%
-  color: #fff
-
-  footer
-    +hide_visually
-
-  main.container
-    padding: 0
-    width: 100%
+body.pages
+  &.home
+    background-color: #000 // Don't yet show the normal background (the map), as the carousel items may load slower than the map which results in flickering
     height: 100%
-    margin: 0
+    color: #fff
 
-  .row
-    margin: 0
-    height: 100%
+    footer
+      +hide_visually
 
-  .col-md-12
-    padding: 0
-    height: 100%
-
-  h1
-    border-top: 8px solid rgba(102, 130, 92, 0.6)
-    +text-shadow(black 0px 0px 10px)
-    background-color: rgba(0, 0, 0, 0.4)
-    position: absolute
-    z-index: 10
-    text-align: center
-    padding: 20px 30px
-    margin: 0
-    font-size: 28px
-    line-height: 36px
-    font-weight: 300
-    left: 20%
-    right: 20%
-    top: 12%
-
-  #homepage_carousel
-    height: 100%
-
-    img
-      visibility: hidden // +invisible mixin results in bg-image not showing on large resolutions!
-
-  .carousel-inner
-    height: 100%
-
-    .item
+    main.container
+      padding: 0
+      width: 100%
       height: 100%
-      background-repeat: no-repeat
-      background-position: center center
-      +background-size(cover)
+      margin: 0
 
-    p
+    .row
+      margin: 0
+      height: 100%
+
+    .col-md-12
+      padding: 0
+      height: 100%
+
+    h1
+      border-top: 8px solid rgba(102, 130, 92, 0.6)
       +text-shadow(black 0px 0px 10px)
-      border-top: 5px solid rgba(102, 130, 92, 0.6)
       background-color: rgba(0, 0, 0, 0.4)
-      padding: 10px 20px
       position: absolute
+      z-index: 10
+      text-align: center
+      padding: 20px 30px
+      margin: 0
+      font-size: 28px
+      line-height: 36px
+      font-weight: 300
       left: 20%
       right: 20%
-      bottom: 10%
-      text-align: center
-      font-weight: 300
-      font-size: 24px
+      top: 12%
 
-body.pages.contact
-  p.logo
-    +border-radius(5px)
-    margin-left: auto
-    margin-right: auto
-    margin-top: 40px
-    background-color: #fff
-    width: 508px
-    padding: 10px
+    #homepage_carousel
+      height: 100%
 
-@media (max-width: $screen-sm-min)
-  body.pages.home
-    h1
-      left: 10%
-      right: 10%
-      padding: 8px 14px
-      font-size: 14px
-      line-height: 20px
+      img
+        visibility: hidden // +invisible mixin results in bg-image not showing on large resolutions!
 
     .carousel-inner
+      height: 100%
+
+      .item
+        height: 100%
+        background-repeat: no-repeat
+        background-position: center center
+        +background-size(cover)
+
       p
+        +text-shadow(black 0px 0px 10px)
+        border-top: 5px solid rgba(102, 130, 92, 0.6)
+        background-color: rgba(0, 0, 0, 0.4)
+        padding: 10px 20px
+        position: absolute
+        left: 20%
+        right: 20%
+        bottom: 10%
+        text-align: center
+        font-weight: 300
+        font-size: 24px
+
+  &.our_story
+    figure
+      margin-bottom: 10px
+      margin-top: 6px
+      width: 300px
+
+      &.left
+        +float-left
+        margin-right: 40px
+
+      &.right
+        +float-right
+        margin-left: 40px
+        
+      figcaption
+        text-align: center
+        color: #a7c292
+        margin-top: 6px
+
+  &.contact
+    p.logo
+      +border-radius(5px)
+      margin-left: auto
+      margin-right: auto
+      margin-top: 40px
+      background-color: #fff
+      width: 508px
+      padding: 10px
+
+  @media (max-width: $screen-sm-min)
+    &.home
+      h1
         left: 10%
         right: 10%
-        padding: 5px 10px
-        font-size: 12px
-        line-height: 18px
+        padding: 8px 14px
+        font-size: 14px
+        line-height: 20px
+
+      .carousel-inner
+        p
+          left: 10%
+          right: 10%
+          padding: 5px 10px
+          font-size: 12px
+          line-height: 18px

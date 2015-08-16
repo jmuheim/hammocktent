@@ -4,6 +4,6 @@ section.headline
 section
   .row
     .col-md-12
-      p Thank you for buying our products. Your transaction has been completed, and a receipt for your purchase has been emailed to you.
+      p = t '.thank_you_for_buying_our_products'
       
-      p You may log into your account at #{link_to 'PayPal', 'http://www.paypal.com'} to view details of this transaction.
+      p = t '.you_may_log_into_your_account_at_paypal_html', paypal: link_to('PayPal', 'http://www.paypal.com')

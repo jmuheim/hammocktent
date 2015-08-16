@@ -11,7 +11,7 @@ describe 'Showing the home page' do
 
   it 'displays many usages of the hammock' do
     within 'main' do
-      expect(page).to have_content 'Welcome to the exciting experience of sleeping in a hammock - wherever you are, however you like. We are sure you will love it!'
+      expect(page).to have_content 'Welcome to the exciting experience of sleeping in a hammock - wherever you are, in whatever position you prefer. We are sure you will love it!'
       expect(page).to have_content 'Carry your comfortable bed with you and camp anywhere between trees in the great outdoors.'
       expect(page).to have_content 'Have a deployable bed ready in a little corner of your baggage, pack or car, weighing just a few hundred grams.'
       expect(page).to have_content 'A hammock you can comfortably sleep a whole night in, even on your side!'
