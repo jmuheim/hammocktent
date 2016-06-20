@@ -36,7 +36,10 @@ article
 
       .col-md-6
         ul.specs
-          li = price 132
+          li
+            span#off25percent => t '.25_percent_off'
+            | (#{t '.old_price'}: CHF 132.-)
+          li = price 99
 
         = add_to_cart_button('RDFS9C26NEJVN')
 
@@ -225,10 +228,10 @@ section#comparison_chart
       tbody
         tr
           th Alpha
-          td 
-          td 
-          td 
-          td 
+          td
+          td
+          td
+          td
           td 0
           td = t '.soft'
           td 132.00
@@ -237,9 +240,9 @@ section#comparison_chart
         tr
           th Beta
           td: .fa.fa-check
-          td 
-          td 
-          td 
+          td
+          td
+          td
           td 0
           td = t '.soft'
           td 154.00
@@ -249,8 +252,8 @@ section#comparison_chart
           th Gamma
           td: .fa.fa-check
           td: .fa.fa-check
-          td 
-          td 
+          td
+          td
           td 2
           td = t '.soft'
           td 178.00
@@ -269,7 +272,7 @@ section#comparison_chart
           td = t '.hikers_backpackers_cyclists'
         tr
           th Delta UL
-          td 
+          td
           td: .fa.fa-check
           td: .fa.fa-check
           td

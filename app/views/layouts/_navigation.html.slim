@@ -24,6 +24,8 @@ nav#navigation.navbar.yamm.navbar-inverse.navbar-fixed-top
 
         - navigation.item t('.about') do
           - navigation.item t('.our_story'), page_path('our_story')
+          - navigation.item t('.shipping_info'), page_path('shipping_info')
+          - navigation.item t('.return_policy'), page_path('return_policy')
           - navigation.item t('.contact'), page_path('contact')
 
       = semantic_navigation :meta_navigation, config: :bootstrap, class: 'navbar-right' do |navigation|

@@ -26,6 +26,8 @@ de:
       our_story: Unsere Geschichte
       product_info: Produkt Info
       products: Produkte
+      return_policy: Rückgaberecht
+      shipping_info: Versand Info
       sign_up: Registrieren
       tarps: Tarp-Zelt
   pages:
@@ -234,7 +236,7 @@ de:
       i_got_to_know_him: Ich lernte ihn über wenig wahrscheinliche Wege kennen und konnte ihn als Businesspartner und Freund gewinnen. Daher könnte die 90 Grad Hängematte tatsächlich eine Kombination aus Schweizer Technologie, Italienischem Design und Indonesischem Handwerk darstellen. Auf der anderen Seite stellten kulturelle Unterschiede zwischen diesen drei sicher auch eine gewisse Herausforderung dar.
       late_in_2013: Ende 2013, mit dem Einverständnis von Exped, entschied ich mich es zu versuchen. Ende 2014, nachdem meine gesamten Ersparnisse investiert, tausende Emails geschrieben, 3 Monate in Indonesien verbracht und Freunde und Familie bei zahlreichen Dingen mitgeholfen hatten, ist die 90 Grad Hängematte hier und HammockTent.com in Betrieb!
       on_the_way_to_croatia: Auf dem Weg nach Kroatien im 2005...
-      our_cuben_fiber_tarps: Die Cuben Fiber Tarps werden in den USA durch einen herausragenden Kleinhersteller mit vielen Jahren Erfahrung in der Produktion von Cuben Fiber Outdoor Ausrüstung gefertigt.
+      our_cuben_fiber_tarps_html: Die Cuben Fiber Tarps werden in den USA durch %{zpacks}, einen herausragenden Kleinhersteller mit vielen Jahren Erfahrung in der Produktion von Cuben Fiber Outdoor Ausrüstung, hergestellt.
       rest_assured: Sei versichert, dass es bei der Produktion weder Kinderarbeit noch menschenunwürdige Arbeitsverhältnisse gibt, und dass die Hängematten von einigen versierten Indonesischen Schneidern hergestellt werden, die damit gutes Geld verdienen.
       somewhat_advanced_models: Etwas weiter entwickelte Modelle, in Aktion...
       switzerland_and_norway: "...in der Schweiz und Norwegen, 2008."
@@ -255,6 +257,9 @@ de:
       note_not_all_models: 'Beachte: nicht alle Modelle sind mit all diesen Features ausgerüstet. Bitte vergleiche die Prudukte-Seite.'
       the_90_degree_hammock_comes_in_several_versions: Die 90 Grad Hängematte gibt's in mehreren Versionen für unterschiedlichste Anwendungen, und sie kann mit unserem state-of-the-art ultraleicht 90 Grad Tarp-Zelt kombiniert werden. Dies verwandelt sie in eine rundum Camping-Ausrüstung, die es dir so ziemlich überall ermöglicht zu Campieren, sogar ohne Bäume!
       the_90_degree_hammock_is_unique: 'Die 90 Grad Hängematte ist einzigartig weil du in einem rechten Winkel (90 Grad) zur Aufhängachse der Hängematte liegst. Das macht sie super bequem zum Liegen und Schlafen mit geradem Rücken, sogar auf deiner Seite! Sie löst zwei altbekannte Hängematten-Designfragen, die vielleicht manche Leute ganz vom Hängemattengebrauch abhalten: Die gekrümmte "Bananen"-Liegeposition und den kalten Rücken, der in kühleren Gegenden ein Thema sein kann. Und sie kippt garantiert nicht!'
+    return_policy:
+      headline: Rückgaberecht
+      please_see_our_faq_html: Bitte beachte den Bereich "%{section}" in %{faq}.
     shipping_info:
       a_flat_rate_shipping_fee: Eine Versandkosten-Pauschale von CHF 15.00 wird zu deiner Bestellung hinzugefügt. Alle Bestellungen werden mit der Schweizer Post versendet und durch den Postservice deines Landes geliefert. Tracking ist nicht überall möglich; wenn ja werden wir dir die Tracking Number mailen.
       delivery_time: Versand-Dauer
@@ -289,7 +294,7 @@ de:
       specific_dates_of_delivery: Bestimmte Liefertermine sind grundsätzlich nicht vereinbart. Angegebene Lieferzeiten dienen einzig der Orientierung. Der Kunde ist verpflichtet, die gelieferte Ware entgegenzunehmen.
       the_customer_agrees: Der Kunde erklärt sich mit der Speicherung und Verwertung seiner Daten durch die Anbieterin vollumfänglich einverstanden.
       the_customer_can_only_deduce_compensation: Aus verspäteter oder verzögerter Lieferung kann der Käufer Schadenersatzanspruch nur herleiten, wenn der Anbieterin Vorsatz oder grobe Fahrlässigkeit zur Last gelegt werden kann. Sofern die Anbieterin zum Schadenersatz verpflichtet sein sollte, ist die Höhe der Haftung auf den Nettorechnungswert begrenzt. Entgangener Gewinn, Mangelfolgeschaden und Schäden bei Drittpersonen werden nicht ersetzt.
-      the_customer_can_withdraw_from_the_contract: indem er dies der Anbieterin per Email mitteilt und danach gemäss Anweisung die ungebrauchten und originalverpackten Produkte auf eigenes Risiko und eigene Kosten innerhalb von 20 Tagen nach Bezahlung / Bestellung der Anbieterin zurücksendet. Die Anbieterin wird den bezahlten Betrag voll oder teilweise rückerstatten, je nach Zustand der zurückgesendeten Produkte gemäss Einschätzung der Anbieterin.
+      the_customer_can_withdraw_from_the_contract: Der Kunde kann vom Vertrag zurücktreten, indem er dies der Anbieterin per Email mitteilt und danach gemäss Anweisung die ungebrauchten und originalverpackten Produkte auf eigenes Risiko und eigene Kosten innerhalb von 20 Tagen nach Bezahlung / Bestellung der Anbieterin zurücksendet. Die Anbieterin wird den bezahlten Betrag voll oder teilweise rückerstatten, je nach Zustand der zurückgesendeten Produkte gemäss Einschätzung der Anbieterin.
       the_terms_and_conditions: Die AGB und das Rechtsverhältnis zwischen Anbieterin und Kunden unterstehen schweizerischem Recht. Ausschliesslicher Gerichtsstand ist am Sitz der Anbieterin.
       the_use_of_hammocks: Das Benützen von Hängematten ist grundsätzlich mit Gefahren verbunden. Der Käufer ist damit einverstanden, dass er die Hängematten der Anbieterin auf eigene Gefahr benutzt und ist verpflichtet, immer gesunden Menschenverstand anzuwenden und seine Sicherheit zu gewährleisten. Dies beinhaltet die Prüfung aller Produktbestandteile auf Abnützung und Alterung vor jedem Gebrauch und nötigenfalls die Ersetzung / Reparatur der entsprechenden Bestandteile. Hängematten sollen nicht höher als 50 cm über dem Boden (der flach und weich sein soll) und nicht über oder unter gefährlichen Gegenständen aufgehängt werden. Bäume, von denen Äste oder Teile davon herunterfallen könnten, sind als Hängematten-Aufhängepunkte zu meiden. Die Festigkeit und Sicherheit der aufgehängten Hängematte muss vor jedem Sich Hinlegen zuerst sitzend ausgiebig überprüft werden. Minderjährige, welche die Hängematten der Anbieterin benützen, müssen jederzeit beaufsichtigt sein.
       the_vendor_adopts_all_reasonable_measures: Die Anbieterin ergreift alle zumutbaren Massnahmen, um die bei ihr gespeicherten Daten zu schützen. Zugriffe von Dritten bei der Anbieterin oder einem Vertragspartner der Anbieterin auf gespeicherte Daten führen nicht zur Haftung der Anbieterin und deren Vertragspartner.
@@ -352,6 +357,7 @@ de:
       thanks_for_your_interest: Danke für dein Interesse!
       the_ordering_process_is_handled_through_paypal: Der Bestellvorgang wird durch PayPal abgewickelt. Du wirst danach auf unsere Seite zurückgeleitet.
     hammocks:
+      25_percent_off: 25% Rabatt
       4_shock_cord_tie_outs: 4 Elastikkordeln für die Insektenbivak Funktionalität – stelle die Hängematte am Boden auf, entweder im Tarp-Zelt oder separat mit zwei Trekkingstöcken und 6 Heringen.
       90_degree_hammock_alpha: 90 Grad Hängematte Alpha
       90_degree_hammock_beta: 90 Grad Hängematte Beta
@@ -377,7 +383,7 @@ de:
       common_specifications_and_features: Gemeinsame Spezifikationen und Ausstattungen
       common_specifications_and_features_shared_by_all_models: Gemeinsame Spezifikationen und Ausstattungen aller Modelle
       comparison_chart: Vergleichstabelle
-      designed_for_a_single_user: Konzipiert für eine bis zu 2 m grosse und maximal 100 kg schwere Person
+      designed_for_a_single_user: Konzipiert für eine bis zu 1.9 m grosse und maximal 100 kg schwere Person
       dimensions_of_hammock_body: 'Dimensionen der Hängemattenfläche: 220 x 110 cm'
       feel: Beschaffenheit
       firm: weniger weich
@@ -394,6 +400,7 @@ de:
       learn_more_about_how_to_use_our_hammocks_html: Lerne mehr über die Anwendung unserer Hängematten im Know-How Teil dieser Webseite.
       lids_at_the_head_and_foot_end_of_the_hammock: Deckel am Kopf- und Fussende der Hängematte behalten dich und alles was du in der Hängematte hast drinnen.
       light_gray: Hellgrau
+      old_price: alter Preis
       olive_green: Olivgrün
       one_pair_of_hammock_suspension_ropes_included_html: Ein paar %{hammock_suspension_ropes} im Wert von CHF 33.- beim Kauf jeder Hängematte inklusive!
       outdoor_hammock_sleepers: Outdoor-Übernachter wie Töff- / Velofahrer, Yachtkapitäne, Reiter usw.
@@ -446,6 +453,7 @@ de:
       features_4_doors_that_can_be_rolled_down: 4 Türen können heruntergerollt und überlappt werden, wenn rundum Sturmschutz benötigt wird. Kann ebenso als Zelt am Boden aufgestellt werden, mit zwei Trekkingstöcken und minimal 10 Heringen. Dies kann auf Expeditionen praktisch sein, wo möglicherweise nicht jede Nacht Bäume zur Verfügung stehen.
       guy_lines: Abspannleinen
       headline: 90° Tarp-Zelt
+      made_by_zpacks_html: Hergestellt in den USA durch %{zpacks}
       reinforced_tie_out_loops_with_guy_lines: Verstärkte Abspannschlaufen mit Abspannleinen
       specifications: Spezifikationen
       stuff_bag: Aufbewahrungsbeutel

@@ -1,0 +1,7 @@
+section.headline
+  h1 = t '.headline'
+
+section
+  .row
+    .col-md-12
+      p = t '.please_see_our_faq_html', section: t('pages.know_how_faq.returns_warranty_refunds_repairs'), faq: link_to(t('pages.know_how_faq.headline'), page_path('know_how_faq', anchor: (I18n.locale == :de ? 'rucksendungen--garantie--zuruckerstattungen--reparaturen' : 'returns--warranty--refunds--repairs')))
