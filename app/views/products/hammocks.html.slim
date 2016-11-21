@@ -1,11 +1,15 @@
 section.headline
-  h1 = t '.headline'
+  .row
+    .col-md-8
+      h1 = t '.headline'
 
-  p = t '.all_hammock_versions_are_basically_the_same_design'
+      p = t '.all_hammock_versions_are_basically_the_same_design'
 
-  p = t '.please_scroll_to_the_bottom_of_the_page_html', common_specifications_and_features: link_to(t('.common_specifications_and_features'), '#common_specifications_and_features'), comparison_chart: link_to(t('.comparison_chart'), '#comparison_chart')
+      p = t '.please_scroll_to_the_bottom_of_the_page_html', common_specifications_and_features: link_to(t('.common_specifications_and_features'), '#common_specifications_and_features'), comparison_chart: link_to(t('.comparison_chart'), '#comparison_chart')
 
-  p = t '.one_pair_of_hammock_suspension_ropes_included_html', hammock_suspension_ropes: link_to(t('products.accessories.hammock_suspension_ropes'), products_path('accessories', anchor: 'hammock_suspension_ropes'))
+  .row
+    .col-md-12
+      p = t '.one_pair_of_hammock_suspension_ropes_included_html', hammock_suspension_ropes: link_to(t('products.accessories.hammock_suspension_ropes'), products_path('accessories', anchor: 'hammock_suspension_ropes'))
 
 article
   .row
@@ -37,9 +41,9 @@ article
       .col-md-6
         ul.specs
           li
-            span#off25percent => t '.25_percent_off'
+            span#off50percent => t '.50_percent_off'
             | (#{t '.old_price'}: CHF 132.-)
-          li = price 99
+          li = price 66
 
         = add_to_cart_button('RDFS9C26NEJVN')
 
@@ -72,7 +76,10 @@ article
         ul.specs
           li #{t '.color'}: #{t '.light_gray'} / #{t '.olive_green'}
           li #{t '.weight'}: 502 g + #{t '.stuff_bag'} 15 g = 517 g (18.2 oz)
-          li = price 154
+          li
+            span#off50percent => t '.50_percent_off'
+            | (#{t '.old_price'}: CHF 154.-)
+          li = price 77
 
         = add_to_cart_button('727539FDMM96L')
 
@@ -108,7 +115,10 @@ article
           li = t '.adjustable_ridge_line'
           li #{t '.color'}: #{t '.light_gray'} / #{t '.olive_green'}
           li #{t '.weight'}: 595 g + #{t '.stuff_bag'} 15 g = 610 g (21.5 oz)
-          li = price 178
+          li
+            span#off50percent => t '.50_percent_off'
+            | (#{t '.old_price'}: CHF 178.-)
+          li = price 89
 
         = add_to_cart_button('GPSVWNW8WWXRC')
 
@@ -180,7 +190,10 @@ article
           li = t '.adjustable_ridge_line'
           li #{t '.color'}: #{t '.glacier_gray'} / #{t '.peapod_green'}
           li #{t '.weight'}: 321 g + #{t '.stuff_bag'} 9 g = 330 g (11.6 oz)
-          li = price 179
+          li
+            span#off50percent => t '.50_percent_off'
+            | (#{t '.old_price'}: CHF 179.-)
+          li = price 89
 
         = add_to_cart_button('UGTEYG7NZ9AA8')
 
