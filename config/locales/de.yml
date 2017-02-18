@@ -310,6 +310,7 @@ de:
       withdrawal_from_the_contract: 3. Rücktritt vom Vertrag
   products:
     accessories:
+      out_of_stock: Ausverkauft
       and: und
       diameter: Durchmesser
       drip_clips: Drip Clips

@@ -310,6 +310,7 @@ en:
       withdrawal_from_the_contract: 3. Withdrawal from the contract
   products:
     accessories:
+      out_of_stock: Out of stock
       and: und
       diameter: Diameter
       drip_clips: Drip Clips

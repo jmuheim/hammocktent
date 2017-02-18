@@ -34,7 +34,10 @@ article#hammock_suspension_ropes
           li #{t '.weight_per_pair'}: #{t '.straps_and_ropes'} 60 g, #{t '.loops_with_descender_rings'} 18 g; 78 g #{t '.total'}
           li = price 33
 
-        = add_to_cart_button('8VD48G39AX4Y4')
+        button.btn.btn-danger.add_to_cart disabled="disabled"
+          = fa_icon 'shopping-cart'
+          =<> t '.out_of_stock'
+          | →
 
 article
   .row
