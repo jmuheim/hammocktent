@@ -1,6 +1,6 @@
 section.headline
   .row
-    .col-md-8
+    .col-md-12
       h1 = t '.headline'
 
       p = t '.all_hammock_versions_are_basically_the_same_design'
@@ -41,7 +41,7 @@ article
       .col-md-6
         ul.specs
           li
-            span#off50percent => t '.50_percent_off'
+            span#off_x_percent => t '.50_percent_off'
             | (#{t '.old_price'}: CHF 132.-)
           li = price 66
 
@@ -77,7 +77,7 @@ article
           li #{t '.color'}: #{t '.light_gray'} / #{t '.olive_green'}
           li #{t '.weight'}: 502 g + #{t '.stuff_bag'} 15 g = 517 g (18.2 oz)
           li
-            span#off50percent => t '.50_percent_off'
+            span#off_x_percent => t '.50_percent_off'
             | (#{t '.old_price'}: CHF 154.-)
           li = price 77
 
@@ -116,11 +116,14 @@ article
           li #{t '.color'}: #{t '.light_gray'} / #{t '.olive_green'}
           li #{t '.weight'}: 595 g + #{t '.stuff_bag'} 15 g = 610 g (21.5 oz)
           li
-            span#off50percent => t '.50_percent_off'
+            span#off_x_percent => t '.50_percent_off'
             | (#{t '.old_price'}: CHF 178.-)
           li = price 89
 
-        = add_to_cart_button('GPSVWNW8WWXRC')
+        button.btn.btn-danger.add_to_cart disabled="disabled"
+          = fa_icon 'shopping-cart'
+          =<> t '.out_of_stock'
+          | →
 
 article
   .row
@@ -155,7 +158,10 @@ article
           li = t '.4_shock_cord_tie_outs'
           li #{t '.color'}: #{t '.glacier_gray'} / #{t '.peapod_green'}
           li #{t '.weight'}: 421 g + #{t '.stuff_bag'} 9 g = 430 g (15.2 oz)
-          li = price 199
+          li
+            span#off_x_percent => t '.25_percent_off'
+            | (#{t '.old_price'}: CHF 199.-)
+          li = price 149.25
 
         = add_to_cart_button('FHV7HE4Q5R226')
 
@@ -191,11 +197,14 @@ article
           li #{t '.color'}: #{t '.glacier_gray'} / #{t '.peapod_green'}
           li #{t '.weight'}: 321 g + #{t '.stuff_bag'} 9 g = 330 g (11.6 oz)
           li
-            span#off50percent => t '.50_percent_off'
+            span#off_x_percent => t '.50_percent_off'
             | (#{t '.old_price'}: CHF 179.-)
           li = price 89
 
-        = add_to_cart_button('UGTEYG7NZ9AA8')
+          button.btn.btn-danger.add_to_cart disabled="disabled"
+            = fa_icon 'shopping-cart'
+            =<> t '.out_of_stock'
+            | →
 
 section#common_specifications_and_features
   h2 = t '.common_specifications_and_features_shared_by_all_models'
