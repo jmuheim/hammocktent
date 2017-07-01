@@ -163,7 +163,10 @@ article
             | (#{t '.old_price'}: CHF 199.-)
           li = price 149.25
 
-        = add_to_cart_button('FHV7HE4Q5R226')
+        button.btn.btn-danger.add_to_cart disabled="disabled"
+          = fa_icon 'shopping-cart'
+          =<> t '.out_of_stock'
+          | →
 
 article
   .row
@@ -201,10 +204,10 @@ article
             | (#{t '.old_price'}: CHF 179.-)
           li = price 89
 
-          button.btn.btn-danger.add_to_cart disabled="disabled"
-            = fa_icon 'shopping-cart'
-            =<> t '.out_of_stock'
-            | →
+        button.btn.btn-danger.add_to_cart disabled="disabled"
+          = fa_icon 'shopping-cart'
+          =<> t '.out_of_stock'
+          | →
 
 section#common_specifications_and_features
   h2 = t '.common_specifications_and_features_shared_by_all_models'
