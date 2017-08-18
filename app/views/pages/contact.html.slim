@@ -1,9 +1,7 @@
 section.headline
-  h1 = t '.headline'
+  h1 Contact
 
 section
-  p = t '.any_questions_issues_or_feedback_html', email: mail_to('info@hammocktent.com', nil, encode: 'javascript')
-  
-  p = t '.please_excuse_late_replies'
+  p Any questions, issues, or feedback? Please check out our know-how and FAQ sections and if that does not help contact: #{mail_to('info@hammocktent.com', nil, encode: 'javascript')}.
 
   p.logo = image_tag 'pages/contact/hammocktent_logo.png'

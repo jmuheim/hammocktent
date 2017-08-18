@@ -1,132 +1,148 @@
 section.headline
-  h1 = t '.headline'
+  h1 Frequently Asked Questions
 
-  p = t '.click_on_a_topic_to_expand_its_contents'
+  p Click on a topic to expand its contents.
 
-= accordion t('.hanging_the_hammock_getting_in_and_out_of_the_hammock') do |a|
-  = a.item t('.can_i_choose_hanging_points_closer') do
-    p #{t '.yes_you_could_even_hang_it'}:
+= accordion 'Hanging the hammock; getting in and out' do |a|
+  = a.item 'If I insert a full length pad into the hammock or its pad-sleeve I have troubles getting inside.' do
+    p Spread your legs and pull the pad / hammock through the middle of your legs a bit, until you can sit down close to the center of the hammock. Or, inflate your pad only lightly so that you can fold it's foot part, or use a shorter pad (one that covers your shoulders and your butt only, which is where you really need it). This is a good way to save some weight, as well.
 
-    ul
-      li = t '.you_might_want_to_shorten'
-      li = t '.you_will_not_be_able_to_hang'
-      li = t '.the_sleeping_area_can_feel_more_confined'
-      li = t '.if_hanged_on_a_single_overhead_point'
-      li = t '.its_generally_better'
+  = a.item "I don't like the hammock suspension with the becket hitch. Are there any other methods to hang the 90 Degree Hammock?" do
+    p Add carabiners (or other suitable hardware parts) to the white continuous loops on the hammock and use daisy chains or hardware compatible straps.
 
-    p = t '.on_a_concluding_note'
+    p Exped's #{link_to 'Hammock Suspension Kit', 'http://www.exped.com/usa/en/product-category/hammocks/hammock-suspension-kit-extreme#prettyPhoto'} and Dutch's #{link_to 'Cynch Bugs', 'https://dutchwaregear.com/cinch-bugs.html/'} and #{link_to 'Titanium Cynch Buckles', 'https://dutchwaregear.com/ti-cinch-buckle-complete-suspension.html/'} are recommended alternatives.
 
-  = a.item t('.the_suspension_rope_is_not_jammed_tight') do
-    p = t '.this_can_happen_if_the_ropes'
+  = a.item "What do you do if you can't find any trees?" do
+    p Look out for other hanging opportunities. It is very often possible to find alternative structures, such as posts, poles, cars, fences, boulders, beams and what not.
 
-  = a.item t('.the_tree_straps_are_too_long') do
-    p = t '.there_are_two_ways_to_deal_with_that'
-
-  = a.item t('.the_tree_straps_are_too_short') do
-    p = t '.the_straps_work_with_trees'
-
-  = a.item t('.if_i_insert_a_full_length_pad') do
-    p = t '.spread_your_legs'
-
-  = a.item t('.i_dont_like_the_hammock_suspension') do
-    p = t '.you_can_easily_replace'
-
-    p = t '.expeds_hammock_suspension_kit'
-
-  = a.item 'Where can I store my stuff (book, glasses, shoes, backpack etc.)?' do
-    p = t '.the_models_with_bug_net'
-
-= accordion t('.use_of_the_hammock_and_sleeping_camping_in_it') do |a|
-  = a.item t('.whats_the_advantage_of_inserting_a_pad') do
-    p = t '.its_much_more_comfortable_for_you'
-
-  = a.item t('.how_can_i_sleep_overnight_in_a_90_degree_hammock') do
-    p = t '.your_number_one_concern'
-
-    p = t '.in_the_outdoors_consider_that_a_hammock'
-
-    p = t '.also_in_the_outdoors'
-
-  = a.item t('.what_conditions_are_suited') do
-    p = t '.the_90_degree_hammocks_with_pad_sleeve'
-
-    p = t '.in_the_tropics_a_hammock_with_a_pad_sleeve'
-
-  = a.item t('.is_the_90_degree_hammock_mosquito_proof') do
-    p = t '.you_need_to_know_that_mosquitos'
-
-    p #{t '.in_the_tropics'}:
+    p If you can't find anything you may consider going to the ground (using a ground sheet and a pad), in either of these ways:
 
     ul
-      li = t '.treat_the_fabric_with_repellant'
-      li = t '.sew_on_a_bug_net_cover'
-      li = t '.try_to_find_a_separate_mosquito_net_product'
+      li If there is no rain or dew and no bugs, cowboy camp with your sleeping bag.
+      li If there are bugs but no rain or dew, pitch your hammock on the ground as a bug bivy. 2 hiking polses or sticks, a total of 6 stakes, a piece of cord or the two removable guy lines of the 90 Degree Tarp-Tent and 4 shock cord loops to tie out your hammock are required. The bug bivy is not exactly spacious, but you'll appreciate it if there are mosquitoes around.
+      li If there is rain or dew, pitch your 90 Degree Tarp-Tent and cowboy camp inside.
+      li If there is rain or dew as well as bugs, pitch the Tarp-Tent and the hammock as a bug bivy inside of it (using the mitten hook on the ridge of the tarp and the 4 main stakes of the Tarp-Tent as attachment points for the hammock tie outs).
 
-  = a.item t('.how_can_i_stay_dry') do
-    p = t '.if_it_is_stormy'
+    p We recommend Zpacks' solo or solo plus #{link_to 'Bathtub Groundsheet', 'http://zpacks.com/accessories/bathtub_groundsheet.shtml'} or #{link_to 'Groundsheet-Poncho', 'http://zpacks.com/accessories/groundsheet_poncho.shtml'}, which are perfect fits.
 
-  = a.item t('.how_can_i_reduce_my_pack_weight') do
-    p = t '.go_with_the_90_degree_hammock_gamma_ul_html', pct_trail_journal: link_to('my PCT trail journal', 'http://postholer.com/journal/viewJournal.php?sid=a10867e47d77e7cb27447da005d1edad&entry_id=34974')
+= accordion 'Use of the hammock and sleeping / camping in it' do |a|
+  = a.item 'How can I stay warm in the 90 Degree Hammock?' do
+    p Bottom insulation: An underquilt (UQ), possibly used inside the pad-sleeve (let's call it "inquilt" / IQ in this case) is warmer than a pad, but less comfortable as it does not stretch out the hammock and make it roomier.
 
-    p = t '.you_could_also_consider'
+    p Using a quilt as an IQ is possible because the pad-sleeve is sufficiently slack to provide space for loft. An IQ prevents any gap issues that might be experienced when using an UQ underneath the hammock / the pad-sleeve. Some customers have added a few velcro strips to the inside of the pad-sleeve and the IQ to keep it well in place.
 
-  = a.item t('.how_cold_is_too_cold') do
-    p = t '.this_you_really_have_to_test_for_yourself'
+    p Regarding pads, long / full length pads provide the best comfort. Usually it's better to inflate them only up to 80 or 90%. The disadvantage of full length pad is that they make it less easy to enter / exit the hammock, and tend to poke into the tarp at the head end when doing so.
 
-    p = t '.consider_that_insulation_from_underneath'
+    p You might consider using a half length, torso length or ¾ length pad; or to only lightly inflate a full length pad so that its foot part can be folded back for entering, exiting or sitting in the hamock, while still providing enough structure.
 
-    p = t '.also_consider_that_wind_chill'
+    p A pad / IQ combination might get you the best out of both worlds. The IQ (or a down jacket) is positioned above the pad inside the pad-sleeve (maybe wrapped somewhat around the edges of the pad to keep it in place and facilitate inserting it).
 
-= accordion t('.quality_issues_troubles_care') do |a|
-  = a.item t('.i_have_used_the_hammock') do
-    p = t '.it_is_normal_that_stitching'
+    p Not the most comfortable and somewhat fiddly, but a very lightweight option is to use your empty backpack (or the carrying part of the #{link_to 'ULA Epic', 'https://www.ula-equipment.com/product_p/epic.htm'}) combined with a down jacket inside the pad-sleeve below your torso.
 
-  = a.item t('.the_fabric_is_fraying') do
-    p = t '.we_know_this_sometimes_happens'
+    p Top insulation: Use a sufficiently warm sleeping bag / top quilt. As you're not in an enclosed shelter you might experience colder temperatures and wind chill.
 
-  = a.item t('.the_suspension_strings') do
-    p = t '.they_may_be_twisted'
+  = a.item 'What kind of camping pads do you recommend with the 90 Degree Hammock?' do
+    p The good news is that you can most likely make do with the one you already own (single size, not exceeding 200 x 68 x 7 cm / 79'' x 27'' x 3''). There are no specific pads recommended, but you might consider the following points:
 
-  = a.item t('.i_cant_get_the_bug_net_zipper') do
-    p = t '.this_issue_is_a_trade_off'
+    ul
+      li Full length pads close to the maximum dimensions of the pad-sleeve (above) will give you the most comfortable lay. But they make it a bit less easy to enter / exit the hammock and might poke into the tarp at the head end when doing so. This might be alleviated if you only inflate it lightly, so that its foot part can be folded backwards.
+      li Shorter pads (half length / torso length / ¾ length) save weight, make it easier to enter / exit the hammock and do not poke into the tarp at the head end; while still insulating the most crucial area from your butt to your shoulders.
+      li Thin pads (5 cm / 2" or less) do not get you as good an insulation as thicker pads do. This can be remedied by combining it with a quilt or a down jacket.
+      li Thin, cheap closed cell foam (CCF) pads can be used inside the hammock, but do not offer the same comfort as a thick pad inside the pad-sleeve. A short piece of a CCF pad could be used as a supplement inside the hammock at your feet area if you use a short pad inside the pad-sleeve below your torso area.
+      li Pads inside the pad-sleeve may not always sufficiently insulate your bottom in cold temperatures. The reason for this is that your body is not pressed as tightly against it as it would be lying directly on the pad. Therefore some cold air may circulate along baffles and the edges of the pad. Remedies for this are: Only lightly inflate the pad to make it conform better to your body, and combine it with some lofty insulation material (quilt, down jacket).
 
-  = a.item t('.the_descender_rings_seem') do
+  = a.item "What's the advantage of inserting a pad into the pad-sleeve, as opposed to just laying a pad inside the hammock?" do
+    p It's much more comfortable, because if you just lay a pad into the hammock it does not always stay in its desired position, and takes away a lot of room. However, it might work alright with thin closed cell foam (CCF) pads.
 
-    p = t '.they_may_cause_the_fibers'
+    = a.item 'Where can I store my stuff (clothes, books, glasses, shoes, backpack etc.)?' do
+      p Underneath your knees inside the hammock is a good place. Besides, you could add stuff bags to the ridgeline ("ridgeline organizers"); or hang stuff on it or on the suspension strings (wet clothes / shoes). Hang your backpack onto one of the suspension straps to get it off the wet ground and out of reach of critters.
 
-  = a.item t('.i_have_a_hard_time') do
-    p = t '.it_can_be_a_little_bit_tricky'
+    = a.item 'Is the 90 Degree Hammock mosquito proof?' do
+      p Mosquito bites are not completely excluded, as they might be able to bite through the fabric where it is only single layered.
 
-  = a.item t('.i_sometimes_slowly_slide') do
-    p = t '.the_hammocks_are_designed'
+    = a.item 'How do I get into my sleeping bag?' do
+      p Lie into the hammock with your sleeping bag next to you or on top of you. Then pull it over your feet / legs, lift your butt into the air and pull it underneath, and finally sit up and spread it below your back. Repeat this twice if you're using an additional sleeping bag liner.
 
-  = a.item t('.can_i_wash_my_hammock') do
-    p = t '.you_can_hand_wash_your_hammock'
+= accordion 'Quality issues, troubles, care' do |a|
+  = a.item 'I have used the hammock and now I can see stitching holes that have opened up. Are the seams about to fail? Will the fabric rip?' do
+    p It is normal that stitching holes open up a little bit once the seams have been under pressure (aka seam slippage / yarn slippage).
 
-  = a.item t('.can_i_wash_my_tarp') do
-    p = t '.no_but_you_can_carefully_clean_it'
+    p This does not mean that the fabric is about to rip. It will retain 100% of its original strength, as the fibers are only shifted a bit within the architecture of the fabric and are not broken. This is no damage, and the seams will not fail or come apart. It is an esthetic issue at the most, which is a trade-off for using thin and lightweight fabrics.
 
-= accordion t('.returns_warranty_refunds_repairs') do |a|
-  = a.item t('.i_bought_some_hammocktent_products') do
-    p = t '.you_may_return_them'
+  = a.item "I can't get the bug-net zipper slider around those curves" do
+    p Use both hands, one holding the zipper tape, the other pulling the slider. Do not apply force.
 
-    p = t '.please_write_us_an_email'
+  = a.item 'I sometimes slowly slide towards the foot-end during sleep' do
+    p The hammock is designed to keep an average person horizontal. Depending on your build, however, you might have a center of gravity slightly closer to your feet. In this case your head will be a little bit higher than your feet and there will be a tendency for sliding down slope towards your feet. Just gently straighten your legs and push yourself up to the head-end of the hammock.
 
-    p = t '.youll_have_to_pay_for_all_shipping'
+  = a.item 'Can I wash my hammock?' do
+    p You can hand wash your hammock in lukewarm water using no or a mild detergent. Air-dry thoroughly before storing; do not tumble dry.
 
-  = a.item t('.how_long_is_the_warranty_period') do
-    p = t '.there_is_a_warranty_period'
+  = a.item 'Can I wash my tarp?' do
+    p You can carefully clean it with lukewarm water and a cloth.
 
-    p = t '.there_is_no_warranty'
+= accordion 'Shipping, returns, warranty, refunds, repairs' do |a|
+  = a.item "I bought some HammockTent products and I'm not happy with them. Can I return them?" do
+    p You may return them within one month upon receipt, if they do not have any signs of use, are undamaged and clean. Please write us an email and we'll give you the ship-to address.
 
-  = a.item t('.i_have_damaged_hammocktent_products') do
-    p = t '.we_do_repairs_if_possible'
+    p You'll have to pay for all shipping, but we'll gladly refund the purchasing price. In case of damages, soilings or signs of use we are not able to refund your money, or only parts thereof (at our discretion).
 
-    p = t '.you_can_also_consider'
+  = a.item 'How long is the warranty period on HammockTent products?' do
+    p There is a warranty period of 1 year after you receive the products against any defects in materials and workmanship. Email us in case of a problem and we'll repair or replace the products.
 
-= accordion t('.hammock_and_tarp_design') do |a|
-  = a.item t('.why_is_the_90_degree_hammock') do
-    p = t '.the_shape_of_the_hammock'
+    p There is no warranty on the Suspension Straps), as they can wear and need replacement.
 
-  = a.item t(".im_only_1_9_m_tall") do
-    p = t '.this_is_due_to_the_90_degree_design'
+  = a.item 'Do you do repairs?' do
+    p We do repairs if possible, for free or a small charge, but you'll have to absorb all shipping costs. Please send us an email first.
+
+    p You can also consider doing minor repairs yourself or ask a friend with a sewing machine, which might be easier and cheaper for you.
+
+  = a.item 'Do you ship to my country? How long will it take? How much will it cost?' do
+    p We ship worldwide (except to countries without reliable customs and delivery services). Depending on the ship-to destination it can take up to 5 weeks before you'll receive your order. Shipping to the USA and Canada usually takes around 2 weeks. We provide tracking information as soon as your order is on its way. There's a shipping flat rate of CHF 15, regardless of where it's being shipped.
+
+    p Please also check your country's regulations, as there may be import / VAT taxes which you'll have to pay upon delivery / picking up your order. The ship-from address is located in Switzerland, which is not part of the EU.
+
+  = a.item "Can you put a lower value into the customs declaration form to reduce the amount of taxes I'll have to pay?" do
+    p We can not do this, as we have to comply with Swiss export regulations.
+
+  = a.item 'Can I pick up my order at your place?' do
+    p Yes, we just need to prearrange this via email, and find a suitable appointment.
+
+  = a.item 'Can you prioritize my order?' do
+    p The hammocks are produced in batches, therefore individual orders can't be prioritized.
+
+= accordion 'Hammock and Tarp-Tent design, customization' do |a|
+  = a.item 'What are the advantages of the 90 Degree Hammock?' do
+    p For one thing, on a feature to feature basis the 90 Degree Hammock is lighter than most other hammocks, because the lightweight suspension string system replaces a lot of comparably heavy fabric. For another thing, it gives you a flatter, more comfortable lay than most other hammocks, particularly at this low weight.
+
+  = a.item 'What are the disadvantages of the 90 Degree Hammock?' do
+    p Because of it's complexity, it costs more than other hammocks. And due to it's unique 90 degree design, the kinds of tarps you can use with it are limited.
+
+  = a.item 'Why is the 90 Degree Hammock not entirely straight / flat?' do
+    p The shape of the hammock and its slight curve are determined by various factors. Rest assured that the way it is designed is as flat as you want it, even for side sleeping, and as comfortable as it possibly gets.
+
+  = a.item "I'm only 1.9 m / 6'3\" tall, but the hammock is too short since I touch it with my head and my feet" do
+    p This is due to the 90 Degree design; the hammock is not too short. It is normal that you gently touch its edges with your head and your feet, because the hammock has a tendency to shrink to your body length, unless you're using a pad that is quite a bit longer than you.
+
+  = a.item 'What kinds of customizations are available?' do
+    p We can leave out the bug-net, the pad-sleeve and both of these features. Other customizations are not available.
+
+  = a.item 'Can you make a longer version / a version for a heavier user?' do
+    p We only offer the one version shown on the web page.
+
+  = a.item 'Can you do different colors?' do
+    p We do not offer other color options.
+
+  = a.item "I'm above the maximum weight for this hammock. Can I exceed it?" do
+    p You'd be doing this at your own risk and without being covered by our 1 year warranty. Theoretically, the hammock and suspension straps could bear a lot more weight. However, it's not the total weight that matters the most. Critical are weights that are being forced upon a small area of fabric, such as when you're putting your weight solely on your feet or hands.
+
+    p Be aware that since the hammock is kind of a slim fit it might be less comfortable for you.
+
+  = a.item "I'm taller than 1.9 m / 6'3\". Can I still use the 90 Degree Hammock?" do
+    p Yes, the hammock is sufficiently large for a 2 m / 6'7" person. A minor draw back is that you'll be touching the head and foot end of the hammock a bit more, and that you probably won't find a camping pad that is longer than you to minimize this.
+
+  = a.item 'Can you make the bug-net removable?' do
+    p Unfortunately, this is not possible. Besides, such a thing would add a lot of weight (approx. 70 g), volume and cost and therefore jeopardize the ultralight character of the product. It should not take much to get used to the bug-net / to just ignore it. Otherwise, consider getting a second 90 Degree Hammock without a bug-net.
+
+  = a.item 'The 90 Degree Tarp-Tent looks good, but is too expensive for me. Can you recommend any alternative tarp options?' do
+    p You could use any rectangular tarp with the approximate dimensions 2.1-2.5 m (ridge) x 3.5 m (length) / 7-8' x 12'. You just won't have doors protecting you from sideways winds.

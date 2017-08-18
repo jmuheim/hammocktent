@@ -10,23 +10,21 @@ nav#navigation.navbar.yamm.navbar-inverse.navbar-fixed-top
 
     .collapse.navbar-collapse
       = semantic_navigation :primary_navigation, config: :bootstrap do |navigation|
-        - navigation.item t('.product_info'), page_path('product_info')
+        - navigation.item 'Products', page_path('products')
 
-        - navigation.group t('.products') do
-          - navigation.item t('.hammocks'), products_path('hammocks')
-          - navigation.item t('.tarps'), products_path('tarps')
-          - navigation.item t('.accessories'), products_path('accessories')
+        - navigation.group 'Know How' do
+          - navigation.item '90° Hammock Manual', page_path('know_how_hammocks')
+          - navigation.item '90° Tarp-Tent Manual', page_path('know_how_tarps')
+          - navigation.item 'Frequently Asked Questions', page_path('know_how_faq')
 
-        - navigation.group t('.know_how') do
-          - navigation.item t('.know_how_hammocks'), page_path('know_how_hammocks')
-          - navigation.item t('.know_how_tarps'), page_path('know_how_tarps')
-          - navigation.item t('.know_how_faq'), page_path('know_how_faq')
+        - navigation.item 'Bargain Bin', page_path('bargain_bin')
 
         - navigation.item t('.about') do
           - navigation.item t('.our_story'), page_path('our_story')
           - navigation.item t('.shipping_info'), page_path('shipping_info')
           - navigation.item t('.return_policy'), page_path('return_policy')
           - navigation.item t('.contact'), page_path('contact')
+          - navigation.item 'Terms and Conditions', page_path('terms_and_conditions')
 
       = semantic_navigation :meta_navigation, config: :bootstrap, class: 'navbar-right' do |navigation|
         - if current_user.guest?
@@ -50,11 +48,3 @@ nav#navigation.navbar.yamm.navbar-inverse.navbar-fixed-top
               li = link_to fa_icon(:gears) + t('.admin'), rails_admin_path(locale: :en)
 
         - navigation.item view_cart_button, id: 'view_cart'
-        - navigation.group flag(current_locale_flag), id: :language_chooser, title: t('.choose_language'), data: {placement: 'bottom'} do
-          li = link_to locale: 'en' do
-            => flag(:gb, 'Flag of England')
-            | Show page in english
-
-          li = link_to locale: 'de' do
-            => flag(:de, 'Flagge von Deutschland')
-            | Seite auf Deutsch anzeigen
