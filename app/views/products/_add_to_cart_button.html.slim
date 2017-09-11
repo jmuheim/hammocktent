@@ -1,6 +1,6 @@
 button.btn.btn-danger.add_to_cart data-target="#accept_toc_#{id}" data-toggle="modal"
-  = fa_icon 'shopping-cart'
-  = t '.add_to_shopping_cart'
+  => fa_icon 'shopping-cart'
+  => t '.add_to_shopping_cart'
   | →
 
 .modal.fade id="accept_toc_#{id}" tabindex="-1" data-backdrop="static"
@@ -10,20 +10,19 @@ button.btn.btn-danger.add_to_cart data-target="#accept_toc_#{id}" data-toggle="m
         button type="button" class="close" data-dismiss="modal"
           span aria-hidden="true" &times;
           span.sr-only = t '.close'
-        h4 class="modal-title" = t '.thanks_for_your_interest'
+        h4 class="modal-title" Thank you for your interest!
 
       .modal-body
         .row
           .col-md-6
-            p
-              = t('.before_proceeding_though_please_read_carefully') + ':'
+            p Please note that by continuing you are agreeing to our terms and conditions. Read them carefully.
 
             ul
               li = link_to t('.terms_and_conditions'), page_path('terms_and_conditions'), target: '_blank'
               li = link_to t('.shipping_info'), page_path('shipping_info'), target: '_blank'
 
           .col-md-6
-            p = t '.the_ordering_process_is_handled_through_paypal'
+            p The ordering process is handled through PayPal. You will return to our site afterwards.
 
             = image_tag 'paypal.png', width: 200
 
@@ -31,4 +30,20 @@ button.btn.btn-danger.add_to_cart data-target="#accept_toc_#{id}" data-toggle="m
         form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="paypal"
           input name="cmd" type="hidden" value="_s-xclick"
           input name="hosted_button_id" type="hidden" value="#{id}"
-          button.btn.btn-danger type="submit" = t '.i_fully_agree_please_proceed'
+          input type="hidden" name="currency_code" value="CHF"
+
+          - if options.any?
+            input type="hidden" name="on0" value="customization"
+
+            .row
+              .col-md-3
+                label for="customization_#{id}" Customize:
+
+              .col-md-9
+                select id="customization_#{id}" name="os0"
+                  - options.each do |key, value|
+                    option value=key = value
+
+          .row
+            .col-md-12
+              button.btn.btn-danger type="submit" = t '.i_fully_agree_please_proceed'

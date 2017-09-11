@@ -4,10 +4,9 @@ body.pages
     height: 100%
     color: #fff
 
-    #fifty_percent_off
+    #splash
       top: 200px
       right: 40px
-      display: none
 
     footer
       +hide_visually
@@ -74,7 +73,11 @@ body.pages
     figure
       margin-bottom: 10px
       margin-top: 6px
-      width: 300px
+      width: 424px
+
+      img
+        display: block
+        width: 100%
 
       &.left
         +float-left
@@ -84,10 +87,25 @@ body.pages
         +float-right
         margin-left: 40px
 
+      + .right
+        margin-left: 0
+
       figcaption
         text-align: center
         color: #a7c292
         margin-top: 6px
+
+    @media (max-width: $screen-md-max)
+      figure
+        width: 410px
+
+    @media (max-width: $screen-sm-max)
+      figure
+        width: 300px
+
+    @media (max-width: $screen-xs-max)
+      figure
+        width: 100%
 
   &.contact
     p.logo

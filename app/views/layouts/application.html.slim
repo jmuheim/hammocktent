@@ -19,7 +19,7 @@ html
         .col-md-12
           == render 'layouts/messages'
 
-          = image_tag '50_percent_off.png', id: 'fifty_percent_off'
+          = image_tag '2_available_now.png', id: 'splash'
 
           == yield
 
@@ -36,3 +36,7 @@ html
               = link_to 'https://www.facebook.com/HammockTent' do
                 = t '.visit_us_on_facebook'
                 = image_tag 'facebook.png', class: 'img-rounded facebook'
+
+        .row
+          .col-md-12
+            p.associates Website by: #{link_to 'Zeitgeist', 'http://www.zeitgeist.ch'} | #{link_to '2Stern', 'http://2stern-fotos.de'} | #{link_to 'Josh', 'http://www.josh.ch'}

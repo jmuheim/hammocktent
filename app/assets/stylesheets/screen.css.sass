@@ -186,7 +186,15 @@ section
 
   .carousel
     p
-      display: none
+      +text-shadow(black 0px 0px 10px)
+      border-top: 5px solid rgba(102, 130, 92, 0.6)
+      background-color: rgba(0, 0, 0, 0.4)
+      padding: 10px 20px
+      position: absolute
+      left: 20%
+      right: 20%
+      top: 10%
+      text-align: center
 
 
   a.vat
@@ -287,7 +295,10 @@ iframe
       margin-left: 1em
       height: 37px
 
-#fifty_percent_off
+  .associates
+    text-align: center
+
+#splash
   top: -20px
   right: 40px
   position: absolute
@@ -295,10 +306,37 @@ iframe
   width: 350px
   opacity: 0.9
   +transform(rotate(10deg))
-  display: none
 
 .fifty_percent_off_offset
   margin-top: 70px
 
 .fifty_percent_off_zindex
   z-index: 1000
+
+.modal-footer
+  label
+    line-height: 38px
+    text-align: right
+    margin-right: -15px
+
+  select
+    width: 100%
+    height: 38px
+    margin-bottom: 10px
+    border-color: #66825c
+
+iframe
+  width: 100%
+  height: 500px
+
+@media (max-width: $screen-md-max)
+  iframe
+    height: 468px
+
+@media (max-width: $screen-sm-max)
+  iframe
+    height: 358pxpx
+
+@media (max-width: $screen-xs-max)
+  iframe
+    height: 328px

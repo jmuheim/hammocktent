@@ -2,7 +2,9 @@ section.headline
   h1 Products
 
 section
-  iframe width="100%" height="500" src="https://www.youtube.com/embed/QYyM_7QZ4HU" frameborder="0" allowfullscreen="allowfullscreen"
+  h2 Overview
+
+  iframe src="https://www.youtube.com/embed/QYyM_7QZ4HU" frameborder="0" allowfullscreen="allowfullscreen"
 
   p The ultralight 90 Degree Hammock is unique in that you lie at a right angle (90 degrees) to the suspension axis of the hammock. This enables a flat lay for very comfortable sleeping, even on your side. A slack double layer, called "pad-sleeve", lets you use your camping pad or some other stuff to insulate your bottom. Combined with our state-of-the-art 90 Degree Tarp-Tent it's an all around shelter system for camping pretty much everywhere, even without any trees.
 
@@ -10,16 +12,16 @@ article
   h2 90 Degree Hammock 2.0
 
   = carousel 'alpha_carousel',
-    { 'pages/products/hammocktent2/file1.png' => 'bla',
-      'pages/products/hammocktent2/file2.png' => 'bla',
-      'pages/products/hammocktent2/file3.png' => 'bla',
-      'pages/products/hammocktent2/file4.png' => 'bla',
-      'pages/products/hammocktent2/file5.png' => 'bla',
-      'pages/products/hammocktent2/file6.png' => 'bla',
-      'pages/products/hammocktent2/file7.png' => 'bla',
-      'pages/products/hammocktent2/file8.png' => 'bla',
-      'pages/products/hammocktent2/file9.png' => 'bla',
-      'pages/products/hammocktent2/file10.png' => 'bla' }
+    { 'pages/products/hammocktent2/HammockTent-14.JPG' => 'The suspended 90 Degree Hammock',
+      'pages/products/hammocktent2/HammockTent-05.JPG' => 'String sleeve (rolled up), dyneema continuous loop with water barrier rubber, attachment to the kevlar suspension strap with a becket hitch',
+      'pages/products/hammocktent2/HammockTent-06.JPG' => 'Durable "no saw" suspension string connections',
+      'pages/products/hammocktent2/HammockTent-20.JPG' => '2 smart phone / stuff pockets inside the hammock',
+      'pages/products/hammocktent2/20170529_131957.jpg' => '1 pair of 1" (2.5 cm) kevlar suspension straps (3 m / 10ft long) included',
+      'pages/products/hammocktent2/HammockTent-09.JPG' => 'Pad-sleeve with zippered opening at the foot end...',
+      'pages/products/hammocktent2/HammockTent-25.JPG' => '...as well as a small zippered opening at the head end for easy access from inside the hammock',
+      'pages/products/hammocktent2/HammockTent-08.JPG' => 'Non removable No-See-Um bug-net suspended by adjustable shock cord, with zippered entrance',
+      'pages/products/hammocktent2/HammockTent-16.JPG' => 'Snap button door attachment',
+      'pages/products/hammocktent2/20170718_172748.jpg' => 'Customized without bug net, without pad-sleeve and without bug net and without pad-sleeve' }
 
   .specs
     .row
@@ -47,33 +49,22 @@ article
           li The hammock is made of breathable Nylon ripstop fabric without coating / finishing; the pad-sleeve is made of water repellent Nylon ripstop fabric.
           li 4 tie outs for pitching the hammock on the ground or inside the 90 Degree Tarp-Tent as a bug-bivy.
           li = price 385
-          li Customization options: Without bug net (300 g / CHF 335), without pad-sleeve (300 g / CHF 325), without bug net and without pad-sleeve (220 g / CHF 255).
+          li Customization options: Without bug net (300 g / CHF 335), without pad-sleeve (300 g / CHF 325), without bug net and without pad-sleeve (220 g / CHF 255). <em>(These options are not necessarily recommended, unless you know exactly what you're doing.)</em>
 
-        <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-        <input type="hidden" name="cmd" value="_s-xclick">
-        <input type="hidden" name="hosted_button_id" value="R3V595PNHWUL6">
-        <input type="hidden" name="on0" value="customization">
-        <select name="os0">
-        <option value="with all features">with all features 385.00 CHF</option>
-        <option value="without pad-sleeve">without pad-sleeve 325.00 CHF</option>
-        <option value="without bug net">without bug net 335.00 CHF</option>
-        <option value="without pad-sleeve and without bug net">without pad-sleeve and without bug net 255.00 CHF</option>
-        </select>
-        <input type="hidden" name="currency_code" value="CHF">
-        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-        </form>
-
-        = add_to_cart_button('RDFS9C26NEJVN')
+        = add_to_cart_button('R3V595PNHWUL6', { 'with all features'                      => 'Hammock: with all features (385.00 CHF)',
+                                                'without pad-sleeve'                     => 'Hammock: without pad-sleeve (325.00 CHF)',
+                                                'without bug net'                        => 'Hammock: without bug net (335.00 CHF)',
+                                                'without pad-sleeve and without bug net' => 'Hammock: without pad-sleeve and without bug net (255.00 CHF)' })
 
 article
   h2 90 Degree Tarp Tent
 
   = carousel 'beta_carousel',
-    { 'pages/products/tarp/file1.png' => 'bla',
-      'pages/products/tarp/file2.png' => 'bla',
-      'pages/products/tarp/file3.png' => 'bla',
-      'pages/products/tarp/file4.png' => 'bla',
-      'pages/products/tarp/file5.png' => 'bla' }
+    { 'pages/products/tarp/HammockTent-40.JPG' => 'Olive drab version with closed doors',
+      'pages/products/tarp/HammockTent-46.JPG' => 'Camo version with closed doors',
+      'pages/products/tarp/HammockTent-42.JPG' => 'Olive drab version with the doors rolled up',
+      'pages/products/tarp/HammockTent-51.JPG' => 'Camo version, pitched on the ground',
+      'pages/products/tarp/HammockTent-35.JPG' => 'View from inside' }
 
   .specs
     .row
@@ -98,18 +89,5 @@ article
           li Camo version: weight 430 g / price CHF 435
           li = price 385
 
-        <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
-        <input type="hidden" name="cmd" value="_s-xclick">
-        <input type="hidden" name="hosted_button_id" value="R3V595PNHWUL6">
-        <input type="hidden" name="on0" value="customization">
-        <select name="os0">
-        <option value="with all features">with all features 385.00 CHF</option>
-        <option value="without pad-sleeve">without pad-sleeve 325.00 CHF</option>
-        <option value="without bug net">without bug net 335.00 CHF</option>
-        <option value="without pad-sleeve and without bug net">without pad-sleeve and without bug net 255.00 CHF</option>
-        </select>
-        <input type="hidden" name="currency_code" value="CHF">
-        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-        </form>
-
-        = add_to_cart_button('727539FDMM96L')
+        = add_to_cart_button('9RHPFCR48Z3Y2', { 'olive drab' => 'Tarp: olive drab (385.00 CHF)',
+                                                'camo'       => 'Tarp: camo (435.00 CHF)' })

@@ -1,6 +1,6 @@
 module ProductsHelper
-  def add_to_cart_button(id)
-    render partial: 'products/add_to_cart_button', locals: {id: id}
+  def add_to_cart_button(id, options = {})
+    render partial: 'products/add_to_cart_button', locals: {id: id, options: options}
   end
 
   def price(amount, additional_info = nil)
