@@ -1,6 +1,9 @@
 button.btn.btn-danger.add_to_cart data-target="#accept_toc_#{id}" data-toggle="modal"
   => fa_icon 'shopping-cart'
-  => t '.add_to_shopping_cart'
+  - if options.any?
+    => 'Customize and add to shopping cart'
+  - else
+    => t '.add_to_shopping_cart'
   | →
 
 .modal.fade id="accept_toc_#{id}" tabindex="-1" data-backdrop="static"
