@@ -1,7 +1,7 @@
 section.headline
   h1 Products
 
-  p style="color: #d6533c" Current lead time: around 2 weeks
+  p style="color: #d6533c" The 90 Degree Hammock is out of stock. Please #{link_to 'send me a message', page_path('contact')} if you'd like to receive email updates regarding its availability. The 90 Degree Tarp-Tent is in stock and ships out within 2 weeks or less.
 
 section
   h2 Overview
@@ -53,7 +53,10 @@ article
           li = price 375
           li Customization options: Without bug net (300 g / CHF 325), without pad-sleeve (300 g / CHF 325), without bug net and without pad-sleeve (220 g / CHF 255). <em>(These options are not necessarily recommended, unless you know exactly what you're doing.)</em>
 
-        = add_to_cart_button('R3V595PNHWUL6', { 'with all features'                      => 'Hammock: with all features (375.00 CHF)',
+        button.btn.btn-danger.add_to_cart disabled=true
+          => fa_icon 'shopping-cart'
+          | Out of stock
+        /= add_to_cart_button('R3V595PNHWUL6', { 'with all features'                      => 'Hammock: with all features (375.00 CHF)',
                                                 'without pad-sleeve'                     => 'Hammock: without pad-sleeve (325.00 CHF)',
                                                 'without bug net'                        => 'Hammock: without bug net (325.00 CHF)',
                                                 'without pad-sleeve and without bug net' => 'Hammock: without pad-sleeve and without bug net (255.00 CHF)' })
